@@ -1842,7 +1842,7 @@ permalink: /
         <p>The Antahkarana medical system uses RAG for factual retrieval and a lightly fine-tuned layer for output formatting and clinical tone. The retrieval runs against a FAISS index of structured medical knowledge. The generation model has been prompted — not fine-tuned — to maintain appropriate clinical caution.</p>
         <p>The biggest lesson: <em>don't fine-tune to fix retrieval problems</em>. If your RAG pipeline is returning poor context, fine-tuning the generator won't help — it'll just learn to hallucinate more confidently. Fix the retrieval first.</p>
         <h3>The live system</h3>
-        <p>The full medical assistant is deployed on Azure at rajaganaa.github.io/medassist-frontend. It's multimodal — it accepts text, images, and documents. The backend runs on Azure Container Instances. CI/CD via GitHub Actions.</p>
+        <p>The full medical assistant is deployed on Azure at rajaganaa.github.io/antahkarana-frontend. It's multimodal — it accepts text, images, and documents. The backend runs on Azure Container Instances. CI/CD via GitHub Actions.</p>
       `
     }
   ];
