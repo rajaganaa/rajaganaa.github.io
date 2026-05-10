@@ -1070,8 +1070,8 @@ permalink: /
   </h1>
 
   <p class="hero-tagline">
-    I spent nine years engineering electrical systems that couldn't fail.
-    Now I build AI systems with the same discipline — and a patent to show for it.
+    I spent nine years engineering systems where failure meant real-world consequences.
+    Now I build AI with the same discipline — a filed patent and IEEE paper prove it.
   </p>
 
   <div class="hero-badges">
@@ -1108,6 +1108,42 @@ permalink: /
   </div>
 </section>
 
+<!-- TICKER STRIP -->
+<div style="border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg2);overflow:hidden;white-space:nowrap;padding:0.75rem 0;">
+  <div style="display:inline-block;animation:ticker 30s linear infinite;font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;color:var(--text-dim);">
+    &nbsp;&nbsp;&nbsp;⚡ PATENT FILED · APP NO. 202641043947
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🎓 M.TECH AI · 9.6 CGPA · SRM INSTITUTE OF SCIENCE &amp; TECHNOLOGY
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🚀 ANTAHKARANA MEDICAL AI · LIVE ON AZURE
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🛠 8 PRODUCTION AI SYSTEMS DEPLOYED
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING EXPERIENCE
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    ☁️ AWS SOLUTIONS ARCHITECT CERTIFIED · 2025
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🤖 KAGGLE 5-DAY AI AGENTS INTENSIVE WITH GOOGLE · 2025
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    ⚡ PATENT FILED · APP NO. 202641043947
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🎓 M.TECH AI · 9.6 CGPA · SRM INSTITUTE OF SCIENCE &amp; TECHNOLOGY
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🚀 ANTAHKARANA MEDICAL AI · LIVE ON AZURE
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </div>
+</div>
+<style>
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+</style>
+
 <!-- ABOUT -->
 <section id="about">
   <div class="section-label">01 · ABOUT</div>
@@ -1116,8 +1152,9 @@ permalink: /
     <div>
       <p class="about-statement reveal">
         Most AI engineers understand models.<br/>
-        I also understand <em>machines</em> — the real ones,
-        running at 400kW in industrial environments where failure is not an option.
+        I also understand <em>failure</em> — the real kind,
+        in 400 kW industrial systems where downtime costs money
+        and lives. That discipline is now in every line of my AI code.
       </p>
 
       <div style="margin-top: 3rem;">
@@ -1219,7 +1256,10 @@ permalink: /
             Multimodal pipeline tested across LLM querying, VQA tasks, and patent e-filing workflows
           </div>
         </div>
-        <a href="https://github.com/rajaganaa/antahkarana-reasoning-framework" target="_blank" style="font-family: var(--font-mono); font-size: 12px; color: var(--accent); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; margin-top: auto;">view on github →</a>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:auto;">
+          <a href="https://rajaganaa.github.io/medassist-frontend" target="_blank" style="font-family:var(--font-mono);font-size:12px;color:#0a0a0a;background:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1.25rem;font-weight:500;">⚡ live demo →</a>
+          <a href="https://github.com/rajaganaa/antahkarana-reasoning-framework" target="_blank" style="font-family:var(--font-mono);font-size:12px;color:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;border:1px solid rgba(200,240,100,0.4);padding:0.5rem 1.25rem;">github ↗</a>
+        </div>
       </div>
     </div>
 
@@ -1236,7 +1276,7 @@ permalink: /
       </div>
       <h3 class="project-title">Antahkarana Medical AI — Unified Reasoning Engine</h3>
       <p class="project-desc">Full-stack medical AI assistant built on the Antahkarana framework. Deployed on Azure with a live frontend. Multimodal — processes text, images, and documents. Includes CI/CD via GitHub Actions.</p>
-      <div class="project-metric">⚡ Live on Azure · CI/CD deployed · 16 commits</div>
+      <div class="project-metric">⚡ Live on Azure · <a href="https://rajaganaa.github.io/medassist-frontend" target="_blank" style="color:var(--accent);text-decoration:none;">medassist-frontend ↗</a> · CI/CD deployed</div>
     </a>
 
     <a class="project-card reveal" href="https://github.com/rajaganaa/MML_smart_campus_security_system" target="_blank">
@@ -1517,19 +1557,49 @@ permalink: /
   </div>
 </div>
 
+<!-- THE EDGE -->
+<section id="edge" style="background:var(--bg2);">
+  <div class="section-label">07 · THE EDGE</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5px;background:var(--border);">
+
+    <div class="reveal" style="background:var(--bg2);padding:2.5rem;">
+      <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.2em;color:var(--accent);margin-bottom:1rem;">WHAT MOST CANDIDATES DON'T HAVE</div>
+      <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:800;color:var(--text);line-height:1.2;margin-bottom:1rem;">A filed patent <em style="color:var(--accent);font-style:normal;">and</em> a deployed product.</h3>
+      <p style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);line-height:1.9;">Most M.Tech students build projects. Rajaganapathy filed an Indian patent (App. No. 202641043947), submitted an IEEE paper, and deployed a live medical AI product on Azure — in the same academic cycle.</p>
+    </div>
+
+    <div class="reveal" style="background:var(--bg2);padding:2.5rem;">
+      <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.2em;color:var(--accent2);margin-bottom:1rem;">THE ENGINEERING MINDSET</div>
+      <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:800;color:var(--text);line-height:1.2;margin-bottom:1rem;">Builds AI that <em style="color:var(--accent2);font-style:normal;">can't fail.</em></h3>
+      <p style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);line-height:1.9;">9 years maintaining 500 kVA transformers and 400 kW motors in live industrial environments teaches you one thing: systems must work under every condition. That discipline is rare in AI engineering — and it shows in every system I build.</p>
+    </div>
+
+    <div class="reveal" style="background:var(--bg2);padding:2.5rem;">
+      <div style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.2em;color:var(--accent);margin-bottom:1rem;">THE RESEARCH PROOF</div>
+      <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:800;color:var(--text);line-height:1.2;margin-bottom:1rem;">2,500 samples. One architecture. <em style="color:var(--accent);font-style:normal;">Novel contribution.</em></h3>
+      <p style="font-family:var(--font-mono);font-size:12px;color:var(--text-muted);line-height:1.9;">Antahkarana's Vedantic cognitive routing architecture was validated across 2,500 LLM/VLM samples — a methodology that earned both a patent filing and an IEEE conference submission. Not a class project. Original research.</p>
+    </div>
+
+  </div>
+</section>
+
 <!-- CONTACT -->
 <section id="contact">
   <div class="section-label">06 · CONTACT</div>
 
   <div class="contact-layout">
     <div class="reveal">
-      <h2 class="contact-heading">Let's build<br/>something<br/><span>intelligent.</span></h2>
+      <h2 class="contact-heading">Ready to build<br/>at <span>Google scale.</span></h2>
       <p class="contact-sub">
-        I'm actively seeking AI/ML engineering roles, research positions, and applied AI internships.
-        I bring production engineering discipline, a filed patent, and 8+ deployed AI systems.
-        If you're building something serious — let's talk.
+        Most candidates bring a degree. I bring 9+ years of engineering under real-world pressure,
+        a filed patent, a live Azure deployment, and an IEEE paper under review — all from a 2-year
+        M.Tech programme. If you're building infrastructure that has to work at scale,
+        I already think that way. Let's talk.
       </p>
-      <a class="btn-primary" href="mailto:rajaganaa@gmail.com">send me an email →</a>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+        <a class="btn-primary" href="mailto:rajaganaa@gmail.com">send me an email →</a>
+        <a class="btn-secondary" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">connect on linkedin ↗</a>
+      </div>
     </div>
 
     <div class="contact-links reveal">
@@ -1562,8 +1632,8 @@ permalink: /
 </section>
 
 <footer>
-  <p>© 2026 Rajaganapathy M — AI Engineer</p>
-  <p>Built with discipline · Patent pending · Open to opportunities</p>
+  <p>© 2026 Rajaganapathy M — AI Engineer · Chennai, India</p>
+  <p>Patent pending · IEEE under review · Open to world-class opportunities</p>
 </footer>
 
 <script>
@@ -1591,6 +1661,7 @@ permalink: /
   // CV DOWNLOAD — generates a printable CV page
   function downloadCV(e) {
     e.preventDefault();
+    const genDate = new Date().toLocaleDateString('en-GB', {month:'long',year:'numeric'});
     const cvHTML = `<!DOCTYPE html>
 <html><head><meta charset="UTF-8"/>
 <title>Rajaganapathy M — CV</title>
@@ -1709,7 +1780,7 @@ permalink: /
 
 <div class="footer-cv">
   <span>rajaganaa.github.io · github.com/rajaganaa</span>
-  <span>Generated ${new Date().toLocaleDateString('en-GB', {month:'long',year:'numeric'})}</span>
+  <span>Generated ${genDate}</span>
 </div>
 </body></html>`;
     const blob = new Blob([cvHTML], {type: 'text/html'});
