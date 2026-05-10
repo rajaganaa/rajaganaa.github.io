@@ -27,7 +27,53 @@ permalink: /
     --font-display: 'Syne', sans-serif;
     --font-mono: 'DM Mono', monospace;
     --font-serif: 'Lora', serif;
+    --nav-bg: rgba(10,10,10,0.85);
   }
+
+  body.light {
+    --bg: #f5f3ee;
+    --bg2: #eeebe4;
+    --bg3: #e5e2da;
+    --border: rgba(0,0,0,0.08);
+    --border-strong: rgba(0,0,0,0.18);
+    --text: #1a1a18;
+    --text-muted: #5a5a52;
+    --text-dim: #9a9a90;
+    --accent: #6aaa00;
+    --accent2: #0088aa;
+    --nav-bg: rgba(245,243,238,0.88);
+  }
+
+  body.light .hero-grid-bg {
+    background-image:
+      linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+  }
+
+  body.light .hero-accent-circle {
+    background: radial-gradient(circle, rgba(100,170,0,0.08) 0%, transparent 70%);
+  }
+
+  body.light nav { background: var(--nav-bg); }
+
+  body.light .skill-dot { background: rgba(0,0,0,0.12); }
+
+  /* THEME TOGGLE */
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--border-strong);
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
 
   html { scroll-behavior: smooth; }
 
@@ -63,7 +109,7 @@ permalink: /
     justify-content: space-between;
     padding: 1.25rem 4rem;
     border-bottom: 1px solid var(--border);
-    background: rgba(10,10,10,0.85);
+    background: var(--nav-bg);
     backdrop-filter: blur(20px);
   }
 
@@ -783,6 +829,198 @@ permalink: /
     transform: translateY(0);
   }
 
+  /* BLOG */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5px;
+    background: var(--border);
+  }
+
+  .blog-card {
+    background: var(--bg);
+    padding: 2rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: background 0.2s;
+    cursor: pointer;
+  }
+
+  .blog-card:hover { background: var(--bg3); }
+  .blog-card:hover .blog-arrow { transform: translate(3px, -3px); }
+
+  .blog-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .blog-date {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    letter-spacing: 0.08em;
+  }
+
+  .blog-arrow {
+    font-size: 16px;
+    color: var(--text-dim);
+    transition: transform 0.2s;
+  }
+
+  .blog-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    padding: 3px 8px;
+    border: 1px solid var(--border);
+    color: var(--accent);
+    border-color: rgba(200,240,100,0.3);
+    background: rgba(200,240,100,0.04);
+    width: fit-content;
+  }
+
+  body.light .blog-tag {
+    color: var(--accent);
+    border-color: rgba(100,170,0,0.3);
+    background: rgba(100,170,0,0.06);
+  }
+
+  .blog-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--text);
+  }
+
+  .blog-excerpt {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.8;
+    flex: 1;
+  }
+
+  .blog-readtime {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+
+  /* BLOG MODAL */
+  .blog-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 500;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4rem 1rem;
+    overflow-y: auto;
+    backdrop-filter: blur(4px);
+  }
+
+  .blog-modal-overlay.open { display: flex; }
+
+  .blog-modal {
+    background: var(--bg2);
+    border: 1px solid var(--border-strong);
+    max-width: 720px;
+    width: 100%;
+    padding: 3rem;
+    position: relative;
+  }
+
+  .blog-modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    padding: 4px 12px;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    transition: all 0.2s;
+  }
+
+  .blog-modal-close:hover { border-color: var(--text); color: var(--text); }
+
+  .blog-modal-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+  }
+
+  .blog-modal-title {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-modal-date {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .blog-modal-body {
+    font-family: var(--font-serif);
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.9;
+  }
+
+  .blog-modal-body p { margin-bottom: 1.25rem; }
+  .blog-modal-body h3 {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 2rem 0 0.75rem;
+  }
+  .blog-modal-body strong { color: var(--text); font-style: normal; }
+  .blog-modal-body em { color: var(--accent); }
+
+  /* CV DOWNLOAD BUTTON */
+  .btn-cv {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    padding: 0.9rem 2rem;
+    border: 1px solid var(--accent2);
+    color: var(--accent2);
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    background: none;
+  }
+
+  .btn-cv:hover {
+    background: var(--accent2);
+    color: #0a0a0a;
+  }
+
   /* SCROLLBAR */
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
@@ -808,11 +1046,16 @@ permalink: /
   <ul class="nav-links">
     <li><a href="#about">about</a></li>
     <li><a href="#projects">projects</a></li>
+    <li><a href="#blog">blog</a></li>
     <li><a href="#skills">skills</a></li>
     <li><a href="#certifications">certs</a></li>
     <li><a href="#contact">contact</a></li>
   </ul>
-  <a class="nav-cta" href="mailto:rajaganaa@gmail.com">hire me →</a>
+  <div style="display:flex;align-items:center;gap:0.75rem;">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀ light</button>
+    <a class="nav-cta" href="#" id="cvDownloadNav" onclick="downloadCV(event)">↓ cv</a>
+    <a class="nav-cta" href="mailto:rajaganaa@gmail.com">hire me →</a>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -842,6 +1085,7 @@ permalink: /
 
   <div class="hero-actions">
     <a class="btn-primary" href="#projects">view my work →</a>
+    <button class="btn-cv" onclick="downloadCV(event)">↓ download cv</button>
     <a class="btn-secondary" href="https://github.com/rajaganaa" target="_blank">github ↗</a>
     <a class="btn-secondary" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">linkedin ↗</a>
   </div>
@@ -1220,9 +1464,62 @@ permalink: /
   </div>
 </section>
 
+<!-- BLOG -->
+<section id="blog">
+  <div class="section-label">05 · BLOG</div>
+
+  <div class="blog-grid reveal">
+
+    <div class="blog-card" onclick="openBlog(0)">
+      <div class="blog-meta">
+        <span class="blog-date">MAY 2026</span>
+        <span class="blog-arrow">↗</span>
+      </div>
+      <span class="blog-tag">CAREER · AI</span>
+      <h3 class="blog-title">From Electrical Engineer to AI Engineer — What Really Transfers</h3>
+      <p class="blog-excerpt">Nine years of high-voltage systems, industrial automation, and safety-critical engineering taught me things no AI course ever could. Here's what actually crosses over — and what doesn't.</p>
+      <div class="blog-readtime">⏱ 6 min read</div>
+    </div>
+
+    <div class="blog-card" onclick="openBlog(1)">
+      <div class="blog-meta">
+        <span class="blog-date">APR 2026</span>
+        <span class="blog-arrow">↗</span>
+      </div>
+      <span class="blog-tag">LLM · RESEARCH</span>
+      <h3 class="blog-title">How I Built Antahkarana — A Cognitively-Inspired Reasoning Framework</h3>
+      <p class="blog-excerpt">Most LLM pipelines are glorified prompt chains. Antahkarana is different — it routes queries through specialised cognitive stages inspired by Vedantic philosophy. Here's the architecture and why it works.</p>
+      <div class="blog-readtime">⏱ 9 min read</div>
+    </div>
+
+    <div class="blog-card" onclick="openBlog(2)">
+      <div class="blog-meta">
+        <span class="blog-date">MAR 2026</span>
+        <span class="blog-arrow">↗</span>
+      </div>
+      <span class="blog-tag">AGENTIC AI</span>
+      <h3 class="blog-title">RAG vs Fine-Tuning: Lessons from Building a Medical AI Assistant</h3>
+      <p class="blog-excerpt">When building Antahkarana's medical reasoning engine, I had to choose between RAG and fine-tuning for every sub-task. Here's the decision framework I developed — and where each approach actually wins.</p>
+      <div class="blog-readtime">⏱ 7 min read</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BLOG MODAL -->
+<div class="blog-modal-overlay" id="blogModal" onclick="closeBlogOnOverlay(event)">
+  <div class="blog-modal" id="blogModalContent">
+    <button class="blog-modal-close" onclick="closeBlog()">✕ close</button>
+    <div class="blog-modal-tag" id="modalTag"></div>
+    <h2 class="blog-modal-title" id="modalTitle"></h2>
+    <div class="blog-modal-date" id="modalDate"></div>
+    <div class="blog-modal-body" id="modalBody"></div>
+  </div>
+</div>
+
 <!-- CONTACT -->
 <section id="contact">
-  <div class="section-label">05 · CONTACT</div>
+  <div class="section-label">06 · CONTACT</div>
 
   <div class="contact-layout">
     <div class="reveal">
@@ -1270,18 +1567,235 @@ permalink: /
 </footer>
 
 <script>
+  // SCROLL REVEAL
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
-        setTimeout(() => {
-          entry.target.classList.add('visible');
-        }, (i % 4) * 100);
+        setTimeout(() => entry.target.classList.add('visible'), (i % 4) * 100);
         observer.unobserve(entry.target);
       }
     });
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
+
+  // DARK / LIGHT TOGGLE
+  const toggleBtn = document.getElementById('themeToggle');
+  let isLight = false;
+  toggleBtn.addEventListener('click', () => {
+    isLight = !isLight;
+    document.body.classList.toggle('light', isLight);
+    toggleBtn.textContent = isLight ? '☾ dark' : '☀ light';
+  });
+
+  // CV DOWNLOAD — generates a printable CV page
+  function downloadCV(e) {
+    e.preventDefault();
+    const cvHTML = `<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/>
+<title>Rajaganapathy M — CV</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Syne',sans-serif;color:#1a1a18;background:#fff;font-size:14px;line-height:1.6;padding:3rem 4rem;}
+  @media print{body{padding:1.5rem 2rem;}}
+  h1{font-size:2.2rem;font-weight:800;letter-spacing:-0.03em;margin-bottom:0.25rem;}
+  .subtitle{font-family:'DM Mono',monospace;font-size:12px;color:#6aaa00;letter-spacing:0.08em;margin-bottom:0.5rem;}
+  .contact-bar{font-family:'DM Mono',monospace;font-size:11px;color:#5a5a52;display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #1a1a18;}
+  .badges{display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem;}
+  .badge{font-family:'DM Mono',monospace;font-size:10px;border:1px solid #6aaa00;color:#6aaa00;padding:2px 8px;}
+  h2{font-size:11px;font-weight:600;letter-spacing:0.15em;color:#6aaa00;margin:1.5rem 0 0.75rem;padding-bottom:4px;border-bottom:1px solid #e0e0d8;}
+  .summary{font-size:13px;color:#3a3a32;line-height:1.8;margin-bottom:0.5rem;}
+  .exp-item{margin-bottom:1rem;}
+  .exp-header{display:flex;justify-content:space-between;align-items:baseline;}
+  .exp-role{font-weight:700;font-size:14px;}
+  .exp-date{font-family:'DM Mono',monospace;font-size:11px;color:#5a5a52;}
+  .exp-org{font-family:'DM Mono',monospace;font-size:11px;color:#5a5a52;margin-bottom:4px;}
+  .exp-desc{font-size:12px;color:#5a5a52;line-height:1.7;}
+  .proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;}
+  .proj-item{border:1px solid #e0e0d8;padding:0.75rem;}
+  .proj-name{font-weight:700;font-size:13px;margin-bottom:2px;}
+  .proj-tech{font-family:'DM Mono',monospace;font-size:10px;color:#5a5a52;}
+  .skills-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+  .skill-group-name{font-weight:700;font-size:12px;margin-bottom:4px;}
+  .skill-list{font-family:'DM Mono',monospace;font-size:11px;color:#5a5a52;line-height:1.8;}
+  .certs-list{display:grid;grid-template-columns:1fr 1fr;gap:4px;}
+  .cert-entry{font-family:'DM Mono',monospace;font-size:11px;color:#5a5a52;}
+  .cert-entry span{color:#1a1a18;font-weight:600;}
+  .footer-cv{margin-top:2rem;padding-top:1rem;border-top:1px solid #e0e0d8;font-family:'DM Mono',monospace;font-size:11px;color:#9a9a90;display:flex;justify-content:space-between;}
+</style></head><body>
+<h1>Rajaganapathy M</h1>
+<div class="subtitle">AI / ML ENGINEER · LLM · AGENTIC AI · RAG · MULTI-AGENT SYSTEMS</div>
+<div class="contact-bar">
+  <span>✉ rajaganaa@gmail.com</span>
+  <span>📞 +91 9176631419</span>
+  <span>🌐 rajaganaa.github.io</span>
+  <span>in raja-ganapathy-36b00658</span>
+  <span>⌥ github.com/rajaganaa</span>
+  <span>📍 Chennai, India</span>
+</div>
+<div class="badges">
+  <span class="badge">⚡ PATENT FILED · APR 2026</span>
+  <span class="badge">📄 IEEE PAPER SUBMITTED</span>
+  <span class="badge">🎓 M.TECH AI · 9.6 CGPA</span>
+  <span class="badge">9+ YRS ENGINEERING</span>
+</div>
+
+<h2>PROFILE</h2>
+<p class="summary">Engineering professional with 9+ years of industry experience transitioning into AI. M.Tech in Artificial Intelligence at SRM Institute (CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for the Antahkarana cognitively-inspired reasoning framework; IEEE Conference paper submitted. Skilled in LLMs, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and data engineering. Brings production engineering discipline — safety-critical systems, project management, cross-team delivery — to every AI build.</p>
+
+<h2>EDUCATION</h2>
+<div class="exp-item">
+  <div class="exp-header"><span class="exp-role">M.Tech — Artificial Intelligence</span><span class="exp-date">2024 – Present</span></div>
+  <div class="exp-org">SRM Institute of Science & Technology · Chennai · CGPA: 9.6 / 10</div>
+</div>
+<div class="exp-item">
+  <div class="exp-header"><span class="exp-role">B.E — Electrical & Electronics Engineering</span><span class="exp-date">2013</span></div>
+  <div class="exp-org">Thangavelu Engineering College · Chennai</div>
+</div>
+
+<h2>RESEARCH & IP</h2>
+<div class="exp-item">
+  <div class="exp-role">Indian Patent Filed — Antahkarana System</div>
+  <div class="exp-org">Application No. 202641043947 · Filed April 3, 2026</div>
+  <div class="exp-desc">Cognitively-inspired adaptive reasoning framework for LLMs and VLMs. System design protected under Indian IP law.</div>
+</div>
+<div class="exp-item">
+  <div class="exp-role">IEEE Conference Paper — Submitted</div>
+  <div class="exp-org">SRM Institute of Science & Technology, Kattankulathur</div>
+  <div class="exp-desc">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs. Under review.</div>
+</div>
+
+<h2>KEY PROJECTS</h2>
+<div class="proj-grid">
+  <div class="proj-item"><div class="proj-name">Antahkarana Reasoning Framework</div><div class="proj-tech">Python · Qwen · BLIP-3 · Apache 2.0 · Patent filed · IEEE submitted</div></div>
+  <div class="proj-item"><div class="proj-name">Antahkarana Medical AI (Live)</div><div class="proj-tech">Azure · GitHub Actions CI/CD · Multimodal · Full-stack deployed</div></div>
+  <div class="proj-item"><div class="proj-name">MML Smart Campus Security</div><div class="proj-tech">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
+  <div class="proj-item"><div class="proj-name">AgentNet Enterprise Support</div><div class="proj-tech">Multi-agent · LLM-as-Judge · RAG · Vertex AI · Self-reflection loop</div></div>
+  <div class="proj-item"><div class="proj-name">Hospital Readmission Predictor</div><div class="proj-tech">XGBoost · Streamlit · Healthcare analytics · A1C imputation</div></div>
+  <div class="proj-item"><div class="proj-name">YouTube Data ETL Pipeline</div><div class="proj-tech">Python · MySQL · YouTube API · Production ready</div></div>
+</div>
+
+<h2>PROFESSIONAL EXPERIENCE</h2>
+<div class="exp-item">
+  <div class="exp-header"><span class="exp-role">Electrical Construction Site Engineer</span><span class="exp-date">Jan 2017 – Jun 2023</span></div>
+  <div class="exp-org">SR Electrical Works · Chennai</div>
+  <div class="exp-desc">Designed and implemented electrical systems for large-scale construction projects. Led budget estimation, resource allocation, site supervision, and cross-team coordination. Delivered safety-critical systems under hard constraints across multiple simultaneous projects.</div>
+</div>
+<div class="exp-item">
+  <div class="exp-header"><span class="exp-role">Electrical Maintenance Engineer</span><span class="exp-date">Dec 2014 – Dec 2016</span></div>
+  <div class="exp-org">Mod Forge Pvt. Ltd. · ISO/TS 16949 Certified · Chennai</div>
+  <div class="exp-desc">O&M of 500 kVA transformer, 250 kVA DG, motors up to 400 kW, power factor correction panels, compressors, and automation panels under C-certificate supervision.</div>
+</div>
+
+<h2>TECHNICAL SKILLS</h2>
+<div class="skills-cols">
+  <div><div class="skill-group-name">Generative AI / LLMs</div><div class="skill-list">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
+  <div><div class="skill-group-name">ML / Deep Learning</div><div class="skill-list">PyTorch · TensorFlow<br/>scikit-learn · XGBoost<br/>CNN · LSTM · Transformers<br/>NLP · Embeddings<br/>Computer Vision · OpenCV</div></div>
+  <div><div class="skill-group-name">Cloud / DevOps / Data</div><div class="skill-list">AWS · Azure · Docker<br/>Git · GitHub Actions CI/CD<br/>Python · SQL · MongoDB<br/>Streamlit · Plotly<br/>Linux · Bash · R</div></div>
+</div>
+
+<h2>CERTIFICATIONS</h2>
+<div class="certs-list">
+  <div class="cert-entry"><span>AWS</span> Solutions Architect Associate · Udemy 2025</div>
+  <div class="cert-entry"><span>GUVI</span> AI & ML Professional Program · IIT-M 2024</div>
+  <div class="cert-entry"><span>Kaggle</span> 5-Day AI Agents Intensive with Google · 2025</div>
+  <div class="cert-entry"><span>DevOps</span> Beginners to Advanced · Udemy 2025</div>
+  <div class="cert-entry"><span>NPTEL</span> Introduction to Internet of Things · 2025</div>
+  <div class="cert-entry"><span>IIT-M</span> Certificate Professional · Advanced Programming 2024</div>
+  <div class="cert-entry"><span>OpenCV</span> OpenCV University Certification · 2025</div>
+  <div class="cert-entry"><span>Simplilearn</span> PyTorch · TensorFlow · DSA · GIT · MongoDB</div>
+</div>
+
+<div class="footer-cv">
+  <span>rajaganaa.github.io · github.com/rajaganaa</span>
+  <span>Generated ${new Date().toLocaleDateString('en-GB', {month:'long',year:'numeric'})}</span>
+</div>
+</body></html>`;
+    const blob = new Blob([cvHTML], {type: 'text/html'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Rajaganapathy_M_CV.html';
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  // BLOG MODAL DATA
+  const blogs = [
+    {
+      tag: 'CAREER · AI',
+      date: 'May 2026 · 6 min read',
+      title: 'From Electrical Engineer to AI Engineer — What Really Transfers',
+      body: `
+        <p>In June 2023, after nine years of working on electrical systems across industrial sites in Chennai, I quit my job. Not because I was failing — I was good at it. I quit because I wanted to build a different kind of system.</p>
+        <h3>What I thought would transfer</h3>
+        <p>I assumed the engineering fundamentals would carry over: systems thinking, problem decomposition, reading technical documentation. I was right about those. What surprised me was <em>how much deeper</em> that transfer went.</p>
+        <p>In industrial electrical work, you build things that operate continuously under unpredictable conditions. A 500 kVA transformer doesn't get to fail at 3am because the load spiked. You design for failure modes before they happen. You think about what the system does when something unexpected occurs — not just what it does when everything is normal.</p>
+        <p>That mindset is rare in AI engineering. Most ML practitioners optimise for the happy path. They tune accuracy on the test set and ship. My instinct is always: <strong>what happens at the edge cases? What does the model do when the input is malformed, the context is incomplete, or the query is genuinely ambiguous?</strong></p>
+        <h3>What actually doesn't transfer</h3>
+        <p>Mathematics. I had to rebuild from scratch — linear algebra, probability theory, calculus of variations. The electrical engineering maths is completely different. This took six months of uncomfortable work before I could read ML papers without feeling lost.</p>
+        <p>Speed of iteration. Physical engineering is slow by nature — you can't A/B test a transformer installation. Software moves at a completely different pace, and learning to ship, iterate, and throw things away was genuinely uncomfortable at first.</p>
+        <h3>The unexpected advantage</h3>
+        <p>The biggest transfer no one talks about: <em>project management in safety-critical environments</em>. When you've coordinated electrical installation across a live construction site — managing contractors, clients, timelines, and regulations simultaneously — running a complex ML project feels almost straightforward by comparison. The stakes are different, but the discipline is the same.</p>
+        <p>I don't regret the nine years. They made me a better AI engineer than I would have been if I'd started at 22.</p>
+      `
+    },
+    {
+      tag: 'LLM · RESEARCH',
+      date: 'April 2026 · 9 min read',
+      title: 'How I Built Antahkarana — A Cognitively-Inspired Reasoning Framework',
+      body: `
+        <p>Most LLM pipelines are, at their core, sophisticated prompt chains. You send a query, you get a response. Maybe you add retrieval. Maybe you add a tool call. But the fundamental architecture is linear: input → model → output.</p>
+        <p>Antahkarana is different. It routes complex queries through specialised cognitive stages — each stage responsible for a distinct aspect of reasoning — before synthesising a final response. The inspiration came from an unlikely source: Vedantic philosophy.</p>
+        <h3>The cognitive architecture</h3>
+        <p>In Vedantic thought, the <em>antahkarana</em> is the inner instrument of the mind — not a single faculty, but four distinct functions: <strong>manas</strong> (perception and doubt), <strong>buddhi</strong> (discrimination and decision), <strong>chitta</strong> (memory and conditioning), and <strong>ahamkara</strong> (the ego that integrates everything into a coherent self).</p>
+        <p>I mapped these directly to LLM reasoning stages. Manas handles initial query parsing and ambiguity detection. Buddhi routes the query to the appropriate specialised module. Chitta manages retrieval memory via FAISS vector search. The integration layer synthesises outputs without the "ego" problem — no single module dominates; the best answer wins.</p>
+        <h3>Why it works better than a single model</h3>
+        <p>The key insight is that different reasoning tasks require different cognitive postures. A factual retrieval query should not be processed the same way as a complex multi-step inference problem. By routing explicitly, Antahkarana applies the right tool to the right task — and the 2,500-sample validation showed measurable improvements in coherence on complex multimodal queries.</p>
+        <h3>What's next</h3>
+        <p>The patent covers the routing and decision architecture. The IEEE paper covers the full experimental methodology. I'm currently working on open-sourcing a lightweight version — the full framework is at github.com/rajaganaa/antahkarana-reasoning-framework.</p>
+      `
+    },
+    {
+      tag: 'AGENTIC AI',
+      date: 'March 2026 · 7 min read',
+      title: 'RAG vs Fine-Tuning: Lessons from Building a Medical AI Assistant',
+      body: `
+        <p>When I started building the Antahkarana medical AI assistant, I had to make the RAG vs. fine-tuning decision for every sub-task. After months of building, testing, and occasionally rebuilding from scratch, here's the framework I arrived at.</p>
+        <h3>The question is wrong</h3>
+        <p>The industry frames this as a binary choice. It isn't. The real question is: <em>what is the nature of the knowledge this task requires?</em></p>
+        <p><strong>RAG wins</strong> when the knowledge is: external and updatable (medical guidelines change), verifiable (you need citations), or domain-specific and voluminous (no model has memorised every clinical study). For the medical assistant, this was almost everything — symptom analysis, drug interactions, treatment protocols.</p>
+        <p><strong>Fine-tuning wins</strong> when the task requires: a specific output format or tone the base model can't reliably produce, internalised reasoning patterns (not facts), or latency-critical inference where retrieval overhead is unacceptable.</p>
+        <h3>What I actually did</h3>
+        <p>The Antahkarana medical system uses RAG for factual retrieval and a lightly fine-tuned layer for output formatting and clinical tone. The retrieval runs against a FAISS index of structured medical knowledge. The generation model has been prompted — not fine-tuned — to maintain appropriate clinical caution.</p>
+        <p>The biggest lesson: <em>don't fine-tune to fix retrieval problems</em>. If your RAG pipeline is returning poor context, fine-tuning the generator won't help — it'll just learn to hallucinate more confidently. Fix the retrieval first.</p>
+        <h3>The live system</h3>
+        <p>The full medical assistant is deployed on Azure at rajaganaa.github.io/medassist-frontend. It's multimodal — it accepts text, images, and documents. The backend runs on Azure Container Instances. CI/CD via GitHub Actions.</p>
+      `
+    }
+  ];
+
+  function openBlog(index) {
+    const b = blogs[index];
+    document.getElementById('modalTag').textContent = b.tag;
+    document.getElementById('modalTitle').textContent = b.title;
+    document.getElementById('modalDate').textContent = b.date;
+    document.getElementById('modalBody').innerHTML = b.body;
+    document.getElementById('blogModal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeBlog() {
+    document.getElementById('blogModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function closeBlogOnOverlay(e) {
+    if (e.target === document.getElementById('blogModal')) closeBlog();
+  }
+
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeBlog(); });
 </script>
 
 </body>
