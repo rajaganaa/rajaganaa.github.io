@@ -759,7 +759,7 @@ footer p {
 
   <h1 class="hero-name">
     Rajaganapathy
-    <span class="hero-name-accent">M.</span>
+    <span class="hero-name-accent">Mani</span>
   </h1>
 
   <p class="hero-title">AI / ML ENGINEER &nbsp;·&nbsp; LLM SYSTEMS &nbsp;·&nbsp; AGENTIC AI &nbsp;·&nbsp; RAG</p>
