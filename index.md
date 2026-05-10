@@ -1,7 +1,7 @@
 ---
 layout: none
+permalink: /
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
