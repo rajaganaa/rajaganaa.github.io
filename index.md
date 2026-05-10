@@ -758,8 +758,8 @@ footer p {
   <div class="hero-eyebrow">available for ai/ml roles · chennai, india</div>
 
   <h1 class="hero-name">
-    Rajaganapathy
-    <span class="hero-name-accent">Mani</span>
+    Raja ganapathy M
+    <span class="hero-name-accent"></span>
   </h1>
 
   <p class="hero-title">AI / ML ENGINEER &nbsp;·&nbsp; LLM SYSTEMS &nbsp;·&nbsp; AGENTIC AI &nbsp;·&nbsp; RAG</p>
