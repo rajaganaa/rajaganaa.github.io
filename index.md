@@ -741,6 +741,7 @@ footer p {
     <li><a href="#certifications">certs</a></li>
     <li><a href="#blog">blog</a></li>
     <li><a href="#contact">contact</a></li>
+    <li><a href="https://youtube.com/@rajaganaaAI" target="_blank" style="color:var(--green);">▶ youtube</a></li>
   </ul>
   <div class="nav-right">
     <button class="btn-nav" id="themeToggle">☀ light</button>
@@ -758,8 +759,8 @@ footer p {
   <div class="hero-eyebrow">available for ai/ml roles · chennai, india</div>
 
   <h1 class="hero-name">
-    Raja ganapathy M
-    <span class="hero-name-accent"></span>
+    Rajaganapathy
+    <span class="hero-name-accent">M.</span>
   </h1>
 
   <p class="hero-title">AI / ML ENGINEER &nbsp;·&nbsp; LLM SYSTEMS &nbsp;·&nbsp; AGENTIC AI &nbsp;·&nbsp; RAG</p>
@@ -774,6 +775,7 @@ footer p {
     <span class="badge badge-g">⚡ Patent Filed · Apr 2026</span>
     <span class="badge badge-b">📄 IEEE Paper · Submitted</span>
     <span class="badge badge-g">🎓 M.Tech AI · 9.6 CGPA</span>
+    <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
     <span class="badge">Multi-Agent Systems</span>
     <span class="badge">Computer Vision</span>
@@ -785,6 +787,7 @@ footer p {
     <button class="btn-outline" onclick="downloadCV(event)">↓ download cv</button>
     <a class="btn-outline" href="https://github.com/rajaganaa" target="_blank">github ↗</a>
     <a class="btn-outline" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">linkedin ↗</a>
+    <a class="btn-outline" href="https://youtube.com/@rajaganaaAI" target="_blank" style="border-color:rgba(255,80,80,0.5);color:#ff8080;">▶ conscious ai ↗</a>
   </div>
 
   <div class="hero-scroll">scroll</div>
@@ -807,6 +810,8 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🛠 8 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
@@ -822,6 +827,8 @@ footer p {
     🎓 M.TECH ARTIFICIAL INTELLIGENCE · 9.6 CGPA
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🛠 8 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1150,9 +1157,77 @@ footer p {
   </div>
 </section>
 
+<!-- CONSCIOUS AI — YOUTUBE -->
+<section id="youtube" style="background:var(--bg2);">
+  <div class="sec-label">06 · CONSCIOUS AI — YOUTUBE</div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="reveal">
+
+    <div>
+      <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:0.2em;color:#ff8080;margin-bottom:1rem;">▶ @rajaganaaAI</div>
+      <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,4vw,3.8rem);line-height:0.95;color:var(--text);margin-bottom:1.25rem;">
+        Conscious<br/><span style="color:#ff8080;">AI.</span>
+      </h2>
+      <p style="font-family:'DM Sans',sans-serif;font-size:14px;font-weight:300;color:var(--text-2);line-height:1.9;margin-bottom:1.5rem;">
+        A YouTube channel dedicated to understanding Artificial Intelligence — from fundamentals
+        to advanced concepts like Machine Learning, Deep Learning, NLP, Reinforcement Learning,
+        LLMs, Computer Vision, and Intelligent Agents.
+      </p>
+      <p style="font-family:'DM Sans',sans-serif;font-size:14px;font-weight:300;color:var(--text-2);line-height:1.9;margin-bottom:2rem;">
+        This channel explores AI not just as technology, but as a step toward
+        <strong style="color:var(--text);font-weight:500;">human-like reasoning, cognition, and consciousness.</strong>
+        The same philosophy behind the Antahkarana framework — taught publicly.
+      </p>
+      <p style="font-family:'DM Mono',monospace;font-size:12px;letter-spacing:0.06em;color:#ff8080;font-style:italic;margin-bottom:2rem;">
+        "Learn AI deeply. Think consciously."
+      </p>
+      <a href="https://youtube.com/@rajaganaaAI" target="_blank"
+        style="font-family:'DM Mono',monospace;font-size:12px;letter-spacing:0.08em;
+               padding:0.8rem 1.75rem;background:#ff4040;color:#fff;
+               text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;
+               transition:all 0.15s;border:1px solid #ff4040;font-weight:500;"
+        onmouseover="this.style.background='#ff2020'"
+        onmouseout="this.style.background='#ff4040'">
+        ▶ Visit the Channel →
+      </a>
+    </div>
+
+    <div style="border:1px solid rgba(255,80,80,0.15);background:var(--bg);padding:2.5rem;">
+      <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.2em;color:#ff8080;margin-bottom:1.5rem;">WHAT YOU'LL FIND HERE</div>
+
+      <div style="display:flex;flex-direction:column;gap:1px;background:rgba(255,80,80,0.08);">
+        <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid #ff8080;">
+          <div style="font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">AI Fundamentals to Advanced</div>
+          <div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">ML · DL · NLP · Computer Vision · RL</div>
+        </div>
+        <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,0.5);">
+          <div style="font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">LLMs & Intelligent Agents</div>
+          <div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">Agentic AI · RAG · Multi-Agent Systems</div>
+        </div>
+        <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,0.5);">
+          <div style="font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">Tamil Language AI Content</div>
+          <div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">Making AI education accessible in Tamil Nadu</div>
+        </div>
+        <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,0.5);">
+          <div style="font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">Cognition & Consciousness in AI</div>
+          <div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">The philosophy behind Antahkarana — explained</div>
+        </div>
+      </div>
+
+      <div style="margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);
+                  font-family:'DM Mono',monospace;font-size:10px;color:var(--text-3);
+                  display:flex;justify-content:space-between;">
+        <span>youtube.com/@rajaganaaAI</span>
+        <span style="color:#ff8080;">▶ ACTIVE</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- THE EDGE -->
 <section id="edge" style="background:var(--bg2);">
-  <div class="sec-label">06 · THE EDGE</div>
+  <div class="sec-label">07 · THE EDGE</div>
   <div class="edge-grid">
 
     <div class="edge-card reveal">
@@ -1178,7 +1253,7 @@ footer p {
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="sec-label">07 · CONTACT</div>
+  <div class="sec-label">08 · CONTACT</div>
   <div class="contact-grid">
     <div class="reveal">
       <h2 class="contact-heading">Ready to build<br/>at <span>Google scale.</span></h2>
@@ -1208,6 +1283,9 @@ footer p {
       </a>
       <a class="contact-link" href="https://x.com/rajaganaa" target="_blank">
         <span>𝕏 Twitter / X</span><span class="contact-link-val">@rajaganaa</span>
+      </a>
+      <a class="contact-link" href="https://youtube.com/@rajaganaaAI" target="_blank" style="color:#ff8080;">
+        <span>▶ YouTube</span><span class="contact-link-val" style="color:#ff6060;">@rajaganaaAI · Conscious AI</span>
       </a>
       <div class="contact-link" style="cursor:default;">
         <span>📍 Location</span><span class="contact-link-val">Chennai, India · Open to remote</span>
