@@ -759,8 +759,8 @@ footer p {
   <div class="hero-eyebrow">available for ai/ml roles · chennai, india</div>
 
   <h1 class="hero-name">
-    Rajaganapathy
-    <span class="hero-name-accent">M.</span>
+    Raja Ganapathy M
+    <span class="hero-name-accent"></span>
   </h1>
 
   <p class="hero-title">AI / ML ENGINEER &nbsp;·&nbsp; LLM SYSTEMS &nbsp;·&nbsp; AGENTIC AI &nbsp;·&nbsp; RAG</p>
@@ -1166,7 +1166,7 @@ footer p {
     <div>
       <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:0.2em;color:#ff8080;margin-bottom:1rem;">▶ @rajaganaaAI</div>
       <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,4vw,3.8rem);line-height:0.95;color:var(--text);margin-bottom:1.25rem;">
-        Conscious<br/><span style="color:#ff8080;">AI.</span>
+        Conscious AI<br/><span style="color:#ff8080;"></span>
       </h2>
       <p style="font-family:'DM Sans',sans-serif;font-size:14px;font-weight:300;color:var(--text-2);line-height:1.9;margin-bottom:1.5rem;">
         A YouTube channel dedicated to understanding Artificial Intelligence — from fundamentals
