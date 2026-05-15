@@ -737,6 +737,101 @@ footer p {
   .hero-scroll { left: 1.5rem; }
   footer { padding: 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
 }
+
+/* ─── RESUME MODAL ─── */
+.cv-modal-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,0.85); z-index: 600;
+  align-items: flex-start; justify-content: center;
+  padding: 2rem 1rem; overflow-y: auto;
+  backdrop-filter: blur(12px);
+}
+.cv-modal-overlay.open { display: flex; }
+.cv-modal {
+  background: var(--bg2); border: 1px solid rgba(184,240,80,0.2);
+  max-width: 860px; width: 100%; position: relative;
+  box-shadow: 0 0 80px rgba(184,240,80,0.06);
+  animation: fadeUp 0.3s ease forwards;
+}
+.cv-modal-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 10;
+  flex-wrap: wrap; gap: 0.5rem;
+}
+.cv-modal-bar-left {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; letter-spacing: 0.14em; color: var(--green);
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.cv-modal-bar-left::before {
+  content: ''; display: block; width: 6px; height: 6px;
+  background: var(--green); border-radius: 50%;
+  box-shadow: 0 0 8px rgba(184,240,80,0.6);
+}
+.cv-modal-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.cv-btn-dl {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; letter-spacing: 0.08em;
+  padding: 0.45rem 1.1rem;
+  background: var(--green); color: #080808;
+  border: none; cursor: pointer; font-weight: 500;
+  transition: all 0.15s;
+}
+.cv-btn-dl:hover { background: #ccff55; transform: translateY(-1px); }
+.cv-btn-print {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; letter-spacing: 0.08em;
+  padding: 0.45rem 1.1rem;
+  background: var(--blue); color: #080808;
+  border: none; cursor: pointer; font-weight: 500;
+  transition: all 0.15s;
+}
+.cv-btn-print:hover { background: #7adcff; transform: translateY(-1px); }
+.cv-btn-close {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; letter-spacing: 0.08em;
+  padding: 0.45rem 1rem;
+  background: none; border: 1px solid var(--border-md);
+  color: var(--text-2); cursor: pointer;
+  transition: all 0.15s;
+}
+.cv-btn-close:hover { border-color: var(--text); color: var(--text); }
+.cv-modal-inner {
+  padding: 3rem 4rem;
+  background: #fff; color: #18180f;
+  font-family: 'DM Sans', sans-serif;
+}
+.cv-h1 { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.2rem; color: #18180f; }
+.cv-sub { font-family: 'DM Mono', monospace; font-size: 11px; color: #4a9400; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
+.cv-bar { font-family: 'DM Mono', monospace; font-size: 11px; color: #5a5750; display: flex; flex-wrap: wrap; gap: 1.25rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid #18180f; }
+.cv-bdg { display: inline-flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.cv-b { font-family: 'DM Mono', monospace; font-size: 10px; border: 1px solid #4a9400; color: #4a9400; padding: 2px 9px; }
+.cv-h2 { font-family: 'DM Mono', monospace; font-size: 10px; font-weight: 500; letter-spacing: 0.18em; color: #4a9400; margin: 1.5rem 0 0.6rem; padding-bottom: 3px; border-bottom: 1px solid #e0ddd6; }
+.cv-sum { font-size: 13px; font-weight: 300; color: #3a3830; line-height: 1.85; }
+.cv-ei { margin-bottom: 1rem; }
+.cv-eh { display: flex; justify-content: space-between; align-items: baseline; }
+.cv-er { font-weight: 600; font-size: 14px; color: #18180f; }
+.cv-ed { font-family: 'DM Mono', monospace; font-size: 10px; color: #5a5750; }
+.cv-eo { font-family: 'DM Mono', monospace; font-size: 11px; color: #5a5750; margin-bottom: 3px; }
+.cv-ex { font-size: 12px; font-weight: 300; color: #5a5750; line-height: 1.75; }
+.cv-pg { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+.cv-pi { border: 1px solid #e0ddd6; padding: 0.75rem; }
+.cv-pn { font-weight: 600; font-size: 13px; margin-bottom: 2px; color: #18180f; }
+.cv-pt { font-family: 'DM Mono', monospace; font-size: 10px; color: #5a5750; }
+.cv-sc { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.cv-sg { font-weight: 600; font-size: 12px; margin-bottom: 4px; color: #18180f; }
+.cv-sl { font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 300; color: #5a5750; line-height: 1.85; }
+.cv-cl { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.cv-ce { font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 300; color: #5a5750; }
+.cv-ce span { color: #18180f; font-weight: 500; }
+.cv-ft { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e0ddd6; font-family: 'DM Mono', monospace; font-size: 10px; color: #9a9890; display: flex; justify-content: space-between; }
+@media (max-width: 768px) {
+  .cv-modal-inner { padding: 1.5rem; }
+  .cv-pg, .cv-sc, .cv-cl { grid-template-columns: 1fr; }
+  .cv-modal-bar { flex-direction: column; align-items: flex-start; }
+}
 </style>
 </head>
 <body>
@@ -750,12 +845,13 @@ footer p {
     <li><a href="#skills">skills</a></li>
     <li><a href="#certifications">certs</a></li>
     <li><a href="#blog">blog</a></li>
+    <li><a href="#resume">resume</a></li>
     <li><a href="#contact">contact</a></li>
     <li><a href="https://youtube.com/@rajaganaaAI" target="_blank" style="color:var(--green);">▶ youtube</a></li>
   </ul>
   <div class="nav-right">
     <button class="btn-nav" id="themeToggle">☀ light</button>
-    <button class="btn-nav" onclick="downloadCV(event)">↓ cv</button>
+    <button class="btn-nav" onclick="openCVModal()">↓ cv</button>
     <a class="btn-nav btn-nav-accent" href="#contact">contact →</a>
   </div>
 </nav>
@@ -796,6 +892,7 @@ footer p {
     <a class="btn-primary" href="#projects">view my work →</a>
     <a class="btn-outline" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ live demo ↗</a>
     <a class="btn-outline" href="https://huggingface.co/RajGana" target="_blank" style="border-color:rgba(255,160,50,0.6);color:#f0a040;">🤗 huggingface ↗</a>
+    <button class="btn-outline" onclick="openCVModal()">↓ view & download cv</button>
     <a class="btn-outline" href="#contact">contact me →</a>
   </div>
 
@@ -1328,6 +1425,125 @@ footer p {
   </div>
 </section>
 
+
+<!-- RESUME SECTION -->
+<section id="resume" style="background:var(--bg2);">
+  <div class="sec-label">05.5 · RESUME</div>
+  <div class="reveal" style="display:flex;flex-direction:column;align-items:center;gap:1.5rem;padding:2rem 0;text-align:center;">
+    <p style="font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.18em;color:var(--text-3);">
+      CLICK TO VIEW · PRINT · OR DOWNLOAD AS PDF
+    </p>
+    <div style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;">
+      <button class="btn-primary" onclick="openCVModal()">↓ open resume →</button>
+      <a class="btn-outline" href="?resume=1" onclick="event.preventDefault();openCVModal()">🔗 shareable link</a>
+    </div>
+    <p style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text-3);">
+      Share <code style="color:var(--green);">rajaganaa.github.io/?resume=1</code> with recruiters — auto-opens the resume
+    </p>
+  </div>
+</section>
+
+<!-- RESUME MODAL -->
+<div class="cv-modal-overlay" id="cvModal" onclick="closeCVOnOverlay(event)">
+  <div class="cv-modal">
+    <div class="cv-modal-bar">
+      <div class="cv-modal-bar-left">RAJAGANAPATHY M — CURRICULUM VITAE</div>
+      <div class="cv-modal-actions">
+        <button class="cv-btn-dl" onclick="downloadCV()">↓ download</button>
+        <button class="cv-btn-print" onclick="printCV()">⎙ print / pdf</button>
+        <button class="cv-btn-close" onclick="closeCVModal()">✕ close</button>
+      </div>
+    </div>
+    <div class="cv-modal-inner" id="cvContent">
+      <h1 class="cv-h1">Rajaganapathy M</h1>
+      <div class="cv-sub">AI / ML ENGINEER · LLM · AGENTIC AI · RAG · MULTI-AGENT SYSTEMS</div>
+      <div class="cv-bar">
+        <span>✉ rajaganaa@gmail.com</span><span>📞 +91 9176631419</span>
+        <span>🌐 rajaganaa.github.io</span><span>in raja-ganapathy-36b00658</span>
+        <span>⌥ github.com/rajaganaa</span><span>🤗 huggingface.co/RajGana</span><span>📍 Chennai · Bangalore · Hyderabad</span>
+      </div>
+      <div class="cv-bdg">
+        <span class="cv-b">⚡ PATENT FILED · APR 2026</span>
+        <span class="cv-b">📄 IEEE PAPER SUBMITTED</span>
+        <span class="cv-b">🎓 M.TECH AI · 9.6 CGPA</span>
+        <span class="cv-b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
+        <span class="cv-b">9+ YRS ENGINEERING</span>
+      </div>
+
+      <div class="cv-h2">PROFILE</div>
+      <p class="cv-sum">Engineering professional with 9+ years of industry experience now specialising in AI/ML. M.Tech Artificial Intelligence at SRM Institute (CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for the Antahkarana cognitively-inspired reasoning framework; IEEE Conference paper submitted. Built and published 2 live models on HuggingFace (LLM + VLM from scratch). Skills span LLMs, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and data engineering. Brings production engineering discipline — safety-critical systems, project management, hard-constraint delivery — to every AI build.</p>
+
+      <div class="cv-h2">EDUCATION</div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">M.Tech — Artificial Intelligence</span><span class="cv-ed">2024 – Present</span></div>
+        <div class="cv-eo">SRM Institute of Science & Technology · Chennai · CGPA: 9.6 / 10</div>
+      </div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">B.E — Electrical & Electronics Engineering</span><span class="cv-ed">2013</span></div>
+        <div class="cv-eo">Thangavelu Engineering College · Chennai</div>
+      </div>
+
+      <div class="cv-h2">RESEARCH & IP</div>
+      <div class="cv-ei">
+        <div class="cv-er">Indian Patent Filed — Antahkarana System</div>
+        <div class="cv-eo">Application No. 202641043947 · Filed April 3, 2026</div>
+        <div class="cv-ex">Cognitively-inspired adaptive reasoning framework for LLMs and VLMs. System design protected under Indian IP law.</div>
+      </div>
+      <div class="cv-ei">
+        <div class="cv-er">IEEE Conference Paper — Submitted</div>
+        <div class="cv-eo">SRM Institute of Science & Technology, Kattankulathur</div>
+        <div class="cv-ex">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs. Under review.</div>
+      </div>
+
+      <div class="cv-h2">KEY PROJECTS</div>
+      <div class="cv-pg">
+        <div class="cv-pi"><div class="cv-pn">Antahkarana Reasoning Framework</div><div class="cv-pt">Python · Qwen · BLIP-3 · Patent filed · IEEE submitted</div></div>
+        <div class="cv-pi"><div class="cv-pn">Antahkarana Medical AI (Live on Azure)</div><div class="cv-pt">Azure · GitHub Actions CI/CD · Multimodal · Full-stack</div></div>
+        <div class="cv-pi"><div class="cv-pn">TinyLLaMA & Mini-VLM (HuggingFace)</div><div class="cv-pt">Built from scratch · LoRA fine-tune · 2 live public models</div></div>
+        <div class="cv-pi"><div class="cv-pn">MML Smart Campus Security</div><div class="cv-pt">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
+        <div class="cv-pi"><div class="cv-pn">AgentNet Enterprise Support</div><div class="cv-pt">Multi-agent · LLM-as-Judge · RAG · Vertex AI</div></div>
+        <div class="cv-pi"><div class="cv-pn">Hospital Readmission Predictor</div><div class="cv-pt">XGBoost · Streamlit · Healthcare analytics</div></div>
+      </div>
+
+      <div class="cv-h2">PROFESSIONAL EXPERIENCE</div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">Electrical Construction Site Engineer</span><span class="cv-ed">Jan 2017 – Jun 2023</span></div>
+        <div class="cv-eo">SR Electrical Works · Chennai</div>
+        <div class="cv-ex">Large-scale electrical systems for construction projects. Led budget estimation, resource allocation, site supervision, and cross-team coordination under hard safety constraints.</div>
+      </div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">Electrical Maintenance Engineer</span><span class="cv-ed">Dec 2014 – Dec 2016</span></div>
+        <div class="cv-eo">Mod Forge Pvt. Ltd. · ISO/TS 16949 Certified · Chennai</div>
+        <div class="cv-ex">O&amp;M of 500 kVA transformer, 250 kVA DG, motors up to 400 kW, power factor correction panels and automation under C-certificate supervision.</div>
+      </div>
+
+      <div class="cv-h2">TECHNICAL SKILLS</div>
+      <div class="cv-sc">
+        <div><div class="cv-sg">Generative AI / LLMs</div><div class="cv-sl">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
+        <div><div class="cv-sg">ML / Deep Learning</div><div class="cv-sl">PyTorch · TensorFlow<br/>scikit-learn · XGBoost<br/>CNN · LSTM · Transformers<br/>NLP · Embeddings<br/>Computer Vision · OpenCV</div></div>
+        <div><div class="cv-sg">Cloud / DevOps / Data</div><div class="cv-sl">AWS · Azure · Docker<br/>Git · GitHub Actions CI/CD<br/>Python · SQL · MongoDB<br/>Streamlit · Plotly<br/>Linux · Bash · R</div></div>
+      </div>
+
+      <div class="cv-h2">CERTIFICATIONS</div>
+      <div class="cv-cl">
+        <div class="cv-ce"><span>AWS</span> Solutions Architect Associate · Udemy 2025</div>
+        <div class="cv-ce"><span>GUVI</span> AI &amp; ML Professional Program · IIT-M 2024</div>
+        <div class="cv-ce"><span>Kaggle</span> 5-Day AI Agents Intensive with Google · 2025</div>
+        <div class="cv-ce"><span>DevOps</span> Beginners to Advanced · Udemy 2025</div>
+        <div class="cv-ce"><span>NPTEL</span> Introduction to Internet of Things · 2025</div>
+        <div class="cv-ce"><span>IIT-M</span> Certificate Professional · Advanced Programming 2024</div>
+        <div class="cv-ce"><span>OpenCV</span> OpenCV University Certification · 2025</div>
+        <div class="cv-ce"><span>Simplilearn</span> PyTorch · TensorFlow · DSA · GIT · MongoDB</div>
+      </div>
+
+      <div class="cv-ft">
+        <span>rajaganaa.github.io · github.com/rajaganaa · huggingface.co/RajGana</span>
+        <span id="cvGenDate">Generated May 2026</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- BLOG MODAL -->
 <div class="modal-overlay" id="blogModal" onclick="closeOnOverlay(event)">
   <div class="modal">
@@ -1543,7 +1759,75 @@ function closeBlog() {
 function closeOnOverlay(e) {
   if (e.target === document.getElementById('blogModal')) closeBlog();
 }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
+
+// ── CV MODAL ──
+function openCVModal() {
+  document.getElementById('cvModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('cvGenDate').textContent =
+    'Generated ' + new Date().toLocaleDateString('en-GB', {month:'long', year:'numeric'});
+}
+function closeCVModal() {
+  document.getElementById('cvModal').classList.remove('open');
+  document.body.style.overflow = '';
+  const url = new URL(window.location);
+  if (url.searchParams.has('resume')) {
+    url.searchParams.delete('resume');
+    history.replaceState({}, '', url);
+  }
+}
+function closeCVOnOverlay(e) {
+  if (e.target === document.getElementById('cvModal')) closeCVModal();
+}
+function printCV() {
+  const content = document.getElementById('cvContent').innerHTML;
+  const win = window.open('', '_blank', 'width=900,height=700');
+  win.document.write(`<!DOCTYPE html><html><head><meta charset="UTF-8"/>
+<title>Rajaganapathy M — CV</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;color:#18180f;background:#fff;font-size:14px;line-height:1.65;padding:2.5rem 3.5rem;}
+@media print{body{padding:1.5rem 2rem;}}
+.cv-h1{font-size:2.2rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:0.2rem;color:#18180f;}
+.cv-sub{font-family:'DM Mono',monospace;font-size:11px;color:#4a9400;letter-spacing:0.1em;margin-bottom:0.75rem;}
+.cv-bar{font-family:'DM Mono',monospace;font-size:11px;color:#5a5750;display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #18180f;}
+.cv-bdg{display:inline-flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem;}
+.cv-b{font-family:'DM Mono',monospace;font-size:10px;border:1px solid #4a9400;color:#4a9400;padding:2px 9px;}
+.cv-h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.18em;color:#4a9400;margin:1.5rem 0 0.6rem;padding-bottom:3px;border-bottom:1px solid #e0ddd6;}
+.cv-sum{font-size:13px;font-weight:300;color:#3a3830;line-height:1.85;}
+.cv-ei{margin-bottom:1rem;}
+.cv-eh{display:flex;justify-content:space-between;align-items:baseline;}
+.cv-er{font-weight:600;font-size:14px;color:#18180f;}
+.cv-ed{font-family:'DM Mono',monospace;font-size:10px;color:#5a5750;}
+.cv-eo{font-family:'DM Mono',monospace;font-size:11px;color:#5a5750;margin-bottom:3px;}
+.cv-ex{font-size:12px;font-weight:300;color:#5a5750;line-height:1.75;}
+.cv-pg{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;}
+.cv-pi{border:1px solid #e0ddd6;padding:0.75rem;}
+.cv-pn{font-weight:600;font-size:13px;margin-bottom:2px;color:#18180f;}
+.cv-pt{font-family:'DM Mono',monospace;font-size:10px;color:#5a5750;}
+.cv-sc{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+.cv-sg{font-weight:600;font-size:12px;margin-bottom:4px;color:#18180f;}
+.cv-sl{font-family:'DM Mono',monospace;font-size:11px;font-weight:300;color:#5a5750;line-height:1.85;}
+.cv-cl{display:grid;grid-template-columns:1fr 1fr;gap:4px;}
+.cv-ce{font-family:'DM Mono',monospace;font-size:11px;font-weight:300;color:#5a5750;}
+.cv-ce span{color:#18180f;font-weight:500;}
+.cv-ft{margin-top:2rem;padding-top:1rem;border-top:1px solid #e0ddd6;font-family:'DM Mono',monospace;font-size:10px;color:#9a9890;display:flex;justify-content:space-between;}
+</style></head><body>${content}</body></html>`);
+  win.document.close();
+  win.focus();
+  setTimeout(() => win.print(), 600);
+}
+// Auto-open if URL has ?resume=1
+window.addEventListener('DOMContentLoaded', () => {
+  if (new URLSearchParams(window.location.search).get('resume') === '1') {
+    setTimeout(openCVModal, 400);
+  }
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeBlog(); closeCVModal(); }
+});
+
 </script>
 
 </body>
