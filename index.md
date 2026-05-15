@@ -522,8 +522,18 @@ section {
   padding: 1.5rem;
   display: flex; gap: 1rem; align-items: flex-start;
   transition: background 0.15s;
+  cursor: pointer;
+  text-decoration: none; color: inherit;
 }
 .cert-card:hover { background: var(--bg3); }
+.cert-card:hover .cert-verify { opacity: 1; }
+.cert-verify {
+  margin-left: auto; align-self: center; flex-shrink: 0;
+  font-family: 'DM Mono', monospace;
+  font-size: 9px; letter-spacing: 0.08em;
+  color: var(--green); opacity: 0;
+  transition: opacity 0.15s;
+}
 .cert-icon {
   width: 34px; height: 34px; flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
@@ -746,7 +756,7 @@ footer p {
   <div class="nav-right">
     <button class="btn-nav" id="themeToggle">☀ light</button>
     <button class="btn-nav" onclick="downloadCV(event)">↓ cv</button>
-    <a class="btn-nav btn-nav-accent" href="mailto:rajaganaa@gmail.com">hire me →</a>
+    <a class="btn-nav btn-nav-accent" href="#contact">contact →</a>
   </div>
 </nav>
 
@@ -756,7 +766,7 @@ footer p {
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
 
-  <div class="hero-eyebrow">available for ai/ml roles · chennai, india</div>
+  <div class="hero-eyebrow">available for ai/ml roles · chennai · bangalore · hyderabad</div>
 
   <h1 class="hero-name">
     Raja Ganapathy M
@@ -775,6 +785,7 @@ footer p {
     <span class="badge badge-g">⚡ Patent Filed · Apr 2026</span>
     <span class="badge badge-b">📄 IEEE Paper · Submitted</span>
     <span class="badge badge-g">🎓 M.Tech AI · 9.6 CGPA</span>
+    <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 2 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
     <span class="badge">Multi-Agent Systems</span>
@@ -784,17 +795,15 @@ footer p {
   <div class="hero-actions">
     <a class="btn-primary" href="#projects">view my work →</a>
     <a class="btn-outline" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ live demo ↗</a>
-    <button class="btn-outline" onclick="downloadCV(event)">↓ download cv</button>
-    <a class="btn-outline" href="https://github.com/rajaganaa" target="_blank">github ↗</a>
-    <a class="btn-outline" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">linkedin ↗</a>
-    <a class="btn-outline" href="https://youtube.com/@rajaganaaAI" target="_blank" style="border-color:rgba(255,80,80,0.5);color:#ff8080;">▶ conscious ai ↗</a>
+    <a class="btn-outline" href="https://huggingface.co/RajGana" target="_blank" style="border-color:rgba(255,160,50,0.6);color:#f0a040;">🤗 huggingface ↗</a>
+    <a class="btn-outline" href="#contact">contact me →</a>
   </div>
 
   <div class="hero-scroll">scroll</div>
 
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
-    <div class="stat"><div class="stat-num">13+</div><div class="stat-label">PROJECTS BUILT</div></div>
+    <div class="stat"><div class="stat-num">9+</div><div class="stat-label">PROJECTS BUILT</div></div>
     <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA</div></div>
   </div>
 </section>
@@ -810,15 +819,17 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🤗 2 LIVE MODELS ON HUGGINGFACE · LLM + VLM FROM SCRATCH
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 8 PRODUCTION AI SYSTEMS
+    🛠 9 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ☁️ AWS SOLUTIONS ARCHITECT CERTIFIED · 2025
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤖 KAGGLE AI AGENTS INTENSIVE WITH GOOGLE · 2025
+    📍 OPEN TO ROLES IN CHENNAI · BANGALORE · HYDERABAD
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ⚡ PATENT FILED · APP NO. 202641043947
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -828,15 +839,17 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🤗 2 LIVE MODELS ON HUGGINGFACE · LLM + VLM FROM SCRATCH
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 8 PRODUCTION AI SYSTEMS
+    🛠 9 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ☁️ AWS SOLUTIONS ARCHITECT CERTIFIED · 2025
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤖 KAGGLE AI AGENTS INTENSIVE WITH GOOGLE · 2025
+    📍 OPEN TO ROLES IN CHENNAI · BANGALORE · HYDERABAD
     &nbsp;&nbsp;&nbsp;&nbsp;
   </div>
 </div>
@@ -1059,10 +1072,28 @@ footer p {
       <div class="proj-metric">⚡ 100% Python · Streamlit · MySQL · Production ready</div>
     </a>
 
+    <!-- P.009 -->
+    <a class="proj-card reveal" href="https://huggingface.co/RajGana" target="_blank">
+      <div class="proj-top"><span class="proj-num">P.009</span><span class="proj-arrow">↗</span></div>
+      <div class="proj-tags">
+        <span class="proj-tag proj-tag-g">From Scratch</span>
+        <span class="proj-tag">LLM</span>
+        <span class="proj-tag">VLM</span>
+        <span class="proj-tag">HuggingFace</span>
+      </div>
+      <h3 class="proj-title">TinyLLaMA & Mini-VLM — Built from Scratch in 1 Day</h3>
+      <p class="proj-desc">Built and trained a full LLM and Vision-Language Model from scratch in a single day. Transformer theory → LLM (loss 8.9→0.33) → VLM (loss 17→1.17) → LoRA fine-tune (loss 1.6→1.01) → published live on HuggingFace. Both models public at RajGana/tinyllama-alpaca-finetuned and RajGana/mini-vlm-scratch.</p>
+      <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
+        <span>⚡ 2 live models · ~$10 compute · Day 1 build</span>
+        <span style="display:flex;gap:8px;">
+          <a href="https://huggingface.co/RajGana/tinyllama-alpaca-finetuned" target="_blank" onclick="event.stopPropagation()" style="color:var(--orange);text-decoration:none;font-size:10px;">🤗 LLM ↗</a>
+          <a href="https://huggingface.co/RajGana/mini-vlm-scratch" target="_blank" onclick="event.stopPropagation()" style="color:var(--orange);text-decoration:none;font-size:10px;">🤗 VLM ↗</a>
+        </span>
+      </div>
+    </a>
+
   </div>
 </section>
-
-<!-- SKILLS -->
 <section id="skills">
   <div class="sec-label">03 · SKILLS</div>
   <div class="skills-grid reveal">
@@ -1111,16 +1142,16 @@ footer p {
   <div class="sec-label">04 · CERTIFICATIONS</div>
   <div class="certs-grid reveal">
 
-    <div class="cert-card"><div class="cert-icon">🎓</div><div><div class="cert-name">AI & ML Professional Program</div><div class="cert-issuer">GUVI · IIT-M · May 2024</div></div></div>
-    <div class="cert-card"><div class="cert-icon">☁️</div><div><div class="cert-name">AWS Certified Solutions Architect Associate</div><div class="cert-issuer">Udemy · Oct 2025</div></div></div>
-    <div class="cert-card"><div class="cert-icon">🤖</div><div><div class="cert-name">5-Day AI Agents Intensive with Google</div><div class="cert-issuer">Kaggle · Dec 2025</div></div></div>
-    <div class="cert-card"><div class="cert-icon">⚙️</div><div><div class="cert-name">DevOps Beginners to Advanced with Projects</div><div class="cert-issuer">Udemy · Jul 2025</div></div></div>
-    <div class="cert-card"><div class="cert-icon">🔗</div><div><div class="cert-name">Introduction to Internet of Things</div><div class="cert-issuer">NPTEL · Oct 2025</div></div></div>
-    <div class="cert-card"><div class="cert-icon">🖥️</div><div><div class="cert-name">Certificate Professional — Advanced Programming</div><div class="cert-issuer">IIT-M · May 2024</div></div></div>
-    <div class="cert-card"><div class="cert-icon">👁️</div><div><div class="cert-name">OpenCV Certification</div><div class="cert-issuer">OpenCV University · Mar 2025</div></div></div>
-    <div class="cert-card"><div class="cert-icon">🔥</div><div><div class="cert-name">PyTorch & TensorFlow for Deep Learning</div><div class="cert-issuer">Simplilearn · Nov 2024</div></div></div>
-    <div class="cert-card"><div class="cert-icon">🐍</div><div><div class="cert-name">Advanced Python Course</div><div class="cert-issuer">GUVI · IIT-M · Feb 2024</div></div></div>
-    <div class="cert-card"><div class="cert-icon">📊</div><div><div class="cert-name">DSA · Data Structures & Algorithms</div><div class="cert-issuer">Simplilearn · Nov 2024</div></div></div>
+    <a class="cert-card" href="https://guvi.in/verify-certificate?id=Xd67z1F22po7eP2299" target="_blank" style="text-decoration:none;"><div class="cert-icon">🎓</div><div><div class="cert-name">AI & ML Professional Program</div><div class="cert-issuer">GUVI · IIT-M · May 2024</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://ude.my/UC-b6b0e72b-8ff0-4ffc-844b-1cadaa967220" target="_blank" style="text-decoration:none;"><div class="cert-icon">☁️</div><div><div class="cert-name">AWS Certified Solutions Architect Associate</div><div class="cert-issuer">Udemy · Oct 2025</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://ude.my/UC-7719c7f3-162d-424a-b60c-7663580edfd6" target="_blank" style="text-decoration:none;"><div class="cert-icon">⚙️</div><div><div class="cert-name">DevOps Beginners to Advanced with Projects</div><div class="cert-issuer">Udemy · Jul 2025</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://nptel.ac.in/noc/E_Certificate/NPTEL25CS147S10539027271075509" target="_blank" style="text-decoration:none;"><div class="cert-icon">🔗</div><div><div class="cert-name">Introduction to Internet of Things</div><div class="cert-issuer">NPTEL · Oct 2025</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://digitalskills.iitmpravartak.org.in/verify/cert/Xd67z1F22po7eP2299" target="_blank" style="text-decoration:none;"><div class="cert-icon">🖥️</div><div><div class="cert-name">Certificate Professional — Advanced Programming</div><div class="cert-issuer">IIT-M · May 2024</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://courses.opencv.org/certificates/412c33237d8c4a73bf0d810bda6612dd" target="_blank" style="text-decoration:none;"><div class="cert-icon">👁️</div><div><div class="cert-name">OpenCV Certification</div><div class="cert-issuer">OpenCV University · Mar 2025</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://simpli-web.app.link/e/3Jt15SWWIOb" target="_blank" style="text-decoration:none;"><div class="cert-icon">🔥</div><div><div class="cert-name">PyTorch for Deep Learning</div><div class="cert-issuer">Simplilearn · Nov 2024</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://simpli-web.app.link/e/nsQ1UcWqQOb" target="_blank" style="text-decoration:none;"><div class="cert-icon">🧠</div><div><div class="cert-name">TensorFlow for Beginners</div><div class="cert-issuer">Simplilearn · Nov 2024</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://guvi.in/verify-certificate?id=H1Ow9I851C8XvA9755" target="_blank" style="text-decoration:none;"><div class="cert-icon">🐍</div><div><div class="cert-name">Advanced Python Course</div><div class="cert-issuer">GUVI · IIT-M · Feb 2024</div></div><span class="cert-verify">verify ↗</span></a>
+    <a class="cert-card" href="https://simpli-web.app.link/e/ZOkpYCEwaQb" target="_blank" style="text-decoration:none;"><div class="cert-icon">📊</div><div><div class="cert-name">DSA · Data Structures & Algorithms</div><div class="cert-issuer">Simplilearn · Nov 2024</div></div><span class="cert-verify">verify ↗</span></a>
 
   </div>
 </section>
@@ -1278,6 +1309,9 @@ footer p {
       <a class="contact-link" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">
         <span>in LinkedIn</span><span class="contact-link-val">raja-ganapathy-36b00658</span>
       </a>
+      <a class="contact-link" href="https://huggingface.co/RajGana" target="_blank" style="color:var(--orange);">
+        <span>🤗 HuggingFace</span><span class="contact-link-val" style="color:var(--orange);">RajGana · 2 live models</span>
+      </a>
       <a class="contact-link" href="https://github.com/rajaganaa" target="_blank">
         <span>⌥ GitHub</span><span class="contact-link-val">github.com/rajaganaa</span>
       </a>
@@ -1288,7 +1322,7 @@ footer p {
         <span>▶ YouTube</span><span class="contact-link-val" style="color:#ff6060;">@rajaganaaAI · Conscious AI</span>
       </a>
       <div class="contact-link" style="cursor:default;">
-        <span>📍 Location</span><span class="contact-link-val">Chennai, India · Open to remote</span>
+        <span>📍 Location</span><span class="contact-link-val">Chennai · Open to Bangalore / Hyderabad</span>
       </div>
     </div>
   </div>
