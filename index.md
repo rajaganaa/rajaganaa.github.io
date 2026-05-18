@@ -1362,7 +1362,7 @@ footer p {
     <div class="edge-card reveal">
       <div class="edge-label">WHAT MOST CANDIDATES DON'T HAVE</div>
       <h3 class="edge-heading">A filed patent <em>and</em> a live product.</h3>
-      <p class="edge-body">Most M.Tech students build class projects. Rajaganapathy filed an Indian patent (App. 202641043947), submitted an IEEE paper, and deployed a live medical AI product on Azure — in the same academic cycle.</p>
+      <p class="edge-body">Most M.Tech graduates build class projects. Rajaganapathy filed an Indian patent (App. 202641043947), submitted an IEEE paper, and deployed a live medical AI product on Azure — all while graduating with a 9.6 CGPA in May 2026.</p>
     </div>
 
     <div class="edge-card reveal">
@@ -1389,7 +1389,7 @@ footer p {
       <p class="contact-sub">
         Most candidates bring a degree. I bring 9+ years of engineering under real-world pressure,
         a filed patent, a live Azure deployment, and an IEEE paper under review —
-        all from a 2-year M.Tech programme.
+        all delivered while completing an M.Tech in AI with a 9.6 CGPA.
         If you're building infrastructure that has to work at scale, I already think that way.
       </p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
@@ -1466,18 +1466,18 @@ footer p {
       <div class="cv-bdg">
         <span class="cv-b">⚡ PATENT FILED · APR 2026</span>
         <span class="cv-b">📄 IEEE PAPER SUBMITTED</span>
-        <span class="cv-b">🎓 M.TECH AI · 9.6 CGPA</span>
+        <span class="cv-b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
         <span class="cv-b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
         <span class="cv-b">9+ YRS ENGINEERING</span>
       </div>
 
       <div class="cv-h2">PROFILE</div>
-      <p class="cv-sum">Engineering professional with 9+ years of industry experience now specialising in AI/ML. M.Tech Artificial Intelligence at SRM Institute (CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for the Antahkarana cognitively-inspired reasoning framework; IEEE Conference paper submitted. Built and published 2 live models on HuggingFace (LLM + VLM from scratch). Skills span LLMs, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and data engineering. Brings production engineering discipline — safety-critical systems, project management, hard-constraint delivery — to every AI build.</p>
+      <p class="cv-sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted. Built and published 2 live models on HuggingFace (LLM + VLM, trained from scratch). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment. Brings production engineering rigour — designed for failure modes, hard constraints, and scale — to every AI system built.</p>
 
       <div class="cv-h2">EDUCATION</div>
       <div class="cv-ei">
-        <div class="cv-eh"><span class="cv-er">M.Tech — Artificial Intelligence</span><span class="cv-ed">2024 – Present</span></div>
-        <div class="cv-eo">SRM Institute of Science & Technology · Chennai · CGPA: 9.6 / 10</div>
+        <div class="cv-eh"><span class="cv-er">M.Tech — Artificial Intelligence</span><span class="cv-ed">2024 – May 2026</span></div>
+        <div class="cv-eo">SRM Institute of Science &amp; Technology · Chennai · CGPA: 9.6 / 10 · <strong style="color:#4a9400;">Graduated</strong></div>
       </div>
       <div class="cv-ei">
         <div class="cv-eh"><span class="cv-er">B.E — Electrical & Electronics Engineering</span><span class="cv-ed">2013</span></div>
@@ -1649,10 +1649,11 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
   <span class="b">⚡ PATENT FILED · APR 2026</span>
   <span class="b">📄 IEEE PAPER SUBMITTED</span>
   <span class="b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
+  <span class="b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
   <span class="b">9+ YRS ENGINEERING</span>
 </div>
 <h2>PROFILE</h2>
-<p class="sum">Engineering professional with 9+ years of industry experience specialising in AI/ML. Graduated M.Tech Artificial Intelligence from SRM Institute (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for the Antahkarana cognitively-inspired reasoning framework; IEEE Conference paper submitted. Skills span LLMs, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and data engineering. Brings production engineering discipline — safety-critical systems, project management, hard-constraint delivery — to every AI build.</p>
+<p class="sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted. Built and published 2 live models on HuggingFace (LLM + VLM, trained from scratch). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment. Brings production engineering rigour — designed for failure modes, hard constraints, and scale — to every AI system built.</p>
 <h2>EDUCATION</h2>
 <div class="ei"><div class="eh"><span class="er">M.Tech — Artificial Intelligence</span><span class="ed">2024 – May 2026</span></div><div class="eo">SRM Institute of Science &amp; Technology · Chennai · CGPA: 9.6 / 10 · <strong>Graduated</strong></div></div>
 <div class="ei"><div class="eh"><span class="er">B.E — Electrical & Electronics Engineering</span><span class="ed">2013</span></div><div class="eo">Thangavelu Engineering College · Chennai</div></div>
