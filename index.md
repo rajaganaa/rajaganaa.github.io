@@ -862,7 +862,7 @@ footer p {
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
 
-  <div class="hero-eyebrow">available for ai/ml roles · chennai · bangalore · hyderabad</div>
+  <div class="hero-eyebrow">m.tech ai graduate · may 2026 · available for ai/ml roles · chennai · bangalore · hyderabad</div>
 
   <h1 class="hero-name">
     Raja Ganapathy M
@@ -880,7 +880,7 @@ footer p {
   <div class="hero-badges">
     <span class="badge badge-g">⚡ Patent Filed · Apr 2026</span>
     <span class="badge badge-b">📄 IEEE Paper · Submitted</span>
-    <span class="badge badge-g">🎓 M.Tech AI · 9.6 CGPA</span>
+    <span class="badge badge-g">🎓 M.Tech AI · Graduated May 2026 · 9.6 CGPA</span>
     <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 2 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
@@ -901,7 +901,7 @@ footer p {
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">PROJECTS BUILT</div></div>
-    <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA</div></div>
+    <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA · GRADUATED</div></div>
   </div>
 </section>
 
@@ -912,7 +912,7 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🎓 M.TECH ARTIFICIAL INTELLIGENCE · 9.6 CGPA
+    🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -932,7 +932,7 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🎓 M.TECH ARTIFICIAL INTELLIGENCE · 9.6 CGPA
+    🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -986,8 +986,8 @@ footer p {
           <div class="tl-org">After 9+ years of production engineering</div>
         </div>
         <div class="tl-item">
-          <div class="tl-year">2024 – Present</div>
-          <div class="tl-role">M.Tech Artificial Intelligence · 9.6 CGPA</div>
+          <div class="tl-year">2024 – May 2026</div>
+          <div class="tl-role">M.Tech Artificial Intelligence · 9.6 CGPA · <span style="color:var(--green);">Graduated ✓</span></div>
           <div class="tl-org">SRM Institute of Science & Technology</div>
         </div>
         <div class="tl-item">
@@ -1002,7 +1002,8 @@ footer p {
       <p>
         I am an <strong>AI/ML Engineer</strong> specialising in LLMs, Agentic AI, RAG pipelines,
         and multi-agent systems. After nine years as a practising electrical engineer,
-        I made a deliberate leap into AI in 2023 — and spent the next two years proving
+        I made a deliberate leap into AI in 2023 — and in May 2026 graduated with
+        <strong>M.Tech in Artificial Intelligence (CGPA 9.6/10)</strong> from SRM Institute, proving
         it was the right decision.
       </p>
       <p>
@@ -1647,13 +1648,13 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
 <div class="bdg">
   <span class="b">⚡ PATENT FILED · APR 2026</span>
   <span class="b">📄 IEEE PAPER SUBMITTED</span>
-  <span class="b">🎓 M.TECH AI · 9.6 CGPA</span>
+  <span class="b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
   <span class="b">9+ YRS ENGINEERING</span>
 </div>
 <h2>PROFILE</h2>
-<p class="sum">Engineering professional with 9+ years of industry experience now specialising in AI/ML. M.Tech Artificial Intelligence at SRM Institute (CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for the Antahkarana cognitively-inspired reasoning framework; IEEE Conference paper submitted. Skills span LLMs, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and data engineering. Brings production engineering discipline — safety-critical systems, project management, hard-constraint delivery — to every AI build.</p>
+<p class="sum">Engineering professional with 9+ years of industry experience specialising in AI/ML. Graduated M.Tech Artificial Intelligence from SRM Institute (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for the Antahkarana cognitively-inspired reasoning framework; IEEE Conference paper submitted. Skills span LLMs, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and data engineering. Brings production engineering discipline — safety-critical systems, project management, hard-constraint delivery — to every AI build.</p>
 <h2>EDUCATION</h2>
-<div class="ei"><div class="eh"><span class="er">M.Tech — Artificial Intelligence</span><span class="ed">2024 – Present</span></div><div class="eo">SRM Institute of Science & Technology · Chennai · CGPA: 9.6 / 10</div></div>
+<div class="ei"><div class="eh"><span class="er">M.Tech — Artificial Intelligence</span><span class="ed">2024 – May 2026</span></div><div class="eo">SRM Institute of Science &amp; Technology · Chennai · CGPA: 9.6 / 10 · <strong>Graduated</strong></div></div>
 <div class="ei"><div class="eh"><span class="er">B.E — Electrical & Electronics Engineering</span><span class="ed">2013</span></div><div class="eo">Thangavelu Engineering College · Chennai</div></div>
 <h2>RESEARCH & IP</h2>
 <div class="ei"><div class="er">Indian Patent Filed — Antahkarana System</div><div class="eo">Application No. 202641043947 · Filed April 3, 2026</div><div class="ex">Cognitively-inspired adaptive reasoning framework for LLMs and VLMs. System design protected under Indian IP law.</div></div>
