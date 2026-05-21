@@ -29,7 +29,6 @@ permalink: /
   --nav-h:     72px;
 }
 
-/* ─── RESET / BASE ─── */
 html { scroll-behavior: smooth; font-size: 16px; }
 body {
   background: var(--bg);
@@ -44,7 +43,6 @@ body {
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border-hi); }
 
-/* ─── NOISE GRAIN ─── */
 body::after {
   content: '';
   position: fixed; inset: 0;
@@ -52,12 +50,10 @@ body::after {
   pointer-events: none; z-index: 9999; opacity: 0.5;
 }
 
-/* ─── TYPOGRAPHY ─── */
 .f-display { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.01em; }
 .f-sans    { font-family: 'DM Sans', sans-serif; }
 .f-mono    { font-family: 'DM Mono', monospace; }
 
-/* ─── NAV ─── */
 nav {
   position: fixed; top: 0; left: 0; right: 0;
   height: var(--nav-h);
@@ -100,7 +96,6 @@ nav {
 }
 .btn-nav-accent:hover { background: var(--green); color: #080808; }
 
-/* ─── HERO ─── */
 .hero {
   min-height: 100vh;
   padding: calc(var(--nav-h) + 6rem) 3rem 5rem;
@@ -141,7 +136,6 @@ nav {
   display: block; width: 40px; height: 1px; background: var(--green);
 }
 
-/* THE BIG NAME */
 .hero-name {
   font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(5rem, 13vw, 11rem);
@@ -251,7 +245,6 @@ nav {
   color: var(--text-3); margin-top: 4px;
 }
 
-/* ─── TICKER ─── */
 .ticker-wrap {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -270,7 +263,6 @@ nav {
   to   { transform: translateX(-50%); }
 }
 
-/* ─── SECTION BASE ─── */
 section {
   padding: 7rem 3rem;
   border-top: 1px solid var(--border);
@@ -287,7 +279,6 @@ section {
   background: var(--border); max-width: 100px;
 }
 
-/* ─── ABOUT ─── */
 .about-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -341,7 +332,6 @@ section {
 .about-body p strong { color: var(--text); font-weight: 500; }
 .about-body p em { color: var(--green); font-style: normal; font-weight: 500; }
 
-/* ─── PROJECTS ─── */
 .proj-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -349,7 +339,6 @@ section {
   background: var(--border);
 }
 
-/* Featured spans full width */
 .proj-featured {
   grid-column: 1 / -1;
   display: grid;
@@ -436,7 +425,6 @@ section {
   font-size: 11px; color: var(--text-3); line-height: 1.65;
 }
 
-/* regular project cards */
 .proj-card {
   background: var(--bg);
   padding: 2rem;
@@ -483,7 +471,6 @@ section {
   border-top: 1px solid var(--border);
 }
 
-/* ─── SKILLS ─── */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -511,7 +498,6 @@ section {
 .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--bg4); }
 .dot.on { background: var(--green); }
 
-/* ─── CERTS ─── */
 .certs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -549,7 +535,6 @@ section {
   font-size: 10px; color: var(--text-3); letter-spacing: 0.06em;
 }
 
-/* ─── BLOG ─── */
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -593,7 +578,6 @@ section {
   padding-top: 0.75rem; border-top: 1px solid var(--border);
 }
 
-/* ─── BLOG MODAL ─── */
 .modal-overlay {
   display: none; position: fixed; inset: 0;
   background: rgba(0,0,0,0.75); z-index: 500;
@@ -643,7 +627,6 @@ section {
 .modal-body strong { color: var(--text); font-weight: 500; }
 .modal-body em { color: var(--green); font-style: normal; }
 
-/* ─── THE EDGE ─── */
 .edge-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -670,7 +653,6 @@ section {
   color: var(--text-2); line-height: 1.85;
 }
 
-/* ─── CONTACT ─── */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -702,7 +684,6 @@ section {
 .contact-link:hover { background: var(--bg3); color: var(--text); }
 .contact-link-val { font-size: 11px; color: var(--text-3); }
 
-/* ─── FOOTER ─── */
 footer {
   border-top: 1px solid var(--border);
   padding: 2rem 3rem;
@@ -713,7 +694,6 @@ footer p {
   font-size: 11px; color: var(--text-3); letter-spacing: 0.06em;
 }
 
-/* ─── ANIMATIONS ─── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(22px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -724,7 +704,6 @@ footer p {
 }
 .reveal.visible { opacity: 1; transform: none; }
 
-/* ─── RESPONSIVE ─── */
 @media (max-width: 768px) {
   nav { padding: 0 1.5rem; }
   .nav-links { display: none; }
@@ -738,7 +717,6 @@ footer p {
   footer { padding: 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
 }
 
-/* ─── RESUME MODAL ─── */
 .cv-modal-overlay {
   display: none; position: fixed; inset: 0;
   background: rgba(0,0,0,0.85); z-index: 600;
@@ -883,6 +861,7 @@ footer p {
     <span class="badge badge-g">🎓 M.Tech AI · Graduated May 2026 · 9.6 CGPA</span>
     <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 2 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
+    <span class="badge" style="border-color:rgba(0,212,255,0.5);color:#00d4ff;background:rgba(0,212,255,0.05);">🌐 Conscious AI Browser · Chromium Source</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
     <span class="badge">Multi-Agent Systems</span>
     <span class="badge">Computer Vision</span>
@@ -900,7 +879,7 @@ footer p {
 
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
-    <div class="stat"><div class="stat-num">9+</div><div class="stat-label">PROJECTS BUILT</div></div>
+    <div class="stat"><div class="stat-num">10+</div><div class="stat-label">PROJECTS BUILT</div></div>
     <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA · GRADUATED</div></div>
   </div>
 </section>
@@ -920,7 +899,9 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 9 PRODUCTION AI SYSTEMS
+    🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE · LLAMA 3.3 70B
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🛠 10 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -940,7 +921,9 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 9 PRODUCTION AI SYSTEMS
+    🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE · LLAMA 3.3 70B
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🛠 10 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1190,8 +1173,29 @@ footer p {
       </div>
     </a>
 
+    <!-- P.010 -->
+    <a class="proj-card reveal" href="https://conscious-ai-webapp.vercel.app" target="_blank">
+      <div class="proj-top"><span class="proj-num">P.010</span><span class="proj-arrow">↗</span></div>
+      <div class="proj-tags">
+        <span class="proj-tag proj-tag-g">Chromium Source</span>
+        <span class="proj-tag">LLaMA 3.3 70B</span>
+        <span class="proj-tag">AI Browser</span>
+        <span class="proj-tag">Vercel</span>
+      </div>
+      <h3 class="proj-title">Conscious AI Browser — Built from Chromium Source</h3>
+      <p class="proj-desc">Compiled Chromium from source (26,000 build steps) on GCP. Custom branded browser with built-in AI sidebar powered by LLaMA 3.3 70B — summarizes and explains any webpage in real-time. Packaged as Linux .deb installer. Same architecture as Brave and Arc browser.</p>
+      <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
+        <span>⚡ 26,000 build steps · LLaMA 3.3 70B · Linux .deb</span>
+        <span style="display:flex;gap:8px;">
+          <a href="https://conscious-ai-webapp.vercel.app" target="_blank" onclick="event.stopPropagation()" style="color:var(--green);text-decoration:none;font-size:10px;">Live Demo ↗</a>
+          <a href="https://github.com/rajaganaa/conscious-ai-browser" target="_blank" onclick="event.stopPropagation()" style="color:var(--blue);text-decoration:none;font-size:10px;">GitHub ↗</a>
+        </span>
+      </div>
+    </a>
+
   </div>
 </section>
+
 <section id="skills">
   <div class="sec-label">03 · SKILLS</div>
   <div class="skills-grid reveal">
@@ -1234,19 +1238,6 @@ footer p {
 
   </div>
 </section>
-
-<!-- P.010 -->
-<a class="proj-card reveal" href="https://github.com/rajaganaa/conscious-ai-browser" target="_blank">
-  <div class="proj-top"><span class="proj-num">P.010</span><span class="proj-arrow">↗</span></div>
-  <div class="proj-tags">
-    <span class="proj-tag proj-tag-g">Chromium Source</span>
-    <span class="proj-tag">LLaMA 3.3 70B</span>
-    <span class="proj-tag">AI Browser</span>
-  </div>
-  <h3 class="proj-title">Conscious AI Browser — Built from Chromium Source</h3>
-  <p class="proj-desc">Compiled Chromium from source (26,000 build steps) on GCP. Custom branded browser with built-in AI sidebar powered by LLaMA 3.3 70B — summarizes and explains any webpage in real-time. Packaged as Linux .deb installer. Same architecture as Brave and Arc browser.</p>
-  <div class="proj-metric">⚡ 26,000 build steps · LLaMA 3.3 70B · Linux .deb · <a href="https://conscious-ai-webapp.vercel.app" target="_blank" onclick="event.stopPropagation()" style="color:var(--green);text-decoration:none;">Live Demo ↗</a></div>
-</a>
 
 <!-- CERTIFICATIONS -->
 <section id="certifications">
@@ -1439,7 +1430,6 @@ footer p {
   </div>
 </section>
 
-
 <!-- RESUME SECTION -->
 <section id="resume" style="background:var(--bg2);">
   <div class="sec-label">05.5 · RESUME</div>
@@ -1516,7 +1506,7 @@ footer p {
         <div class="cv-pi"><div class="cv-pn">TinyLLaMA & Mini-VLM (HuggingFace)</div><div class="cv-pt">Built from scratch · LoRA fine-tune · 2 live public models</div></div>
         <div class="cv-pi"><div class="cv-pn">MML Smart Campus Security</div><div class="cv-pt">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
         <div class="cv-pi"><div class="cv-pn">AgentNet Enterprise Support</div><div class="cv-pt">Multi-agent · LLM-as-Judge · RAG · Vertex AI</div></div>
-        <div class="cv-pi"><div class="cv-pn">Hospital Readmission Predictor</div><div class="cv-pt">XGBoost · Streamlit · Healthcare analytics</div></div>
+        <div class="cv-pi"><div class="cv-pn">Conscious AI Browser (Chromium)</div><div class="cv-pt">26,000 build steps · LLaMA 3.3 70B · Linux .deb · Vercel</div></div>
       </div>
 
       <div class="cv-h2">PROFESSIONAL EXPERIENCE</div>
@@ -1680,7 +1670,7 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
   <div class="pi"><div class="pn">MML Smart Campus Security</div><div class="pt">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
   <div class="pi"><div class="pn">AgentNet Enterprise Support</div><div class="pt">Multi-agent · LLM-as-Judge · RAG · Vertex AI</div></div>
   <div class="pi"><div class="pn">Hospital Readmission Predictor</div><div class="pt">XGBoost · Streamlit · Healthcare analytics</div></div>
-  <div class="pi"><div class="pn">YouTube Data ETL Pipeline</div><div class="pt">Python · MySQL · YouTube API · Production ready</div></div>
+  <div class="pi"><div class="pn">Conscious AI Browser (Chromium)</div><div class="pt">26,000 build steps · LLaMA 3.3 70B · Linux .deb · Vercel</div></div>
 </div>
 <h2>PROFESSIONAL EXPERIENCE</h2>
 <div class="ei"><div class="eh"><span class="er">Electrical Construction Site Engineer</span><span class="ed">Jan 2017 – Jun 2023</span></div><div class="eo">SR Electrical Works · Chennai</div><div class="ex">Large-scale electrical systems for construction projects. Led budget estimation, resource allocation, site supervision, and cross-team coordination under hard safety constraints.</div></div>
@@ -1842,7 +1832,6 @@ window.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { closeBlog(); closeCVModal(); }
 });
-
 </script>
 
 </body>
