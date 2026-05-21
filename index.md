@@ -1235,6 +1235,19 @@ footer p {
   </div>
 </section>
 
+<!-- P.010 -->
+<a class="proj-card reveal" href="https://github.com/rajaganaa/conscious-ai-browser" target="_blank">
+  <div class="proj-top"><span class="proj-num">P.010</span><span class="proj-arrow">↗</span></div>
+  <div class="proj-tags">
+    <span class="proj-tag proj-tag-g">Chromium Source</span>
+    <span class="proj-tag">LLaMA 3.3 70B</span>
+    <span class="proj-tag">AI Browser</span>
+  </div>
+  <h3 class="proj-title">Conscious AI Browser — Built from Chromium Source</h3>
+  <p class="proj-desc">Compiled Chromium from source (26,000 build steps) on GCP. Custom branded browser with built-in AI sidebar powered by LLaMA 3.3 70B — summarizes and explains any webpage in real-time. Packaged as Linux .deb installer. Same architecture as Brave and Arc browser.</p>
+  <div class="proj-metric">⚡ 26,000 build steps · LLaMA 3.3 70B · Linux .deb · <a href="https://conscious-ai-webapp.vercel.app" target="_blank" onclick="event.stopPropagation()" style="color:var(--green);text-decoration:none;">Live Demo ↗</a></div>
+</a>
+
 <!-- CERTIFICATIONS -->
 <section id="certifications">
   <div class="sec-label">04 · CERTIFICATIONS</div>
