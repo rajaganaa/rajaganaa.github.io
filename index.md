@@ -535,6 +535,121 @@ section {
   font-size: 10px; color: var(--text-3); letter-spacing: 0.06em;
 }
 
+/* ── NEW: RESEARCH SECTION ── */
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  margin-bottom: 4rem;
+}
+.research-card {
+  background: var(--bg);
+  padding: 2.5rem;
+  position: relative;
+  transition: background 0.15s;
+}
+.research-card:hover { background: var(--bg3); }
+.research-card.featured {
+  border: 1px solid rgba(184,240,80,0.2);
+  background: var(--bg2);
+}
+.research-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px; letter-spacing: 0.22em;
+  color: var(--green); margin-bottom: 1rem;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.research-label::before {
+  content: '';
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 8px rgba(184,240,80,0.6);
+  flex-shrink: 0;
+}
+.research-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1rem; font-weight: 600;
+  color: var(--text); line-height: 1.4; margin-bottom: 0.75rem;
+}
+.research-authors {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px; color: var(--text-3);
+  margin-bottom: 0.75rem; letter-spacing: 0.04em;
+}
+.research-authors strong { color: var(--green); }
+.research-venue {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px; color: var(--blue);
+  margin-bottom: 1rem; letter-spacing: 0.06em;
+}
+.research-abstract {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12.5px; font-weight: 300;
+  color: var(--text-2); line-height: 1.85;
+  margin-bottom: 1.5rem;
+}
+.research-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.research-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px; letter-spacing: 0.08em;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border-md);
+  color: var(--text-2); text-decoration: none;
+  transition: all 0.15s;
+  display: inline-flex; align-items: center; gap: 0.35rem;
+}
+.research-link:hover { border-color: var(--text); color: var(--text); }
+.research-link.green { border-color: rgba(184,240,80,0.4); color: var(--green); }
+.research-link.green:hover { background: rgba(184,240,80,0.07); }
+.research-link.blue { border-color: rgba(80,200,240,0.4); color: var(--blue); }
+
+/* ── NEW: RESEARCHER IDs PANEL ── */
+.researcher-ids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  margin-bottom: 2rem;
+}
+.rid-card {
+  background: var(--bg2);
+  padding: 1.75rem;
+  text-decoration: none;
+  transition: background 0.15s;
+  display: flex; align-items: flex-start; gap: 1rem;
+}
+.rid-card:hover { background: var(--bg3); }
+.rid-card:hover .rid-arrow { transform: translate(3px, -3px); }
+.rid-icon {
+  width: 36px; height: 36px; border-radius: 4px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; flex-shrink: 0;
+  border: 1px solid var(--border-md);
+}
+.rid-icon.orcid { background: rgba(166,206,57,0.1); border-color: rgba(166,206,57,0.4); }
+.rid-icon.scholar { background: rgba(66,133,244,0.1); border-color: rgba(66,133,244,0.4); }
+.rid-icon.hf { background: rgba(255,160,0,0.1); border-color: rgba(255,160,0,0.4); }
+.rid-icon.gs { background: rgba(80,200,240,0.1); border-color: rgba(80,200,240,0.4); }
+.rid-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px; letter-spacing: 0.18em; margin-bottom: 4px;
+}
+.rid-label.orcid { color: #a6ce39; }
+.rid-label.scholar { color: #4285f4; }
+.rid-label.hf { color: var(--orange); }
+.rid-label.gs { color: var(--blue); }
+.rid-value {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px; color: var(--text-2);
+  word-break: break-all; line-height: 1.5;
+}
+.rid-arrow {
+  margin-left: auto; font-size: 12px;
+  color: var(--text-3); flex-shrink: 0;
+  transition: transform 0.15s; align-self: center;
+}
+
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -710,7 +825,7 @@ footer p {
   .hero { padding: calc(var(--nav-h) + 3rem) 1.5rem 3rem; }
   .hero-name, .hero-name-accent { font-size: clamp(4rem, 16vw, 6rem); }
   section { padding: 4.5rem 1.5rem; }
-  .about-grid, .contact-grid, .proj-featured { grid-template-columns: 1fr; }
+  .about-grid, .contact-grid, .proj-featured, .research-grid { grid-template-columns: 1fr; }
   .feat-left { border-right: none; border-bottom: 1px solid rgba(184,240,80,0.1); }
   .hero-stats { display: none; }
   .hero-scroll { left: 1.5rem; }
@@ -821,6 +936,7 @@ footer p {
     <li><a href="#about">about</a></li>
     <li><a href="#projects">projects</a></li>
     <li><a href="#skills">skills</a></li>
+    <li><a href="#research">research</a></li>
     <li><a href="#certifications">certs</a></li>
     <li><a href="#blog">blog</a></li>
     <li><a href="#resume">resume</a></li>
@@ -862,6 +978,9 @@ footer p {
     <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 2 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge" style="border-color:rgba(0,212,255,0.5);color:#00d4ff;background:rgba(0,212,255,0.05);">🌐 Conscious AI Browser · Chromium Source</span>
+    <!-- ✅ NEW: ORCID + Scholar badges -->
+    <span class="badge" style="border-color:rgba(166,206,57,0.5);color:#a6ce39;background:rgba(166,206,57,0.05);">🆔 ORCID · 0009-0006-9701-7942</span>
+    <span class="badge" style="border-color:rgba(66,133,244,0.5);color:#4285f4;background:rgba(66,133,244,0.05);">📚 Google Scholar · Verified Profile</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
     <span class="badge">Multi-Agent Systems</span>
     <span class="badge">Computer Vision</span>
@@ -871,6 +990,7 @@ footer p {
     <a class="btn-primary" href="#projects">view my work →</a>
     <a class="btn-outline" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ live demo ↗</a>
     <a class="btn-outline" href="https://huggingface.co/RajGana" target="_blank" style="border-color:rgba(255,160,50,0.6);color:#f0a040;">🤗 huggingface ↗</a>
+    <a class="btn-outline" href="https://orcid.org/0009-0006-9701-7942" target="_blank" style="border-color:rgba(166,206,57,0.6);color:#a6ce39;">🆔 orcid ↗</a>
     <button class="btn-outline" onclick="openCVModal()">↓ view & download cv</button>
     <a class="btn-outline" href="#contact">contact me →</a>
   </div>
@@ -893,6 +1013,10 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🆔 ORCID · 0009-0006-9701-7942
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📚 GOOGLE SCHOLAR · ANTAHKARANA · 2026
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🤗 2 LIVE MODELS ON HUGGINGFACE · LLM + VLM FROM SCRATCH
@@ -914,6 +1038,10 @@ footer p {
     📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🆔 ORCID · 0009-0006-9701-7942
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📚 GOOGLE SCHOLAR · ANTAHKARANA · 2026
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -978,6 +1106,11 @@ footer p {
           <div class="tl-role">Indian Patent Filed · Antahkarana System</div>
           <div class="tl-org">App No. 202641043947 · IEEE Paper Submitted</div>
         </div>
+        <div class="tl-item">
+          <div class="tl-year">May 2026</div>
+          <div class="tl-role">ORCID Registered · Google Scholar Profile Live</div>
+          <div class="tl-org">ORCID: 0009-0006-9701-7942 · Antahkarana paper indexed</div>
+        </div>
       </div>
     </div>
 
@@ -992,8 +1125,8 @@ footer p {
       <p>
         My flagship project, <strong>Antahkarana</strong>, is a cognitively-inspired adaptive
         reasoning framework for LLMs and VLMs — drawing on Vedantic cognitive architecture.
-        It earned a <em>filed Indian patent</em> and a <em>submitted IEEE Conference paper</em>:
-        outputs typically associated with full research teams, not individual M.Tech students.
+        It earned a <em>filed Indian patent</em> and a <em>submitted IEEE Conference paper</em>
+        — now indexed on <em>Google Scholar</em> and linked to my <em>ORCID</em> researcher identity.
       </p>
       <p>
         What I bring that most candidates don't: the discipline of a practising engineer who
@@ -1029,6 +1162,8 @@ footer p {
         <div class="feat-tags">
           <span class="badge badge-g">Patent Filed</span>
           <span class="badge badge-b">IEEE Submitted</span>
+          <span class="badge" style="border-color:rgba(66,133,244,0.4);color:#4285f4;">Google Scholar</span>
+          <span class="badge" style="border-color:rgba(166,206,57,0.4);color:#a6ce39;">ORCID Linked</span>
           <span class="badge">Python 3.8+</span>
           <span class="badge">Apache 2.0</span>
           <span class="badge">BLIP-3 · VLM</span>
@@ -1051,6 +1186,13 @@ footer p {
           </div>
         </div>
         <div class="ach-item">
+          <div class="ach-icon">📚</div>
+          <div>
+            <div class="ach-title">Google Scholar · ORCID Indexed</div>
+            <div class="ach-body">Paper live on Google Scholar — linked to ORCID 0009-0006-9701-7942</div>
+          </div>
+        </div>
+        <div class="ach-item">
           <div class="ach-icon">🧠</div>
           <div>
             <div class="ach-title">2,500+ Sample Validation</div>
@@ -1060,6 +1202,7 @@ footer p {
         <div class="feat-links">
           <a class="btn-feat-primary" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ live demo →</a>
           <a class="btn-feat-secondary" href="https://github.com/rajaganaa/antahkarana-reasoning-framework" target="_blank">github ↗</a>
+          <a class="btn-feat-secondary" href="https://scholar.google.com/citations?user=93hagOEAAAAJ" target="_blank" style="border-color:rgba(66,133,244,0.35);color:#4285f4;">scholar ↗</a>
         </div>
       </div>
     </div>
@@ -1239,9 +1382,125 @@ footer p {
   </div>
 </section>
 
+<!-- ✅ NEW: RESEARCH & PUBLICATIONS SECTION -->
+<section id="research" style="background:var(--bg2);">
+  <div class="sec-label">04 · RESEARCH &amp; PUBLICATIONS</div>
+
+  <!-- Researcher IDs panel -->
+  <div class="researcher-ids reveal" style="margin-bottom:3rem;">
+    <a class="rid-card" href="https://orcid.org/0009-0006-9701-7942" target="_blank">
+      <div class="rid-icon orcid">🆔</div>
+      <div style="flex:1;">
+        <div class="rid-label orcid">ORCID</div>
+        <div class="rid-value">0009-0006-9701-7942</div>
+      </div>
+      <div class="rid-arrow">↗</div>
+    </a>
+    <a class="rid-card" href="https://scholar.google.com/citations?user=93hagOEAAAAJ" target="_blank">
+      <div class="rid-icon scholar">📚</div>
+      <div style="flex:1;">
+        <div class="rid-label scholar">GOOGLE SCHOLAR</div>
+        <div class="rid-value">RAJA GANAPATHY M<br/><span style="font-size:9px;">AI Fellow · SRM Institute</span></div>
+      </div>
+      <div class="rid-arrow">↗</div>
+    </a>
+    <a class="rid-card" href="https://huggingface.co/RajGana" target="_blank">
+      <div class="rid-icon hf">🤗</div>
+      <div style="flex:1;">
+        <div class="rid-label hf">HUGGINGFACE</div>
+        <div class="rid-value">RajGana<br/><span style="font-size:9px;">2 live models · LLM + VLM</span></div>
+      </div>
+      <div class="rid-arrow">↗</div>
+    </a>
+    <a class="rid-card" href="https://github.com/rajaganaa" target="_blank">
+      <div class="rid-icon gs">⌥</div>
+      <div style="flex:1;">
+        <div class="rid-label gs">GITHUB</div>
+        <div class="rid-value">rajaganaa<br/><span style="font-size:9px;">10+ AI repositories</span></div>
+      </div>
+      <div class="rid-arrow">↗</div>
+    </a>
+  </div>
+
+  <!-- Publications -->
+  <div class="research-grid reveal">
+
+    <!-- Paper 1 — flagship -->
+    <div class="research-card featured">
+      <div class="research-label">CONFERENCE PAPER · 2026 · UNDER REVIEW</div>
+      <h3 class="research-title">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs</h3>
+      <div class="research-authors"><strong>Raja Ganapathy M</strong>, RG Karthikeyan</div>
+      <div class="research-venue">📍 IEEE Conference — SRM Institute of Science &amp; Technology, Kattankulathur · 2026</div>
+      <p class="research-abstract">
+        Introduces a modular conditional reasoning framework for large language models and vision-language models,
+        inspired by Vedantic cognitive architecture (antahkarana). The system routes complex queries through
+        four specialised cognitive stages — manas (perception), buddhi (discrimination), chitta (memory),
+        and ahamkara (integration) — validated across 2,500+ LLM and multimodal samples.
+        Accompanied by Indian Patent Application No. 202641043947.
+      </p>
+      <div class="research-links">
+        <a class="research-link green" href="https://scholar.google.com/citations?user=93hagOEAAAAJ" target="_blank">📚 Google Scholar ↗</a>
+        <a class="research-link" href="https://orcid.org/0009-0006-9701-7942" target="_blank" style="border-color:rgba(166,206,57,0.35);color:#a6ce39;">🆔 ORCID ↗</a>
+        <a class="research-link" href="https://github.com/rajaganaa/antahkarana-reasoning-framework" target="_blank">⌥ Code ↗</a>
+        <a class="research-link blue" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ Live Demo ↗</a>
+      </div>
+    </div>
+
+    <!-- Patent card -->
+    <div class="research-card" style="border:1px solid rgba(240,160,64,0.2);background:var(--bg);">
+      <div class="research-label" style="color:var(--orange);">INDIAN PATENT · FILED APR 2026</div>
+      <h3 class="research-title">Antahkarana — Adaptive AI Reasoning System</h3>
+      <div class="research-authors" style="color:var(--orange);opacity:0.8;">Application No. 202641043947</div>
+      <div class="research-venue" style="color:var(--orange);opacity:0.7;">📍 Indian Patent Office · Filed April 3, 2026 · Under Examination</div>
+      <p class="research-abstract">
+        Patent protects the system architecture of the Antahkarana cognitively-inspired reasoning engine —
+        specifically the multi-stage query routing mechanism, the Vedantic cognitive stage mapping to neural
+        processing pipelines, and the multimodal integration layer for LLM and VLM joint reasoning.
+        First Indian patent in the space of Vedanta-inspired AI cognitive architectures.
+      </p>
+      <div class="research-links">
+        <span class="research-link" style="border-color:rgba(240,160,64,0.35);color:var(--orange);cursor:default;">⚡ Patent Pending</span>
+        <a class="research-link" href="https://github.com/rajaganaa/antahkarana-reasoning-framework" target="_blank">⌥ Implementation ↗</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Research highlights -->
+  <div class="reveal" style="margin-top:3rem;padding:2.5rem;background:var(--bg);border:1px solid var(--border);">
+    <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.22em;color:var(--text-3);margin-bottom:1.5rem;">RESEARCH IMPACT SUMMARY</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2rem;">
+      <div style="text-align:center;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--green);line-height:1;">1</div>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">PATENT FILED</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--blue);line-height:1;">1</div>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">IEEE SUBMISSION</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:#a6ce39;line-height:1;">1</div>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">ORCID PROFILE</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:#4285f4;line-height:1;">1</div>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">SCHOLAR PROFILE</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--orange);line-height:1;">2.5K</div>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">VALIDATION SAMPLES</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--text);line-height:1;">2</div>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">HF LIVE MODELS</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CERTIFICATIONS -->
 <section id="certifications">
-  <div class="sec-label">04 · CERTIFICATIONS</div>
+  <div class="sec-label">05 · CERTIFICATIONS</div>
   <div class="certs-grid reveal">
 
     <a class="cert-card" href="https://guvi.in/verify-certificate?id=Xd67z1F22po7eP2299" target="_blank" style="text-decoration:none;"><div class="cert-icon">🎓</div><div><div class="cert-name">AI & ML Professional Program</div><div class="cert-issuer">GUVI · IIT-M · May 2024</div></div><span class="cert-verify">verify ↗</span></a>
@@ -1260,7 +1519,7 @@ footer p {
 
 <!-- BLOG -->
 <section id="blog">
-  <div class="sec-label">05 · BLOG</div>
+  <div class="sec-label">06 · BLOG</div>
   <div class="blog-grid reveal">
 
     <div class="blog-card" onclick="openBlog(0)">
@@ -1292,7 +1551,7 @@ footer p {
 
 <!-- CONSCIOUS AI — YOUTUBE -->
 <section id="youtube" style="background:var(--bg2);">
-  <div class="sec-label">06 · CONSCIOUS AI — YOUTUBE</div>
+  <div class="sec-label">07 · CONSCIOUS AI — YOUTUBE</div>
 
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="reveal">
 
@@ -1360,7 +1619,7 @@ footer p {
 
 <!-- THE EDGE -->
 <section id="edge" style="background:var(--bg2);">
-  <div class="sec-label">07 · THE EDGE</div>
+  <div class="sec-label">08 · THE EDGE</div>
   <div class="edge-grid">
 
     <div class="edge-card reveal">
@@ -1378,7 +1637,7 @@ footer p {
     <div class="edge-card reveal">
       <div class="edge-label">THE RESEARCH PROOF</div>
       <h3 class="edge-heading">2,500 samples. <em>Novel contribution.</em></h3>
-      <p class="edge-body">Antahkarana's Vedantic cognitive routing was validated across 2,500 LLM/VLM samples — earning both a patent filing and an IEEE conference submission. Not a class project. Original research.</p>
+      <p class="edge-body">Antahkarana's Vedantic cognitive routing was validated across 2,500 LLM/VLM samples — earning both a patent filing and an IEEE conference submission. Indexed on Google Scholar. Linked to ORCID. Not a class project. Original research.</p>
     </div>
 
   </div>
@@ -1386,14 +1645,14 @@ footer p {
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="sec-label">08 · CONTACT</div>
+  <div class="sec-label">09 · CONTACT</div>
   <div class="contact-grid">
     <div class="reveal">
       <h2 class="contact-heading">Ready to build<br/>at <span>Google scale.</span></h2>
       <p class="contact-sub">
         Most candidates bring a degree. I bring 9+ years of engineering under real-world pressure,
-        a filed patent, a live Azure deployment, and an IEEE paper under review —
-        all delivered while completing an M.Tech in AI with a 9.6 CGPA.
+        a filed patent, a live Azure deployment, an IEEE paper under review, an ORCID researcher identity,
+        and a Google Scholar profile — all delivered while completing an M.Tech in AI with a 9.6 CGPA.
         If you're building infrastructure that has to work at scale, I already think that way.
       </p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
@@ -1410,6 +1669,13 @@ footer p {
       </a>
       <a class="contact-link" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">
         <span>in LinkedIn</span><span class="contact-link-val">raja-ganapathy-36b00658</span>
+      </a>
+      <!-- ✅ NEW: ORCID + Scholar in contact -->
+      <a class="contact-link" href="https://orcid.org/0009-0006-9701-7942" target="_blank" style="color:#a6ce39;">
+        <span>🆔 ORCID</span><span class="contact-link-val" style="color:#a6ce39;">0009-0006-9701-7942</span>
+      </a>
+      <a class="contact-link" href="https://scholar.google.com/citations?user=93hagOEAAAAJ" target="_blank" style="color:#4285f4;">
+        <span>📚 Google Scholar</span><span class="contact-link-val" style="color:#4285f4;">Raja Ganapathy M · AI Fellow</span>
       </a>
       <a class="contact-link" href="https://huggingface.co/RajGana" target="_blank" style="color:var(--orange);">
         <span>🤗 HuggingFace</span><span class="contact-link-val" style="color:var(--orange);">RajGana · 2 live models</span>
@@ -1432,7 +1698,7 @@ footer p {
 
 <!-- RESUME SECTION -->
 <section id="resume" style="background:var(--bg2);">
-  <div class="sec-label">05.5 · RESUME</div>
+  <div class="sec-label">10 · RESUME</div>
   <div class="reveal" style="display:flex;flex-direction:column;align-items:center;gap:1.5rem;padding:2rem 0;text-align:center;">
     <p style="font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.18em;color:var(--text-3);">
       CLICK TO VIEW · PRINT · OR DOWNLOAD AS PDF
@@ -1464,18 +1730,34 @@ footer p {
       <div class="cv-bar">
         <span>✉ rajaganaa@gmail.com</span><span>📞 +91 9176631419</span>
         <span>🌐 rajaganaa.github.io</span><span>in raja-ganapathy-36b00658</span>
-        <span>⌥ github.com/rajaganaa</span><span>🤗 huggingface.co/RajGana</span><span>📍 Chennai · Bangalore · Hyderabad</span>
+        <span>⌥ github.com/rajaganaa</span><span>🤗 huggingface.co/RajGana</span>
+        <span>🆔 orcid.org/0009-0006-9701-7942</span>
+        <span>📚 scholar.google.com · Raja Ganapathy M</span>
+        <span>📍 Chennai · Bangalore · Hyderabad</span>
       </div>
       <div class="cv-bdg">
         <span class="cv-b">⚡ PATENT FILED · APR 2026</span>
         <span class="cv-b">📄 IEEE PAPER SUBMITTED</span>
         <span class="cv-b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
         <span class="cv-b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
+        <span class="cv-b" style="border-color:#a6ce39;color:#a6ce39;">🆔 ORCID REGISTERED</span>
+        <span class="cv-b" style="border-color:#4285f4;color:#4285f4;">📚 GOOGLE SCHOLAR VERIFIED</span>
         <span class="cv-b">9+ YRS ENGINEERING</span>
       </div>
 
       <div class="cv-h2">PROFILE</div>
-      <p class="cv-sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted. Built and published 2 live models on HuggingFace (LLM + VLM, trained from scratch). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment. Brings production engineering rigour — designed for failure modes, hard constraints, and scale — to every AI system built.</p>
+      <p class="cv-sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted and indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 2 live models on HuggingFace (LLM + VLM, trained from scratch). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment.</p>
+
+      <div class="cv-h2">RESEARCH &amp; INTELLECTUAL PROPERTY</div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs</span></div>
+        <div class="cv-eo">IEEE Conference Paper · SRM Institute · 2026 · Under Review · Google Scholar Indexed</div>
+        <div class="cv-ex">Modular conditional reasoning framework inspired by Vedantic cognitive architecture. Validated on 2,500+ multimodal samples. Authors: Raja Ganapathy M, RG Karthikeyan.</div>
+      </div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">Indian Patent — Antahkarana Adaptive AI Reasoning System</span><span class="cv-ed">Filed Apr 3, 2026</span></div>
+        <div class="cv-eo">Application No. 202641043947 · Indian Patent Office · Under Examination</div>
+      </div>
 
       <div class="cv-h2">EDUCATION</div>
       <div class="cv-ei">
@@ -1487,21 +1769,9 @@ footer p {
         <div class="cv-eo">Thangavelu Engineering College · Chennai</div>
       </div>
 
-      <div class="cv-h2">RESEARCH & IP</div>
-      <div class="cv-ei">
-        <div class="cv-er">Indian Patent Filed — Antahkarana System</div>
-        <div class="cv-eo">Application No. 202641043947 · Filed April 3, 2026</div>
-        <div class="cv-ex">Cognitively-inspired adaptive reasoning framework for LLMs and VLMs. System design protected under Indian IP law.</div>
-      </div>
-      <div class="cv-ei">
-        <div class="cv-er">IEEE Conference Paper — Submitted</div>
-        <div class="cv-eo">SRM Institute of Science & Technology, Kattankulathur</div>
-        <div class="cv-ex">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs. Under review.</div>
-      </div>
-
       <div class="cv-h2">KEY PROJECTS</div>
       <div class="cv-pg">
-        <div class="cv-pi"><div class="cv-pn">Antahkarana Reasoning Framework</div><div class="cv-pt">Python · Qwen · BLIP-3 · Patent filed · IEEE submitted</div></div>
+        <div class="cv-pi"><div class="cv-pn">Antahkarana Reasoning Framework</div><div class="cv-pt">Python · Qwen · BLIP-3 · Patent filed · IEEE submitted · Scholar indexed</div></div>
         <div class="cv-pi"><div class="cv-pn">Antahkarana Medical AI (Live on Azure)</div><div class="cv-pt">Azure · GitHub Actions CI/CD · Multimodal · Full-stack</div></div>
         <div class="cv-pi"><div class="cv-pn">TinyLLaMA & Mini-VLM (HuggingFace)</div><div class="cv-pt">Built from scratch · LoRA fine-tune · 2 live public models</div></div>
         <div class="cv-pi"><div class="cv-pn">MML Smart Campus Security</div><div class="cv-pt">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
@@ -1541,7 +1811,7 @@ footer p {
       </div>
 
       <div class="cv-ft">
-        <span>rajaganaa.github.io · github.com/rajaganaa · huggingface.co/RajGana</span>
+        <span>rajaganaa.github.io · orcid.org/0009-0006-9701-7942 · scholar.google.com</span>
         <span id="cvGenDate">Generated May 2026</span>
       </div>
     </div>
@@ -1561,11 +1831,10 @@ footer p {
 
 <footer>
   <p>© 2026 Rajaganapathy M — AI Engineer · Chennai, India</p>
-  <p>Patent pending · IEEE under review · Open to world-class opportunities</p>
+  <p>Patent pending · IEEE under review · ORCID: 0009-0006-9701-7942 · Open to world-class opportunities</p>
 </footer>
 
 <script>
-// ── SCROLL REVEAL ──
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((e, i) => {
     if (e.isIntersecting) {
@@ -1576,10 +1845,8 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-// ── THEME TOGGLE ──
 const toggle = document.getElementById('themeToggle');
 let light = false;
-
 const lightCSS = `
   body { --bg:#f4f2ed; --bg2:#ece9e2; --bg3:#e2dfd8; --bg4:#d8d5ce;
     --border:rgba(0,0,0,0.07); --border-md:rgba(0,0,0,0.13); --border-hi:rgba(0,0,0,0.22);
@@ -1589,27 +1856,19 @@ const lightCSS = `
   .hero-grid { background-image: linear-gradient(rgba(0,0,0,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,0.03) 1px,transparent 1px) !important; }
   .dot { background: var(--bg4) !important; }
 `;
-let lightStyle = null;
-
 toggle.addEventListener('click', () => {
   light = !light;
   toggle.textContent = light ? '☾ dark' : '☀ light';
   if (light) {
-    lightStyle = document.createElement('style');
-    lightStyle.id = 'light-override';
-    lightStyle.textContent = lightCSS;
-    document.head.appendChild(lightStyle);
-  } else {
-    document.getElementById('light-override')?.remove();
-  }
+    const s = document.createElement('style');
+    s.id = 'light-override'; s.textContent = lightCSS;
+    document.head.appendChild(s);
+  } else { document.getElementById('light-override')?.remove(); }
 });
 
-// ── CV DOWNLOAD ──
-function downloadCV(e) {
-  if (e) e.preventDefault();
+function downloadCV() {
   const genDate = new Date().toLocaleDateString('en-GB', {month:'long', year:'numeric'});
-  const html = `<!DOCTYPE html>
-<html><head><meta charset="UTF-8"/>
+  const html = `<!DOCTYPE html><html><head><meta charset="UTF-8"/>
 <title>Rajaganapathy M — CV</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
@@ -1618,7 +1877,7 @@ body{font-family:'DM Sans',sans-serif;color:#18180f;background:#fff;font-size:14
 @media print{body{padding:1.5rem 2rem;}}
 h1{font-family:'DM Sans',sans-serif;font-size:2.4rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:0.2rem;}
 .sub{font-family:'DM Mono',monospace;font-size:11px;color:#4a9400;letter-spacing:0.1em;margin-bottom:0.75rem;}
-.bar{font-family:'DM Mono',monospace;font-size:11px;color:#5a5750;display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #18180f;}
+.bar{font-family:'DM Mono',monospace;font-size:11px;color:#5a5750;display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #18180f;}
 .bdg{display:inline-flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem;}
 .b{font-family:'DM Mono',monospace;font-size:10px;border:1px solid #4a9400;color:#4a9400;padding:2px 9px;}
 h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.18em;color:#4a9400;margin:1.5rem 0 0.6rem;padding-bottom:3px;border-bottom:1px solid #e0ddd6;}
@@ -1639,42 +1898,47 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
 .cl{display:grid;grid-template-columns:1fr 1fr;gap:4px;}
 .ce{font-family:'DM Mono',monospace;font-size:11px;font-weight:300;color:#5a5750;}
 .ce span{color:#18180f;font-weight:500;}
-.ft{margin-top:2rem;padding-top:1rem;border-top:1px solid #e0ddd6;font-family:'DM Mono',monospace;font-size:10px;color:#9a9890;display:flex;justify-content:space-between;}
+.ft{margin-top:2rem;padding-top:1rem;border-top:1px solid #e0ddd6;font-family:'DM Mono',monospace;font-size:10px;color:#9a9890;display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;}
 </style></head><body>
 <h1>Rajaganapathy M</h1>
 <div class="sub">AI / ML ENGINEER · LLM · AGENTIC AI · RAG · MULTI-AGENT SYSTEMS</div>
 <div class="bar">
   <span>✉ rajaganaa@gmail.com</span><span>📞 +91 9176631419</span>
   <span>🌐 rajaganaa.github.io</span><span>in raja-ganapathy-36b00658</span>
-  <span>⌥ github.com/rajaganaa</span><span>📍 Chennai, India</span>
+  <span>⌥ github.com/rajaganaa</span>
+  <span>🆔 orcid.org/0009-0006-9701-7942</span>
+  <span>📚 Google Scholar · Raja Ganapathy M</span>
+  <span>📍 Chennai, India</span>
 </div>
 <div class="bdg">
   <span class="b">⚡ PATENT FILED · APR 2026</span>
   <span class="b">📄 IEEE PAPER SUBMITTED</span>
-  <span class="b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
+  <span class="b">🎓 M.TECH AI · MAY 2026 · 9.6 CGPA</span>
   <span class="b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
+  <span class="b" style="border-color:#a6ce39;color:#a6ce39;">🆔 ORCID REGISTERED</span>
+  <span class="b" style="border-color:#4285f4;color:#4285f4;">📚 GOOGLE SCHOLAR</span>
   <span class="b">9+ YRS ENGINEERING</span>
 </div>
 <h2>PROFILE</h2>
-<p class="sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted. Built and published 2 live models on HuggingFace (LLM + VLM, trained from scratch). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment. Brings production engineering rigour — designed for failure modes, hard constraints, and scale — to every AI system built.</p>
+<p class="sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted, indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 2 live models on HuggingFace.</p>
+<h2>RESEARCH &amp; IP</h2>
+<div class="ei"><div class="er">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs</div><div class="eo">IEEE Conference Paper · 2026 · Under Review · Google Scholar Indexed · Authors: Raja Ganapathy M, RG Karthikeyan</div></div>
+<div class="ei"><div class="eh"><span class="er">Indian Patent — Antahkarana Adaptive AI Reasoning System</span><span class="ed">Filed Apr 3, 2026</span></div><div class="eo">Application No. 202641043947 · Indian Patent Office</div></div>
 <h2>EDUCATION</h2>
 <div class="ei"><div class="eh"><span class="er">M.Tech — Artificial Intelligence</span><span class="ed">2024 – May 2026</span></div><div class="eo">SRM Institute of Science &amp; Technology · Chennai · CGPA: 9.6 / 10 · <strong>Graduated</strong></div></div>
 <div class="ei"><div class="eh"><span class="er">B.E — Electrical & Electronics Engineering</span><span class="ed">2013</span></div><div class="eo">Thangavelu Engineering College · Chennai</div></div>
-<h2>RESEARCH & IP</h2>
-<div class="ei"><div class="er">Indian Patent Filed — Antahkarana System</div><div class="eo">Application No. 202641043947 · Filed April 3, 2026</div><div class="ex">Cognitively-inspired adaptive reasoning framework for LLMs and VLMs. System design protected under Indian IP law.</div></div>
-<div class="ei"><div class="er">IEEE Conference Paper — Submitted</div><div class="eo">SRM Institute of Science & Technology, Kattankulathur</div><div class="ex">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs. Under review.</div></div>
 <h2>KEY PROJECTS</h2>
 <div class="pg">
-  <div class="pi"><div class="pn">Antahkarana Reasoning Framework</div><div class="pt">Python · Qwen · BLIP-3 · Patent filed · IEEE submitted</div></div>
-  <div class="pi"><div class="pn">Antahkarana Medical AI (Live)</div><div class="pt">Azure · GitHub Actions CI/CD · Multimodal · Full-stack</div></div>
-  <div class="pi"><div class="pn">MML Smart Campus Security</div><div class="pt">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
+  <div class="pi"><div class="pn">Antahkarana Reasoning Framework</div><div class="pt">Python · Qwen · BLIP-3 · Patent · IEEE · Scholar</div></div>
+  <div class="pi"><div class="pn">Antahkarana Medical AI (Live)</div><div class="pt">Azure · GitHub Actions CI/CD · Multimodal</div></div>
+  <div class="pi"><div class="pn">MML Smart Campus Security</div><div class="pt">OpenAI CLIP · BLIP · PyTorch · Voice Biometrics</div></div>
   <div class="pi"><div class="pn">AgentNet Enterprise Support</div><div class="pt">Multi-agent · LLM-as-Judge · RAG · Vertex AI</div></div>
   <div class="pi"><div class="pn">Hospital Readmission Predictor</div><div class="pt">XGBoost · Streamlit · Healthcare analytics</div></div>
-  <div class="pi"><div class="pn">Conscious AI Browser (Chromium)</div><div class="pt">26,000 build steps · LLaMA 3.3 70B · Linux .deb · Vercel</div></div>
+  <div class="pi"><div class="pn">Conscious AI Browser (Chromium)</div><div class="pt">26,000 build steps · LLaMA 3.3 70B · Linux .deb</div></div>
 </div>
 <h2>PROFESSIONAL EXPERIENCE</h2>
-<div class="ei"><div class="eh"><span class="er">Electrical Construction Site Engineer</span><span class="ed">Jan 2017 – Jun 2023</span></div><div class="eo">SR Electrical Works · Chennai</div><div class="ex">Large-scale electrical systems for construction projects. Led budget estimation, resource allocation, site supervision, and cross-team coordination under hard safety constraints.</div></div>
-<div class="ei"><div class="eh"><span class="er">Electrical Maintenance Engineer</span><span class="ed">Dec 2014 – Dec 2016</span></div><div class="eo">Mod Forge Pvt. Ltd. · ISO/TS 16949 Certified · Chennai</div><div class="ex">O&M of 500 kVA transformer, 250 kVA DG, motors up to 400 kW, power factor correction panels and automation under C-certificate supervision.</div></div>
+<div class="ei"><div class="eh"><span class="er">Electrical Construction Site Engineer</span><span class="ed">Jan 2017 – Jun 2023</span></div><div class="eo">SR Electrical Works · Chennai</div><div class="ex">Large-scale electrical systems. Budget estimation, resource allocation, site supervision under hard safety constraints.</div></div>
+<div class="ei"><div class="eh"><span class="er">Electrical Maintenance Engineer</span><span class="ed">Dec 2014 – Dec 2016</span></div><div class="eo">Mod Forge Pvt. Ltd. · ISO/TS 16949 · Chennai</div><div class="ex">O&M of 500 kVA transformer, 250 kVA DG, motors up to 400 kW under C-certificate supervision.</div></div>
 <h2>TECHNICAL SKILLS</h2>
 <div class="sc">
   <div><div class="sg">Generative AI / LLMs</div><div class="sl">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
@@ -1683,18 +1947,18 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
 </div>
 <h2>CERTIFICATIONS</h2>
 <div class="cl">
-  <div class="ce"><span>AWS</span> Solutions Architect Associate · Udemy 2025</div>
+  <div class="ce"><span>AWS</span> Solutions Architect Associate · 2025</div>
   <div class="ce"><span>GUVI</span> AI &amp; ML Professional Program · IIT-M 2024</div>
   <div class="ce"><span>Kaggle</span> 5-Day AI Agents Intensive with Google · 2025</div>
   <div class="ce"><span>DevOps</span> Beginners to Advanced · Udemy 2025</div>
   <div class="ce"><span>NPTEL</span> Introduction to Internet of Things · 2025</div>
   <div class="ce"><span>IIT-M</span> Certificate Professional · Advanced Programming 2024</div>
-  <div class="ce"><span>OpenCV</span> OpenCV University Certification · 2025</div>
-  <div class="ce"><span>Simplilearn</span> PyTorch · TensorFlow · DSA · GIT · MongoDB</div>
 </div>
-<div class="ft"><span>rajaganaa.github.io · github.com/rajaganaa</span><span>Generated ${genDate}</span></div>
+<div class="ft">
+  <span>rajaganaa.github.io · orcid.org/0009-0006-9701-7942 · scholar.google.com</span>
+  <span>Generated ${genDate}</span>
+</div>
 </body></html>`;
-
   const blob = new Blob([html], {type:'text/html'});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -1702,7 +1966,6 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
   a.click(); URL.revokeObjectURL(url);
 }
 
-// ── BLOG MODAL ──
 const blogs = [
   {
     tag: 'CAREER · AI',
@@ -1712,11 +1975,11 @@ const blogs = [
 <h3>What I thought would transfer</h3>
 <p>I assumed the engineering fundamentals would carry over: systems thinking, problem decomposition, reading technical documentation. I was right about those. What surprised me was <em>how much deeper</em> that transfer went.</p>
 <p>In industrial electrical work, you build things that operate continuously under unpredictable conditions. A 500 kVA transformer doesn't get to fail at 3am because the load spiked. You design for failure modes before they happen. You think about what the system does when something unexpected occurs — not just what it does when everything is normal.</p>
-<p>That mindset is rare in AI engineering. Most ML practitioners optimise for the happy path. They tune accuracy on the test set and ship. My instinct is always: <strong>what happens at the edge cases?</strong></p>
+<p>That mindset is rare in AI engineering. Most ML practitioners optimise for the happy path. My instinct is always: <strong>what happens at the edge cases?</strong></p>
 <h3>What actually doesn't transfer</h3>
 <p>Mathematics. I had to rebuild from scratch — linear algebra, probability theory, calculus. This took six months of uncomfortable work before I could read ML papers without feeling lost.</p>
 <h3>The unexpected advantage</h3>
-<p>The biggest transfer no one talks about: <em>project management in safety-critical environments</em>. When you've coordinated electrical installation across a live construction site — managing contractors, clients, timelines, and regulations simultaneously — running a complex ML project feels almost straightforward by comparison. The stakes are different, but the discipline is the same.</p>
+<p>The biggest transfer no one talks about: <em>project management in safety-critical environments</em>. When you've coordinated electrical installation across a live construction site, running a complex ML project feels almost straightforward by comparison.</p>
 <p>I don't regret the nine years. They made me a better AI engineer than I would have been if I'd started at 22.</p>`
   },
   {
@@ -1726,11 +1989,10 @@ const blogs = [
     body: `<p>Most LLM pipelines are, at their core, sophisticated prompt chains. You send a query, you get a response. Maybe you add retrieval. Maybe you add a tool call. But the fundamental architecture is linear: input → model → output.</p>
 <p>Antahkarana is different. It routes complex queries through specialised cognitive stages — each responsible for a distinct aspect of reasoning — before synthesising a final response. The inspiration came from an unlikely source: Vedantic philosophy.</p>
 <h3>The cognitive architecture</h3>
-<p>In Vedantic thought, the <em>antahkarana</em> is the inner instrument of the mind — four distinct functions: <strong>manas</strong> (perception and doubt), <strong>buddhi</strong> (discrimination and decision), <strong>chitta</strong> (memory and conditioning), and <strong>ahamkara</strong> (the ego that integrates everything into a coherent self).</p>
-<p>I mapped these directly to LLM reasoning stages. Manas handles initial query parsing and ambiguity detection. Buddhi routes the query to the appropriate specialised module. Chitta manages retrieval memory via FAISS vector search. The integration layer synthesises outputs without the "ego" problem — no single module dominates; the best answer wins.</p>
+<p>In Vedantic thought, the <em>antahkarana</em> is the inner instrument of the mind — four distinct functions: <strong>manas</strong> (perception and doubt), <strong>buddhi</strong> (discrimination and decision), <strong>chitta</strong> (memory and conditioning), and <strong>ahamkara</strong> (the ego that integrates everything).</p>
+<p>I mapped these directly to LLM reasoning stages. The result earned an Indian patent filing and a submitted IEEE paper — now indexed on Google Scholar and linked to my ORCID researcher identity.</p>
 <h3>Why it works better</h3>
-<p>The key insight is that different reasoning tasks require different cognitive postures. A factual retrieval query should not be processed the same way as a complex multi-step inference problem. By routing explicitly, Antahkarana applies the right tool to the right task — and the 2,500-sample validation showed measurable improvements in coherence on complex multimodal queries.</p>
-<p>The patent covers the routing and decision architecture. The IEEE paper covers the full experimental methodology. The framework is at github.com/rajaganaa/antahkarana-reasoning-framework.</p>`
+<p>The key insight is that different reasoning tasks require different cognitive postures. By routing explicitly, Antahkarana applies the right tool to the right task — and the 2,500-sample validation showed measurable improvements in coherence on complex multimodal queries.</p>`
   },
   {
     tag: 'AGENTIC AI',
@@ -1739,11 +2001,10 @@ const blogs = [
     body: `<p>When I started building the Antahkarana medical AI assistant, I had to make the RAG vs. fine-tuning decision for every sub-task. After months of building and testing, here's the framework I arrived at.</p>
 <h3>The question is wrong</h3>
 <p>The industry frames this as a binary choice. It isn't. The real question is: <em>what is the nature of the knowledge this task requires?</em></p>
-<p><strong>RAG wins</strong> when the knowledge is: external and updatable (medical guidelines change), verifiable (you need citations), or domain-specific and voluminous. For the medical assistant, this was almost everything.</p>
+<p><strong>RAG wins</strong> when the knowledge is: external and updatable (medical guidelines change), verifiable (you need citations), or domain-specific and voluminous.</p>
 <p><strong>Fine-tuning wins</strong> when the task requires: a specific output format the base model can't reliably produce, internalised reasoning patterns (not facts), or latency-critical inference where retrieval overhead is unacceptable.</p>
-<h3>What I actually did</h3>
-<p>The Antahkarana medical system uses RAG for factual retrieval and prompting for output formatting and clinical tone. The retrieval runs against a FAISS index of structured medical knowledge.</p>
-<p>The biggest lesson: <em>don't fine-tune to fix retrieval problems</em>. If your RAG pipeline is returning poor context, fine-tuning the generator won't help — it'll just learn to hallucinate more confidently. Fix the retrieval first.</p>
+<h3>The biggest lesson</h3>
+<p><em>Don't fine-tune to fix retrieval problems.</em> If your RAG pipeline is returning poor context, fine-tuning the generator won't help — it'll just learn to hallucinate more confidently. Fix the retrieval first.</p>
 <p>The live system is deployed at rajaganaa.github.io/antahkarana-frontend. It's multimodal — accepts text, images, and documents. Backend on Azure Container Instances. CI/CD via GitHub Actions.</p>`
   }
 ];
@@ -1765,7 +2026,6 @@ function closeOnOverlay(e) {
   if (e.target === document.getElementById('blogModal')) closeBlog();
 }
 
-// ── CV MODAL ──
 function openCVModal() {
   document.getElementById('cvModal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -1793,10 +2053,9 @@ function printCV() {
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'DM Sans',sans-serif;color:#18180f;background:#fff;font-size:14px;line-height:1.65;padding:2.5rem 3.5rem;}
-@media print{body{padding:1.5rem 2rem;}}
 .cv-h1{font-size:2.2rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:0.2rem;color:#18180f;}
 .cv-sub{font-family:'DM Mono',monospace;font-size:11px;color:#4a9400;letter-spacing:0.1em;margin-bottom:0.75rem;}
-.cv-bar{font-family:'DM Mono',monospace;font-size:11px;color:#5a5750;display:flex;flex-wrap:wrap;gap:1.25rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #18180f;}
+.cv-bar{font-family:'DM Mono',monospace;font-size:11px;color:#5a5750;display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid #18180f;}
 .cv-bdg{display:inline-flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem;}
 .cv-b{font-family:'DM Mono',monospace;font-size:10px;border:1px solid #4a9400;color:#4a9400;padding:2px 9px;}
 .cv-h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing:0.18em;color:#4a9400;margin:1.5rem 0 0.6rem;padding-bottom:3px;border-bottom:1px solid #e0ddd6;}
@@ -1817,13 +2076,12 @@ body{font-family:'DM Sans',sans-serif;color:#18180f;background:#fff;font-size:14
 .cv-cl{display:grid;grid-template-columns:1fr 1fr;gap:4px;}
 .cv-ce{font-family:'DM Mono',monospace;font-size:11px;font-weight:300;color:#5a5750;}
 .cv-ce span{color:#18180f;font-weight:500;}
-.cv-ft{margin-top:2rem;padding-top:1rem;border-top:1px solid #e0ddd6;font-family:'DM Mono',monospace;font-size:10px;color:#9a9890;display:flex;justify-content:space-between;}
+.cv-ft{margin-top:2rem;padding-top:1rem;border-top:1px solid #e0ddd6;font-family:'DM Mono',monospace;font-size:10px;color:#9a9890;display:flex;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;}
 </style></head><body>${content}</body></html>`);
   win.document.close();
   win.focus();
   setTimeout(() => win.print(), 600);
 }
-// Auto-open if URL has ?resume=1
 window.addEventListener('DOMContentLoaded', () => {
   if (new URLSearchParams(window.location.search).get('resume') === '1') {
     setTimeout(openCVModal, 400);
