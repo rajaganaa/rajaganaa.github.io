@@ -975,7 +975,7 @@ footer p {
     <span class="badge badge-g">⚡ Patent Filed · Apr 2026</span>
     <span class="badge badge-b">📄 IEEE Paper · Submitted</span>
     <span class="badge badge-g">🎓 M.Tech AI · Graduated May 2026 · 9.6 CGPA</span>
-    <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 2 Models Live · HuggingFace</span>
+    <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 3 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge" style="border-color:rgba(0,212,255,0.5);color:#00d4ff;background:rgba(0,212,255,0.05);">🌐 Conscious AI Browser · Chromium Source</span>
     <!-- ✅ NEW: ORCID + Scholar badges -->
@@ -1308,7 +1308,7 @@ footer p {
       <h3 class="proj-title">TinyLLaMA & Mini-VLM — Built from Scratch in 1 Day</h3>
       <p class="proj-desc">Built and trained a full LLM and Vision-Language Model from scratch in a single day. Transformer theory → LLM (loss 8.9→0.33) → VLM (loss 17→1.17) → LoRA fine-tune (loss 1.6→1.01) → published live on HuggingFace. Both models public at RajGana/tinyllama-alpaca-finetuned and RajGana/mini-vlm-scratch.</p>
       <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
-        <span>⚡ 2 live models · ~$10 compute · Day 1 build</span>
+        <span>⚡ 2 live models (LLM + VLM) · ~$10 compute · Day 1 build</span>
         <span style="display:flex;gap:8px;">
           <a href="https://huggingface.co/RajGana/tinyllama-alpaca-finetuned" target="_blank" onclick="event.stopPropagation()" style="color:var(--orange);text-decoration:none;font-size:10px;">🤗 LLM ↗</a>
           <a href="https://huggingface.co/RajGana/mini-vlm-scratch" target="_blank" onclick="event.stopPropagation()" style="color:var(--orange);text-decoration:none;font-size:10px;">🤗 VLM ↗</a>
@@ -1429,7 +1429,7 @@ footer p {
       <div class="rid-icon hf">🤗</div>
       <div style="flex:1;">
         <div class="rid-label hf">HUGGINGFACE</div>
-        <div class="rid-value">RajGana<br/><span style="font-size:9px;">2 live models · LLM + VLM</span></div>
+        <div class="rid-value">RajGana<br/><span style="font-size:9px;">3 live models · LLM · VLM · CodeLlama</span></div>
       </div>
       <div class="rid-arrow">↗</div>
     </a>
@@ -1512,7 +1512,7 @@ footer p {
         <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">VALIDATION SAMPLES</div>
       </div>
       <div style="text-align:center;">
-        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--text);line-height:1;">2</div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--text);line-height:1;">3</div>
         <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;color:var(--text-3);margin-top:4px;">HF LIVE MODELS</div>
       </div>
     </div>
@@ -1699,7 +1699,7 @@ footer p {
         <span>📚 Google Scholar</span><span class="contact-link-val" style="color:#4285f4;">Raja Ganapathy M · AI Fellow</span>
       </a>
       <a class="contact-link" href="https://huggingface.co/RajGana" target="_blank" style="color:var(--orange);">
-        <span>🤗 HuggingFace</span><span class="contact-link-val" style="color:var(--orange);">RajGana · 2 live models</span>
+        <span>🤗 HuggingFace</span><span class="contact-link-val" style="color:var(--orange);">RajGana · 3 live models</span>
       </a>
       <a class="contact-link" href="https://github.com/rajaganaa" target="_blank">
         <span>⌥ GitHub</span><span class="contact-link-val">github.com/rajaganaa</span>
@@ -1760,14 +1760,14 @@ footer p {
         <span class="cv-b">⚡ PATENT FILED · APR 2026</span>
         <span class="cv-b">📄 IEEE PAPER SUBMITTED</span>
         <span class="cv-b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
-        <span class="cv-b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
+        <span class="cv-b">🤗 3 LIVE MODELS · HUGGINGFACE</span>
         <span class="cv-b" style="border-color:#a6ce39;color:#a6ce39;">🆔 ORCID REGISTERED</span>
         <span class="cv-b" style="border-color:#4285f4;color:#4285f4;">📚 GOOGLE SCHOLAR VERIFIED</span>
         <span class="cv-b">9+ YRS ENGINEERING</span>
       </div>
 
       <div class="cv-h2">PROFILE</div>
-      <p class="cv-sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted and indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 2 live models on HuggingFace (LLM + VLM, trained from scratch). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment.</p>
+      <p class="cv-sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted and indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 3 live models on HuggingFace (LLM + VLM from scratch; CodeLlama-7B fine-tuned with QLoRA on AWS SageMaker). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment.</p>
 
       <div class="cv-h2">RESEARCH &amp; INTELLECTUAL PROPERTY</div>
       <div class="cv-ei">
@@ -1935,13 +1935,13 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
   <span class="b">⚡ PATENT FILED · APR 2026</span>
   <span class="b">📄 IEEE PAPER SUBMITTED</span>
   <span class="b">🎓 M.TECH AI · MAY 2026 · 9.6 CGPA</span>
-  <span class="b">🤗 2 LIVE MODELS · HUGGINGFACE</span>
+  <span class="b">🤗 3 LIVE MODELS · HUGGINGFACE</span>
   <span class="b" style="border-color:#a6ce39;color:#a6ce39;">🆔 ORCID REGISTERED</span>
   <span class="b" style="border-color:#4285f4;color:#4285f4;">📚 GOOGLE SCHOLAR</span>
   <span class="b">9+ YRS ENGINEERING</span>
 </div>
 <h2>PROFILE</h2>
-<p class="sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted, indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 2 live models on HuggingFace.</p>
+<p class="sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted, indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 3 live models on HuggingFace (LLM + VLM from scratch; CodeLlama-7B fine-tuned with QLoRA on AWS SageMaker).</p>
 <h2>RESEARCH &amp; IP</h2>
 <div class="ei"><div class="er">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs</div><div class="eo">IEEE Conference Paper · 2026 · Under Review · Google Scholar Indexed · Authors: Raja Ganapathy M, RG Karthikeyan</div></div>
 <div class="ei"><div class="eh"><span class="er">Indian Patent — Antahkarana Adaptive AI Reasoning System</span><span class="ed">Filed Apr 3, 2026</span></div><div class="eo">Application No. 202641043947 · Indian Patent Office</div></div>
