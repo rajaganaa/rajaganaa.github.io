@@ -999,7 +999,7 @@ footer p {
 
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
-    <div class="stat"><div class="stat-num">10+</div><div class="stat-label">PROJECTS BUILT</div></div>
+    <div class="stat"><div class="stat-num">11+</div><div class="stat-label">PROJECTS BUILT</div></div>
     <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA · GRADUATED</div></div>
   </div>
 </section>
@@ -1019,7 +1019,7 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤗 2 LIVE MODELS ON HUGGINGFACE · LLM + VLM FROM SCRATCH
+    🤗 3 LIVE MODELS ON HUGGINGFACE · LLM · VLM · CODELLAMA FINE-TUNE
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1045,7 +1045,7 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤗 2 LIVE MODELS ON HUGGINGFACE · LLM + VLM FROM SCRATCH
+    🤗 3 LIVE MODELS ON HUGGINGFACE · LLM · VLM · CODELLAMA FINE-TUNE
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1346,7 +1346,7 @@ footer p {
         <span class="proj-tag">HuggingFace</span>
       </div>
       <h3 class="proj-title">CodeLlama Coding Assistant — Fine-tuned on AWS SageMaker</h3>
-      <p class="proj-desc">Fine-tuned CodeLlama-7B with QLoRA (4-bit) on CodeAlpaca-20K dataset using AWS SageMaker ml.g4dn.xlarge. Full MLOps pipeline: SageMaker training → S3 → HuggingFace Hub → Gradio Space → Groq inference. Live demo supports code completion, debugging, and explanation.</p>
+      <p class="proj-desc">Fine-tuned CodeLlama-7B with QLoRA (4-bit) on CodeAlpaca-20K using AWS SageMaker ml.g4dn.xlarge. Full MLOps pipeline: SageMaker → S3 → HuggingFace Hub → Gradio Space → Groq inference API. Live demo supports code completion, debugging, and explanation in real time.</p>
       <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
         <span>⚡ CodeLlama-7B · QLoRA · SageMaker · Groq API</span>
         <span style="display:flex;gap:8px;">
