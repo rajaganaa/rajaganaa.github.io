@@ -942,7 +942,7 @@ footer p {
     <li><a href="#resume">resume</a></li>
     <li><a href="#contact">contact</a></li>
     <li><a href="https://youtube.com/@rajaganaaAI" target="_blank" style="color:var(--green);">▶ youtube</a></li>
-    <li><a href="https://anbuclinic.me" target="_blank" style="color:var(--green);font-weight:700;">🏥 anbuclinic.me</a></li>
+    <li><a href="https://anbuclinic.me" target="_blank" style="color:var(--green);font-weight:600;border:1px solid rgba(184,240,80,0.4);padding:2px 8px;">🏥 live</a></li>
   </ul>
   <div class="nav-right">
     <button class="btn-nav" id="themeToggle">☀ light</button>
@@ -957,7 +957,7 @@ footer p {
   <div class="hero-glow"></div>
   <div class="hero-glow2"></div>
 
-  <div class="hero-eyebrow">m.tech ai graduate · may 2026 · available for ai/ml roles · chennai · bangalore · hyderabad</div>
+  <div class="hero-eyebrow">ai/ml engineer · founder, ai vision · 2+ yrs freelance · 9+ yrs engineering · live product: anbuclinic.me</div>
 
   <h1 class="hero-name">
     Raja Ganapathy M
@@ -968,20 +968,20 @@ footer p {
 
   <p class="hero-tagline">
     I spent nine years engineering systems where <strong>failure wasn't an option.</strong>
-    Now I build AI with that same discipline —
-    a filed patent and an IEEE paper are the proof.
+    Then two years building real AI products for real clients —
+    <strong>anbuclinic.me is live today,</strong> billed and running in Tamil Nadu.
+    A filed patent and an IEEE paper are the research proof.
   </p>
 
   <div class="hero-badges">
+    <span class="badge badge-g" style="font-weight:700;font-size:11px;padding:0.45rem 1.1rem;">🏥 anbuclinic.me · LIVE PRODUCT · BILLED</span>
     <span class="badge badge-g">⚡ Patent Filed · Apr 2026</span>
     <span class="badge badge-b">📄 IEEE Paper · Submitted</span>
     <span class="badge badge-g">🎓 M.Tech AI · Graduated May 2026 · 9.6 CGPA</span>
+    <span class="badge" style="border-color:rgba(240,160,50,0.6);color:#f0a040;background:rgba(240,160,50,0.07);">🏢 AI Vision · Founder · Freelance AIML · 2+ Yrs</span>
     <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 3 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge" style="border-color:rgba(0,212,255,0.5);color:#00d4ff;background:rgba(0,212,255,0.05);">🌐 Conscious AI Browser · Chromium Source</span>
-    <span class="badge" style="border-color:rgba(184,240,80,0.6);color:#b8f050;background:rgba(184,240,80,0.07);font-weight:700;">🏥 anbuclinic.me · LIVE PRODUCT</span>
-    <span class="badge" style="border-color:rgba(80,200,240,0.5);color:#50c8f0;background:rgba(80,200,240,0.05);">🤖 Spec-Driven Multi-Agent · Google ADK · Startup</span>
-    <!-- ✅ NEW: ORCID + Scholar badges -->
     <span class="badge" style="border-color:rgba(166,206,57,0.5);color:#a6ce39;background:rgba(166,206,57,0.05);">🆔 ORCID · 0009-0006-9701-7942</span>
     <span class="badge" style="border-color:rgba(66,133,244,0.5);color:#4285f4;background:rgba(66,133,244,0.05);">📚 Google Scholar · Verified Profile</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
@@ -990,8 +990,9 @@ footer p {
   </div>
 
   <div class="hero-actions">
-    <a class="btn-primary" href="#projects">view my work →</a>
-    <a class="btn-outline" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ live demo ↗</a>
+    <a class="btn-primary" href="https://anbuclinic.me" target="_blank">🏥 live product →</a>
+    <a class="btn-outline" href="#projects">view all work →</a>
+    <a class="btn-outline" href="https://rajaganaa.github.io/antahkarana-frontend/" target="_blank">⚡ demo ↗</a>
     <a class="btn-outline" href="https://huggingface.co/RajGana" target="_blank" style="border-color:rgba(255,160,50,0.6);color:#f0a040;">🤗 huggingface ↗</a>
     <a class="btn-outline" href="https://orcid.org/0009-0006-9701-7942" target="_blank" style="border-color:rgba(166,206,57,0.6);color:#a6ce39;">🆔 orcid ↗</a>
     <button class="btn-outline" onclick="openCVModal()">↓ view & download cv</button>
@@ -1002,43 +1003,18 @@ footer p {
 
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
-    <div class="stat"><div class="stat-num">13+</div><div class="stat-label">PROJECTS BUILT</div></div>
-    <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA · GRADUATED</div></div>
+    <div class="stat"><div class="stat-num">2+</div><div class="stat-label">YRS FREELANCE AIML</div></div>
+    <div class="stat"><div class="stat-num">1</div><div class="stat-label">LIVE BILLED PRODUCT</div></div>
+    <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA</div></div>
   </div>
 </section>
 
 <!-- TICKER -->
 <div class="ticker-wrap">
   <div class="ticker-inner">
-    &nbsp;&nbsp;&nbsp;⚡ PATENT FILED · APP NO. 202641043947
+    &nbsp;&nbsp;&nbsp;🏥 ANBUCLINIC.ME · LIVE AI PRODUCT · BILLED · JUNE 2026
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🆔 ORCID · 0009-0006-9701-7942
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    📚 GOOGLE SCHOLAR · ANTAHKARANA · 2026
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤗 3 LIVE MODELS ON HUGGINGFACE · LLM · VLM · CODELLAMA FINE-TUNE
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE · LLAMA 3.3 70B
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 13 PRODUCTION AI SYSTEMS
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🏥 ANBU HEALTH AI · LIVE · ANBUCLINIC.ME
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤖 SPEC-DRIVEN MULTI-AGENT · GOOGLE ADK · GEMINI 2.5
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    ☁️ AWS SOLUTIONS ARCHITECT CERTIFIED · 2025
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    📍 OPEN TO ROLES IN CHENNAI · BANGALORE · HYDERABAD
+    🏢 AI VISION · FOUNDER · FREELANCE AIML ENGINEER · 2+ YEARS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     ⚡ PATENT FILED · APP NO. 202641043947
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1060,9 +1036,35 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🛠 13 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🏥 ANBU HEALTH AI · LIVE · ANBUCLINIC.ME
+    🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🤖 SPEC-DRIVEN MULTI-AGENT · GOOGLE ADK · GEMINI 2.5
+    ☁️ AWS SOLUTIONS ARCHITECT CERTIFIED · 2025
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📍 OPEN TO ROLES IN CHENNAI · BANGALORE · HYDERABAD
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🏥 ANBUCLINIC.ME · LIVE AI PRODUCT · BILLED · JUNE 2026
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🏢 AI VISION · FOUNDER · FREELANCE AIML ENGINEER · 2+ YEARS
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    ⚡ PATENT FILED · APP NO. 202641043947
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📄 IEEE CONFERENCE PAPER SUBMITTED · SRM INSTITUTE
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🆔 ORCID · 0009-0006-9701-7942
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    📚 GOOGLE SCHOLAR · ANTAHKARANA · 2026
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🚀 ANTAHKARANA AI — LIVE DEMO DEPLOYED
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🤗 3 LIVE MODELS ON HUGGINGFACE · LLM · VLM · CODELLAMA FINE-TUNE
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    ▶ CONSCIOUS AI — YOUTUBE CHANNEL · @rajaganaaAI
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE · LLAMA 3.3 70B
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🛠 13 PRODUCTION AI SYSTEMS
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1108,9 +1110,19 @@ footer p {
           <div class="tl-org">After 9+ years of production engineering</div>
         </div>
         <div class="tl-item">
+          <div class="tl-year">2024 – Present</div>
+          <div class="tl-role" style="color:var(--orange);">Founder & AI/ML Freelance Engineer — AI Vision <span style="font-family:'DM Mono',monospace;font-size:10px;border:1px solid rgba(240,160,64,0.5);padding:1px 7px;margin-left:6px;vertical-align:middle;">Udyam Reg: UDYAM-TN-02-0483528</span></div>
+          <div class="tl-org" style="color:var(--text-2);">Built & billed real AI products for clients · Invoice AIV-2026-001 issued · Anbu Clinic, Ariyalur District, TN</div>
+        </div>
+        <div class="tl-item">
           <div class="tl-year">2024 – May 2026</div>
           <div class="tl-role">M.Tech Artificial Intelligence · 9.6 CGPA · <span style="color:var(--green);">Graduated ✓</span></div>
           <div class="tl-org">SRM Institute of Science & Technology</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">Jun 2026</div>
+          <div class="tl-role" style="color:var(--green);">Anbu Health AI — LIVE at anbuclinic.me</div>
+          <div class="tl-org">React 19 · Groq LLaMA 3.3 70B · GPT-4o · Qdrant · Supabase · Sarvam Tamil TTS · Azure · Terraform · DPDP compliant</div>
         </div>
         <div class="tl-item">
           <div class="tl-year">Apr 2026</div>
@@ -1127,27 +1139,29 @@ footer p {
 
     <div class="about-body reveal">
       <p>
-        I am an <strong>AI/ML Engineer</strong> specialising in LLMs, Agentic AI, RAG pipelines,
-        and multi-agent systems. After nine years as a practising electrical engineer,
-        I made a deliberate leap into AI in 2023 — and in May 2026 graduated with
-        <strong>M.Tech in Artificial Intelligence (CGPA 9.6/10)</strong> from SRM Institute, proving
-        it was the right decision.
+        I am an <strong>AI/ML Engineer</strong> and the founder of <strong>AI Vision</strong>
+        (Udyam Reg: UDYAM-TN-02-0483528) — a registered freelance AI practice I've been running
+        for 2+ years alongside my M.Tech. I don't just build AI systems as projects.
+        <em>I build them for paying clients, invoice them, and keep them running in production.</em>
       </p>
       <p>
-        My flagship project, <strong>Antahkarana</strong>, is a cognitively-inspired adaptive
+        My most recent work is <strong>Anbu Health AI</strong> — live today at
+        <a href="https://anbuclinic.me" target="_blank" style="color:var(--green);text-decoration:none;font-weight:600;">anbuclinic.me</a>.
+        It's a real AI doctor assistant for village clinic patients in Ariyalur District, Tamil Nadu —
+        Tamil voice + text, medicine image analysis (GPT-4o), lab PDF parsing, Groq LLaMA 3.3 70B,
+        Qdrant RAG, Sarvam Tamil TTS, Azure Container Apps, full DPDP Act compliance.
+        Invoice AIV-2026-001 issued to Anbu Clinic in June 2026. <em>This is paid freelance work.</em>
+      </p>
+      <p>
+        My flagship research project, <strong>Antahkarana</strong>, is a cognitively-inspired adaptive
         reasoning framework for LLMs and VLMs — drawing on Vedantic cognitive architecture.
         It earned a <em>filed Indian patent</em> and a <em>submitted IEEE Conference paper</em>
-        — now indexed on <em>Google Scholar</em> and linked to my <em>ORCID</em> researcher identity.
+        now indexed on <em>Google Scholar</em> and linked to my <em>ORCID</em> researcher identity.
       </p>
       <p>
-        What I bring that most candidates don't: the discipline of a practising engineer who
-        has operated under hard constraints in safety-critical environments. I think about
-        AI the way production engineers think about infrastructure —
-        <strong>reliably, at scale, with failure modes already mapped.</strong>
-      </p>
-      <p>
-        <strong>CGPA 9.6/10</strong> · AWS Solutions Architect · DevOps · GUVI AIML Professional
-        · IIT-M Advanced Programming · NPTEL IoT · Kaggle AI Agents (Google)
+        What I bring that most candidates don't: 9 years of safety-critical engineering discipline,
+        2+ years of real freelance delivery, a live billed product, a patent, and an IEEE paper —
+        all built while completing an M.Tech with a <strong>9.6 CGPA.</strong>
       </p>
     </div>
   </div>
@@ -1218,18 +1232,76 @@ footer p {
       </div>
     </div>
 
-    <!-- P.002 -->
-    <a class="proj-card reveal" href="https://github.com/rajaganaa/antahkarana-product" target="_blank">
-      <div class="proj-top"><span class="proj-num">P.002</span><span class="proj-arrow">↗</span></div>
-      <div class="proj-tags">
-        <span class="proj-tag proj-tag-g">Agentic AI</span>
-        <span class="proj-tag">Azure</span>
-        <span class="proj-tag">Multimodal</span>
+    <!-- P.002 — ANBU HEALTH AI — LIVE PRODUCT -->
+    <div class="proj-featured reveal" style="border-color:rgba(184,240,80,0.35);margin-top:1px;">
+      <div class="feat-left">
+        <div class="feat-num">P.002 · LIVE FREELANCE PRODUCT · BILLED</div>
+        <h2 class="feat-title">Anbu Health<span>AI — anbuclinic.me</span></h2>
+        <p class="feat-desc">
+          A real AI doctor assistant for village clinic patients in Ariyalur District, Tamil Nadu —
+          built under AI Vision (my registered freelance company) and billed to Anbu Clinic.
+          Invoice AIV-2026-001 · ₹21,500 · June 2026. Tamil voice + text, medicine image analysis,
+          lab PDF parsing, appointment booking. DPDP Act 2023 compliant. Running in production today.
+        </p>
+        <div class="feat-tags">
+          <span class="badge badge-g" style="font-size:11px;">LIVE · anbuclinic.me</span>
+          <span class="badge" style="border-color:rgba(240,160,50,0.5);color:#f0a040;">Freelance · Billed · AI Vision</span>
+          <span class="badge badge-b">Azure Container Apps</span>
+          <span class="badge">React 19 · FastAPI</span>
+          <span class="badge">Groq · LLaMA 3.3 70B</span>
+          <span class="badge">GPT-4o Vision</span>
+          <span class="badge">Qdrant RAG</span>
+          <span class="badge">Supabase · Redis</span>
+          <span class="badge">Sarvam Tamil TTS</span>
+          <span class="badge">Firebase OTP</span>
+          <span class="badge">Terraform IaC</span>
+          <span class="badge">Prometheus · Grafana</span>
+          <span class="badge">DPDP Act 2023</span>
+        </div>
       </div>
-      <h3 class="proj-title">Antahkarana Medical AI — Unified Reasoning Engine</h3>
-      <p class="proj-desc">Full-stack medical AI assistant built on the Antahkarana framework. Deployed on Azure with a live frontend. Multimodal — processes text, images, and documents. CI/CD via GitHub Actions.</p>
-      <div class="proj-metric">⚡ Deployed on Azure · CI/CD · 16 commits</div>
-    </a>
+      <div class="feat-right">
+        <div class="ach-item">
+          <div class="ach-icon">🏥</div>
+          <div>
+            <div class="ach-title">Live Product — anbuclinic.me</div>
+            <div class="ach-body">Deployed on Azure Central India · serving Anbu Clinic patients · Pappakudi, Ariyalur District, Tamil Nadu</div>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon">🧾</div>
+          <div>
+            <div class="ach-title">Invoice AIV-2026-001 · ₹21,500 · Jun 2026</div>
+            <div class="ach-body">AI Vision (Udyam Reg: UDYAM-TN-02-0483528) · Billed to Anbu Clinic · Dr. Raghul M.D · Dr. Rajeswari M.D</div>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon">🗣️</div>
+          <div>
+            <div class="ach-title">Tamil Voice + Multilingual AI</div>
+            <div class="ach-body">Sarvam AI Bulbul TTS · Web Speech API Tamil voice input · serves patients with no English literacy</div>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon">🔬</div>
+          <div>
+            <div class="ach-title">Multimodal — Image + PDF + Voice + Text</div>
+            <div class="ach-body">Medicine strip photo → drug info (GPT-4o) · Lab PDF parsing (PyMuPDF) · Dosage calculator · Schedule H1 drug blocking</div>
+          </div>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon">🛡️</div>
+          <div>
+            <div class="ach-title">Full Compliance Stack</div>
+            <div class="ach-body">DPDP Act 2023 · IT Rules 2021 · PHI redaction · Consent management · Grievance Officer · Right to erasure</div>
+          </div>
+        </div>
+        <div class="feat-links">
+          <a class="btn-feat-primary" href="https://anbuclinic.me" target="_blank">🏥 live product →</a>
+          <a class="btn-feat-secondary" href="https://github.com/rajaganaa/anbu-health-ai" target="_blank">frontend ↗</a>
+          <a class="btn-feat-secondary" href="https://github.com/rajaganaa/anbu-health-ai-api" target="_blank">api ↗</a>
+        </div>
+      </div>
+    </div>
 
     <!-- P.003 -->
     <a class="proj-card reveal" href="https://github.com/rajaganaa/MML_smart_campus_security_system" target="_blank">
@@ -1368,67 +1440,11 @@ footer p {
       </div>
     </a>
 
-    <!-- P.012 -->
-    <a class="proj-card reveal" href="https://github.com/rajaganaa/Healthcare-Review-NLP" target="_blank">
-      <div class="proj-top"><span class="proj-num">P.012</span><span class="proj-arrow">↗</span></div>
-      <div class="proj-tags">
-        <span class="proj-tag">NLP · Sentiment</span>
-        <span class="proj-tag">Healthcare</span>
-        <span class="proj-tag">scikit-learn</span>
-      </div>
-      <h3 class="proj-title">Healthcare Review NLP Sentiment Engine</h3>
-      <p class="proj-desc">TextBlob rule-based polarity + TF-IDF vectorization + SMOTE class balancing + ensemble classification pipeline. Automates patient feedback classification replacing manual hospital review audits.</p>
-      <div class="proj-metric">⚡ WordNet Lemmatization · POS tagging · Ensemble classifiers · SMOTE</div>
-    </a>
-
-    <!-- P.013 -->
-    <a class="proj-card reveal" href="https://anbuclinic.me" target="_blank" style="border: 1px solid rgba(184,240,80,0.25);">
-      <div class="proj-top"><span class="proj-num">P.013</span><span class="proj-arrow" style="color:var(--green);">↗</span></div>
-      <div class="proj-tags">
-        <span class="proj-tag proj-tag-g">Live Product</span>
-        <span class="proj-tag proj-tag-g">anbuclinic.me</span>
-        <span class="proj-tag">Healthcare AI</span>
-        <span class="proj-tag">Tamil</span>
-        <span class="proj-tag">Azure</span>
-        <span class="proj-tag">Full-Stack</span>
-      </div>
-      <h3 class="proj-title">Anbu Health AI — Village Clinic AI (Live)</h3>
-      <p class="proj-desc">Production-deployed AI health assistant for Tamil Nadu village clinic patients. React 19 frontend + FastAPI backend. Firebase OTP auth · Groq LLaMA 3.3 70B · GPT-4o vision (medicine/lab/scan analysis) · Qdrant RAG · Supabase · Sarvam AI Bulbul Tamil TTS · Azure Container Apps · Terraform IaC · Prometheus + Grafana monitoring · DPDP Act 2023 compliance · DuckDuckGo live citations. Voice input in Tamil + English via Web Speech API.</p>
-      <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
-        <span>⚡ Live at anbuclinic.me · Azure Central India · Antahkarana engine · DPDP compliant</span>
-        <span style="display:flex;gap:8px;">
-          <a href="https://anbuclinic.me" target="_blank" onclick="event.stopPropagation()" style="color:var(--green);text-decoration:none;font-size:10px;">Live Site ↗</a>
-          <a href="https://github.com/rajaganaa/anbu-health-ai-api" target="_blank" onclick="event.stopPropagation()" style="color:var(--blue);text-decoration:none;font-size:10px;">API Repo ↗</a>
-        </span>
-      </div>
-    </a>
-
-    <!-- P.014 -->
-    <a class="proj-card reveal" href="https://github.com/rajaganaa/spec-driven-multi-ai-agents" target="_blank" style="border: 1px solid rgba(80,200,240,0.2);">
-      <div class="proj-top"><span class="proj-num">P.014</span><span class="proj-arrow" style="color:var(--blue);">↗</span></div>
-      <div class="proj-tags">
-        <span class="proj-tag" style="border-color:rgba(80,200,240,0.4);color:var(--blue);">Google ADK</span>
-        <span class="proj-tag" style="border-color:rgba(80,200,240,0.4);color:var(--blue);">Gemini 2.5 Flash</span>
-        <span class="proj-tag proj-tag-g">Multi-Agent</span>
-        <span class="proj-tag">Spec-Driven</span>
-        <span class="proj-tag">Startup</span>
-      </div>
-      <h3 class="proj-title">Spec-Driven Multi-Agent Coding System (Startup)</h3>
-      <p class="proj-desc">Active startup project — enterprise-grade multi-agent system built on Google ADK + Gemini 2.5 Flash. Plain English goal → Orchestrator decomposes into feature specs → Feature Lead agents break into tasks → Specialist agents (Explorer / Coder / Tester / Reviewer) execute with file tools → git auto-commit after every task. YAML-configured. Path-sandboxed. LLM-as-Judge eval. Building HIPAA-compliant healthcare QA product.</p>
-      <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
-        <span>⚡ Google ADK · Gemini 2.5 Flash · 3-level hierarchy · Git checkpoints · Active startup project</span>
-        <span style="display:flex;gap:8px;">
-          <a href="https://github.com/rajaganaa/spec-driven-multi-ai-agents" target="_blank" onclick="event.stopPropagation()" style="color:var(--blue);text-decoration:none;font-size:10px;">GitHub ↗</a>
-        </span>
-      </div>
-    </a>
-
   </div>
 </section>
 
 <section id="skills">
   <div class="sec-label">03 · SKILLS</div>
-
   <div class="skills-grid reveal">
 
     <div>
@@ -1461,19 +1477,10 @@ footer p {
     <div>
       <div class="skill-group-title">CLOUD · DEVOPS</div>
       <div class="skill-item"><span class="skill-name">AWS Solutions Architect</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Azure Container Apps</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Terraform · Docker · GHCR</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Prometheus · Grafana · wandb</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Git · GitHub Actions CI/CD</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-    </div>
-
-    <div>
-      <div class="skill-group-title">AGENTIC AI · INFRA</div>
-      <div class="skill-item"><span class="skill-name">Google ADK · Gemini 2.5</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Groq · GPT-4o · Sarvam AI</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Qdrant · Supabase · Redis</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Firebase Auth · React 19</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">DPDP / HIPAA Compliance</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Azure · Docker</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Git · GitHub Actions</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Linux · Bash</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">R · SQL · NoSQL</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div></div></div>
     </div>
 
   </div>
@@ -1720,21 +1727,21 @@ footer p {
   <div class="edge-grid">
 
     <div class="edge-card reveal">
+      <div class="edge-label">NOT A STUDENT PROJECT — A BILLED PRODUCT</div>
+      <h3 class="edge-heading">Live. Billed. <em>Running today.</em></h3>
+      <p class="edge-body">Anbu Health AI is live at <strong>anbuclinic.me</strong> — serving real patients in Ariyalur District, Tamil Nadu. Invoice AIV-2026-001 for ₹21,500 was issued to Anbu Clinic in June 2026 under AI Vision (Udyam Reg: UDYAM-TN-02-0483528). This is not a demo. It is a paid, production-deployed product with a real client and a maintenance contract.</p>
+    </div>
+
+    <div class="edge-card reveal">
       <div class="edge-label">WHAT MOST CANDIDATES DON'T HAVE</div>
       <h3 class="edge-heading">A filed patent <em>and</em> a live product.</h3>
-      <p class="edge-body">Most M.Tech graduates build class projects. Rajaganapathy filed an Indian patent (App. 202641043947), submitted an IEEE paper, and deployed a live medical AI product on Azure — all while graduating with a 9.6 CGPA in May 2026.</p>
+      <p class="edge-body">Most M.Tech graduates build class projects. Rajaganapathy filed an Indian patent (App. 202641043947), submitted an IEEE paper, ran a 2-year freelance AI practice under AI Vision, and deployed a live billed product — all while graduating with a 9.6 CGPA in May 2026.</p>
     </div>
 
     <div class="edge-card reveal">
       <div class="edge-label">THE ENGINEERING MINDSET</div>
-      <h3 class="edge-heading">Builds AI that <em>can't fail.</em></h3>
-      <p class="edge-body">9 years maintaining 500 kVA transformers and 400 kW motors in live industrial environments teaches you one thing: systems must work under every condition. That discipline is rare in AI — and it shows.</p>
-    </div>
-
-    <div class="edge-card reveal">
-      <div class="edge-label">THE RESEARCH PROOF</div>
-      <h3 class="edge-heading">2,500 samples. <em>Novel contribution.</em></h3>
-      <p class="edge-body">Antahkarana's Vedantic cognitive routing was validated across 2,500 LLM/VLM samples — earning both a patent filing and an IEEE conference submission. Indexed on Google Scholar. Linked to ORCID. Not a class project. Original research.</p>
+      <h3 class="edge-heading">9 yrs engineering. <em>2 yrs AI delivery.</em></h3>
+      <p class="edge-body">Nine years maintaining 500 kVA transformers and 400 kW motors in live industrial environments. Then two years building and shipping real AI products for paying clients. The discipline of both is in every line of code — and recruiters can verify it with a live URL and an invoice number.</p>
     </div>
 
   </div>
@@ -1748,9 +1755,12 @@ footer p {
       <h2 class="contact-heading">Ready to build<br/>at <span>Google scale.</span></h2>
       <p class="contact-sub">
         Most candidates bring a degree. I bring 9+ years of engineering under real-world pressure,
-        a filed patent, a live Azure deployment, an IEEE paper under review, an ORCID researcher identity,
-        and a Google Scholar profile — all delivered while completing an M.Tech in AI with a 9.6 CGPA.
-        If you're building infrastructure that has to work at scale, I already think that way.
+        2+ years of freelance AI delivery under <strong>AI Vision</strong> (Udyam Reg: UDYAM-TN-02-0483528),
+        a live billed product at <strong>anbuclinic.me</strong>,
+        a filed patent, an IEEE paper under review, an ORCID researcher identity,
+        and a Google Scholar profile — all while completing an M.Tech in AI with a 9.6 CGPA.
+        <br/><br/>
+        <em style="color:var(--green);">You can verify the product right now: anbuclinic.me is live.</em>
       </p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
         <a class="btn-primary" href="mailto:rajaganaa@gmail.com">send me an email →</a>
@@ -1758,16 +1768,21 @@ footer p {
       </div>
     </div>
     <div class="contact-links reveal">
+      <a class="contact-link" href="https://anbuclinic.me" target="_blank" style="color:var(--green);background:rgba(184,240,80,0.04);border-bottom:1px solid rgba(184,240,80,0.15);">
+        <span>🏥 Live Product</span><span class="contact-link-val" style="color:var(--green);">anbuclinic.me · Invoice AIV-2026-001</span>
+      </a>
       <a class="contact-link" href="mailto:rajaganaa@gmail.com">
         <span>✉ Email</span><span class="contact-link-val">rajaganaa@gmail.com</span>
       </a>
       <a class="contact-link" href="tel:+919176631419">
         <span>📞 Phone</span><span class="contact-link-val">+91 9176631419</span>
       </a>
+      <div class="contact-link" style="cursor:default;">
+        <span>🏢 Company</span><span class="contact-link-val" style="color:#f0a040;">AI Vision · Udyam Reg: UDYAM-TN-02-0483528</span>
+      </div>
       <a class="contact-link" href="https://www.linkedin.com/in/raja-ganapathy-36b00658" target="_blank">
         <span>in LinkedIn</span><span class="contact-link-val">raja-ganapathy-36b00658</span>
       </a>
-      <!-- ✅ NEW: ORCID + Scholar in contact -->
       <a class="contact-link" href="https://orcid.org/0009-0006-9701-7942" target="_blank" style="color:#a6ce39;">
         <span>🆔 ORCID</span><span class="contact-link-val" style="color:#a6ce39;">0009-0006-9701-7942</span>
       </a>
@@ -1826,13 +1841,16 @@ footer p {
       <div class="cv-sub">AI / ML ENGINEER · LLM · AGENTIC AI · RAG · MULTI-AGENT SYSTEMS</div>
       <div class="cv-bar">
         <span>✉ rajaganaa@gmail.com</span><span>📞 +91 9176631419</span>
-        <span>🌐 rajaganaa.github.io</span><span>in raja-ganapathy-36b00658</span>
-        <span>⌥ github.com/rajaganaa</span><span>🤗 huggingface.co/RajGana</span>
+        <span>🌐 rajaganaa.github.io</span><span>🏥 anbuclinic.me</span>
+        <span>in raja-ganapathy-36b00658</span><span>⌥ github.com/rajaganaa</span>
+        <span>🤗 huggingface.co/RajGana</span>
         <span>🆔 orcid.org/0009-0006-9701-7942</span>
         <span>📚 scholar.google.com · Raja Ganapathy M</span>
         <span>📍 Chennai · Bangalore · Hyderabad</span>
       </div>
       <div class="cv-bdg">
+        <span class="cv-b" style="border-color:#4a9400;color:#4a9400;font-weight:700;">🏥 anbuclinic.me · LIVE PRODUCT · BILLED</span>
+        <span class="cv-b" style="border-color:#b05000;color:#b05000;">🏢 AI Vision · Freelance AIML · 2+ Yrs · Udyam Reg: UDYAM-TN-02-0483528</span>
         <span class="cv-b">⚡ PATENT FILED · APR 2026</span>
         <span class="cv-b">📄 IEEE PAPER SUBMITTED</span>
         <span class="cv-b">🎓 M.TECH AI · GRADUATED MAY 2026 · 9.6 CGPA</span>
@@ -1843,7 +1861,14 @@ footer p {
       </div>
 
       <div class="cv-h2">PROFILE</div>
-      <p class="cv-sum">AI/ML Engineer with 9+ years of prior industry experience in safety-critical engineering. Graduated M.Tech in Artificial Intelligence from SRM Institute of Science &amp; Technology, Chennai (May 2026, CGPA 9.6/10). Filed Indian Patent (No. 202641043947) for Antahkarana — a cognitively-inspired reasoning framework for LLMs and VLMs; IEEE Conference paper submitted and indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 3 live models on HuggingFace (LLM + VLM from scratch; CodeLlama-7B fine-tuned with QLoRA on AWS SageMaker). Expertise spans LLM orchestration, Agentic AI, RAG pipelines, multi-agent systems, computer vision, and cloud deployment.</p>
+      <p class="cv-sum">AI/ML Engineer and founder of AI Vision (Udyam Reg: UDYAM-TN-02-0483528) — a registered freelance AI practice active for 2+ years. Delivered and billed a live production AI product: Anbu Health AI at anbuclinic.me (Invoice AIV-2026-001, ₹21,500, June 2026) — a multilingual Tamil/English AI doctor assistant for village clinic patients in Ariyalur District, Tamil Nadu. Graduated M.Tech in Artificial Intelligence from SRM Institute (May 2026, CGPA 9.6/10). Filed Indian Patent No. 202641043947 for Antahkarana; IEEE Conference paper submitted and indexed on Google Scholar. ORCID: 0009-0006-9701-7942. Built and published 3 live models on HuggingFace. 9+ years prior safety-critical electrical engineering experience.</p>
+
+      <div class="cv-h2">FREELANCE EXPERIENCE — AI VISION</div>
+      <div class="cv-ei">
+        <div class="cv-eh"><span class="cv-er">Founder & AI/ML Engineer</span><span class="cv-ed">2024 – Present</span></div>
+        <div class="cv-eo">AI Vision · Udyam Reg: UDYAM-TN-02-0483528 · Chennai, Tamil Nadu</div>
+        <div class="cv-ex">Registered freelance AI practice. Built and delivered Anbu Health AI (anbuclinic.me) — a live, billed, production-grade AI health product. Invoice AIV-2026-001 issued June 2026 to Anbu Clinic, Pappakudi, Ariyalur District (Dr. Raghul M.D, Dr. Rajeswari M.D). Stack: React 19 · FastAPI · Groq LLaMA 3.3 70B · GPT-4o · Qdrant · Supabase · Sarvam Tamil TTS · Azure Container Apps · Terraform · Prometheus · DPDP Act 2023 compliant. Monthly maintenance ₹1,500/month from July 2026.</div>
+      </div>
 
       <div class="cv-h2">RESEARCH &amp; INTELLECTUAL PROPERTY</div>
       <div class="cv-ei">
@@ -1868,8 +1893,8 @@ footer p {
 
       <div class="cv-h2">KEY PROJECTS</div>
       <div class="cv-pg">
+        <div class="cv-pi" style="border-color:#4a9400;background:#f8fff4;"><div class="cv-pn" style="color:#2a6000;">Anbu Health AI — anbuclinic.me (LIVE · BILLED)</div><div class="cv-pt">React 19 · Groq LLaMA 3.3 70B · GPT-4o · Qdrant · Supabase · Azure · Sarvam TTS · DPDP · Invoice AIV-2026-001 ₹21,500</div></div>
         <div class="cv-pi"><div class="cv-pn">Antahkarana Reasoning Framework</div><div class="cv-pt">Python · Qwen · BLIP-3 · Patent filed · IEEE submitted · Scholar indexed</div></div>
-        <div class="cv-pi"><div class="cv-pn">Antahkarana Medical AI (Live on Azure)</div><div class="cv-pt">Azure · GitHub Actions CI/CD · Multimodal · Full-stack</div></div>
         <div class="cv-pi"><div class="cv-pn">TinyLLaMA & Mini-VLM (HuggingFace)</div><div class="cv-pt">Built from scratch · LoRA fine-tune · 2 live public models</div></div>
         <div class="cv-pi"><div class="cv-pn">MML Smart Campus Security</div><div class="cv-pt">OpenAI CLIP · Salesforce BLIP · PyTorch · Voice Biometrics</div></div>
         <div class="cv-pi"><div class="cv-pn">AgentNet Enterprise Support</div><div class="cv-pt">Multi-agent · LLM-as-Judge · RAG · Vertex AI</div></div>
@@ -1890,9 +1915,9 @@ footer p {
 
       <div class="cv-h2">TECHNICAL SKILLS</div>
       <div class="cv-sc">
-        <div><div class="cv-sg">Generative AI / LLMs</div><div class="cv-sl">LLM Orchestration<br/>RAG · FAISS · Qdrant · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace<br/>Google ADK · Gemini 2.5</div></div>
+        <div><div class="cv-sg">Generative AI / LLMs</div><div class="cv-sl">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
         <div><div class="cv-sg">ML / Deep Learning</div><div class="cv-sl">PyTorch · TensorFlow<br/>scikit-learn · XGBoost<br/>CNN · LSTM · Transformers<br/>NLP · Embeddings<br/>Computer Vision · OpenCV</div></div>
-        <div><div class="cv-sg">Cloud / DevOps / Infra</div><div class="cv-sl">AWS · Azure Container Apps<br/>Terraform · Docker · GHCR<br/>Git · GitHub Actions CI/CD<br/>Prometheus · Grafana · wandb<br/>Firebase · Supabase · Redis<br/>Groq · GPT-4o · Sarvam AI</div></div>
+        <div><div class="cv-sg">Cloud / DevOps / Data</div><div class="cv-sl">AWS · Azure · Docker<br/>Git · GitHub Actions CI/CD<br/>Python · SQL · MongoDB<br/>Streamlit · Plotly<br/>Linux · Bash · R</div></div>
       </div>
 
       <div class="cv-h2">CERTIFICATIONS</div>
@@ -1927,8 +1952,8 @@ footer p {
 </div>
 
 <footer>
-  <p>© 2026 Rajaganapathy M — AI Engineer · Chennai, India</p>
-  <p>Patent pending · IEEE under review · ORCID: 0009-0006-9701-7942 · Open to world-class opportunities</p>
+  <p>© 2026 Rajaganapathy M — AI Engineer · AI Vision (Udyam Reg: UDYAM-TN-02-0483528) · Chennai, India</p>
+  <p>Live Product: anbuclinic.me · Patent pending · IEEE under review · ORCID: 0009-0006-9701-7942 · Open to world-class opportunities</p>
 </footer>
 
 <script>
@@ -2038,9 +2063,9 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
 <div class="ei"><div class="eh"><span class="er">Electrical Maintenance Engineer</span><span class="ed">Dec 2014 – Dec 2016</span></div><div class="eo">Mod Forge Pvt. Ltd. · ISO/TS 16949 · Chennai</div><div class="ex">O&M of 500 kVA transformer, 250 kVA DG, motors up to 400 kW under C-certificate supervision.</div></div>
 <h2>TECHNICAL SKILLS</h2>
 <div class="sc">
-  <div><div class="sg">Generative AI / LLMs</div><div class="sl">LLM Orchestration<br/>RAG · FAISS · Qdrant · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace<br/>Google ADK · Gemini 2.5</div></div>
+  <div><div class="sg">Generative AI / LLMs</div><div class="sl">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
   <div><div class="sg">ML / Deep Learning</div><div class="sl">PyTorch · TensorFlow<br/>scikit-learn · XGBoost<br/>CNN · LSTM · Transformers<br/>NLP · Embeddings<br/>Computer Vision · OpenCV</div></div>
-  <div><div class="sg">Cloud / DevOps / Infra</div><div class="sl">AWS · Azure Container Apps<br/>Terraform · Docker · GHCR<br/>Git · GitHub Actions CI/CD<br/>Prometheus · Grafana · wandb<br/>Firebase · Supabase · Redis<br/>Groq · GPT-4o · Sarvam AI</div></div>
+  <div><div class="sg">Cloud / DevOps / Data</div><div class="sl">AWS · Azure · Docker<br/>Git · GitHub Actions CI/CD<br/>Python · SQL · MongoDB<br/>Streamlit · Plotly<br/>Linux · Bash · R</div></div>
 </div>
 <h2>CERTIFICATIONS</h2>
 <div class="cl">
