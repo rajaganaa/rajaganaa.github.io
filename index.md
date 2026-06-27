@@ -942,6 +942,7 @@ footer p {
     <li><a href="#resume">resume</a></li>
     <li><a href="#contact">contact</a></li>
     <li><a href="https://youtube.com/@rajaganaaAI" target="_blank" style="color:var(--green);">▶ youtube</a></li>
+    <li><a href="https://anbuclinic.me" target="_blank" style="color:var(--green);font-weight:700;">🏥 anbuclinic.me</a></li>
   </ul>
   <div class="nav-right">
     <button class="btn-nav" id="themeToggle">☀ light</button>
@@ -978,6 +979,8 @@ footer p {
     <span class="badge" style="border-color:rgba(255,160,50,0.5);color:#f0a040;background:rgba(255,160,50,0.05);">🤗 3 Models Live · HuggingFace</span>
     <span class="badge" style="border-color:rgba(255,80,80,0.5);color:#ff8080;background:rgba(255,80,80,0.05);">▶ Conscious AI · YouTube</span>
     <span class="badge" style="border-color:rgba(0,212,255,0.5);color:#00d4ff;background:rgba(0,212,255,0.05);">🌐 Conscious AI Browser · Chromium Source</span>
+    <span class="badge" style="border-color:rgba(184,240,80,0.6);color:#b8f050;background:rgba(184,240,80,0.07);font-weight:700;">🏥 anbuclinic.me · LIVE PRODUCT</span>
+    <span class="badge" style="border-color:rgba(80,200,240,0.5);color:#50c8f0;background:rgba(80,200,240,0.05);">🤖 Spec-Driven Multi-Agent · Google ADK · Startup</span>
     <!-- ✅ NEW: ORCID + Scholar badges -->
     <span class="badge" style="border-color:rgba(166,206,57,0.5);color:#a6ce39;background:rgba(166,206,57,0.05);">🆔 ORCID · 0009-0006-9701-7942</span>
     <span class="badge" style="border-color:rgba(66,133,244,0.5);color:#4285f4;background:rgba(66,133,244,0.05);">📚 Google Scholar · Verified Profile</span>
@@ -999,7 +1002,7 @@ footer p {
 
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
-    <div class="stat"><div class="stat-num">11+</div><div class="stat-label">PROJECTS BUILT</div></div>
+    <div class="stat"><div class="stat-num">13+</div><div class="stat-label">PROJECTS BUILT</div></div>
     <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA · GRADUATED</div></div>
   </div>
 </section>
@@ -1025,7 +1028,11 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE · LLAMA 3.3 70B
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 10 PRODUCTION AI SYSTEMS
+    🛠 13 PRODUCTION AI SYSTEMS
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🏥 ANBU HEALTH AI · LIVE · ANBUCLINIC.ME
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🤖 SPEC-DRIVEN MULTI-AGENT · GOOGLE ADK · GEMINI 2.5
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1051,7 +1058,11 @@ footer p {
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE · LLAMA 3.3 70B
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    🛠 10 PRODUCTION AI SYSTEMS
+    🛠 13 PRODUCTION AI SYSTEMS
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🏥 ANBU HEALTH AI · LIVE · ANBUCLINIC.ME
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    🤖 SPEC-DRIVEN MULTI-AGENT · GOOGLE ADK · GEMINI 2.5
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     🏭 9+ YEARS SAFETY-CRITICAL ENGINEERING
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
@@ -1357,11 +1368,67 @@ footer p {
       </div>
     </a>
 
+    <!-- P.012 -->
+    <a class="proj-card reveal" href="https://github.com/rajaganaa/Healthcare-Review-NLP" target="_blank">
+      <div class="proj-top"><span class="proj-num">P.012</span><span class="proj-arrow">↗</span></div>
+      <div class="proj-tags">
+        <span class="proj-tag">NLP · Sentiment</span>
+        <span class="proj-tag">Healthcare</span>
+        <span class="proj-tag">scikit-learn</span>
+      </div>
+      <h3 class="proj-title">Healthcare Review NLP Sentiment Engine</h3>
+      <p class="proj-desc">TextBlob rule-based polarity + TF-IDF vectorization + SMOTE class balancing + ensemble classification pipeline. Automates patient feedback classification replacing manual hospital review audits.</p>
+      <div class="proj-metric">⚡ WordNet Lemmatization · POS tagging · Ensemble classifiers · SMOTE</div>
+    </a>
+
+    <!-- P.013 -->
+    <a class="proj-card reveal" href="https://anbuclinic.me" target="_blank" style="border: 1px solid rgba(184,240,80,0.25);">
+      <div class="proj-top"><span class="proj-num">P.013</span><span class="proj-arrow" style="color:var(--green);">↗</span></div>
+      <div class="proj-tags">
+        <span class="proj-tag proj-tag-g">Live Product</span>
+        <span class="proj-tag proj-tag-g">anbuclinic.me</span>
+        <span class="proj-tag">Healthcare AI</span>
+        <span class="proj-tag">Tamil</span>
+        <span class="proj-tag">Azure</span>
+        <span class="proj-tag">Full-Stack</span>
+      </div>
+      <h3 class="proj-title">Anbu Health AI — Village Clinic AI (Live)</h3>
+      <p class="proj-desc">Production-deployed AI health assistant for Tamil Nadu village clinic patients. React 19 frontend + FastAPI backend. Firebase OTP auth · Groq LLaMA 3.3 70B · GPT-4o vision (medicine/lab/scan analysis) · Qdrant RAG · Supabase · Sarvam AI Bulbul Tamil TTS · Azure Container Apps · Terraform IaC · Prometheus + Grafana monitoring · DPDP Act 2023 compliance · DuckDuckGo live citations. Voice input in Tamil + English via Web Speech API.</p>
+      <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
+        <span>⚡ Live at anbuclinic.me · Azure Central India · Antahkarana engine · DPDP compliant</span>
+        <span style="display:flex;gap:8px;">
+          <a href="https://anbuclinic.me" target="_blank" onclick="event.stopPropagation()" style="color:var(--green);text-decoration:none;font-size:10px;">Live Site ↗</a>
+          <a href="https://github.com/rajaganaa/anbu-health-ai-api" target="_blank" onclick="event.stopPropagation()" style="color:var(--blue);text-decoration:none;font-size:10px;">API Repo ↗</a>
+        </span>
+      </div>
+    </a>
+
+    <!-- P.014 -->
+    <a class="proj-card reveal" href="https://github.com/rajaganaa/spec-driven-multi-ai-agents" target="_blank" style="border: 1px solid rgba(80,200,240,0.2);">
+      <div class="proj-top"><span class="proj-num">P.014</span><span class="proj-arrow" style="color:var(--blue);">↗</span></div>
+      <div class="proj-tags">
+        <span class="proj-tag" style="border-color:rgba(80,200,240,0.4);color:var(--blue);">Google ADK</span>
+        <span class="proj-tag" style="border-color:rgba(80,200,240,0.4);color:var(--blue);">Gemini 2.5 Flash</span>
+        <span class="proj-tag proj-tag-g">Multi-Agent</span>
+        <span class="proj-tag">Spec-Driven</span>
+        <span class="proj-tag">Startup</span>
+      </div>
+      <h3 class="proj-title">Spec-Driven Multi-Agent Coding System (Startup)</h3>
+      <p class="proj-desc">Active startup project — enterprise-grade multi-agent system built on Google ADK + Gemini 2.5 Flash. Plain English goal → Orchestrator decomposes into feature specs → Feature Lead agents break into tasks → Specialist agents (Explorer / Coder / Tester / Reviewer) execute with file tools → git auto-commit after every task. YAML-configured. Path-sandboxed. LLM-as-Judge eval. Building HIPAA-compliant healthcare QA product.</p>
+      <div class="proj-metric" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;">
+        <span>⚡ Google ADK · Gemini 2.5 Flash · 3-level hierarchy · Git checkpoints · Active startup project</span>
+        <span style="display:flex;gap:8px;">
+          <a href="https://github.com/rajaganaa/spec-driven-multi-ai-agents" target="_blank" onclick="event.stopPropagation()" style="color:var(--blue);text-decoration:none;font-size:10px;">GitHub ↗</a>
+        </span>
+      </div>
+    </a>
+
   </div>
 </section>
 
 <section id="skills">
   <div class="sec-label">03 · SKILLS</div>
+
   <div class="skills-grid reveal">
 
     <div>
@@ -1394,10 +1461,19 @@ footer p {
     <div>
       <div class="skill-group-title">CLOUD · DEVOPS</div>
       <div class="skill-item"><span class="skill-name">AWS Solutions Architect</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Azure · Docker</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Git · GitHub Actions</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">Linux · Bash</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div></div></div>
-      <div class="skill-item"><span class="skill-name">R · SQL · NoSQL</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Azure Container Apps</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Terraform · Docker · GHCR</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Prometheus · Grafana · wandb</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Git · GitHub Actions CI/CD</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+    </div>
+
+    <div>
+      <div class="skill-group-title">AGENTIC AI · INFRA</div>
+      <div class="skill-item"><span class="skill-name">Google ADK · Gemini 2.5</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Groq · GPT-4o · Sarvam AI</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Qdrant · Supabase · Redis</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">Firebase Auth · React 19</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
+      <div class="skill-item"><span class="skill-name">DPDP / HIPAA Compliance</span><div class="skill-dots"><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div></div></div>
     </div>
 
   </div>
@@ -1814,9 +1890,9 @@ footer p {
 
       <div class="cv-h2">TECHNICAL SKILLS</div>
       <div class="cv-sc">
-        <div><div class="cv-sg">Generative AI / LLMs</div><div class="cv-sl">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
+        <div><div class="cv-sg">Generative AI / LLMs</div><div class="cv-sl">LLM Orchestration<br/>RAG · FAISS · Qdrant · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace<br/>Google ADK · Gemini 2.5</div></div>
         <div><div class="cv-sg">ML / Deep Learning</div><div class="cv-sl">PyTorch · TensorFlow<br/>scikit-learn · XGBoost<br/>CNN · LSTM · Transformers<br/>NLP · Embeddings<br/>Computer Vision · OpenCV</div></div>
-        <div><div class="cv-sg">Cloud / DevOps / Data</div><div class="cv-sl">AWS · Azure · Docker<br/>Git · GitHub Actions CI/CD<br/>Python · SQL · MongoDB<br/>Streamlit · Plotly<br/>Linux · Bash · R</div></div>
+        <div><div class="cv-sg">Cloud / DevOps / Infra</div><div class="cv-sl">AWS · Azure Container Apps<br/>Terraform · Docker · GHCR<br/>Git · GitHub Actions CI/CD<br/>Prometheus · Grafana · wandb<br/>Firebase · Supabase · Redis<br/>Groq · GPT-4o · Sarvam AI</div></div>
       </div>
 
       <div class="cv-h2">CERTIFICATIONS</div>
@@ -1962,9 +2038,9 @@ h2{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;letter-spacing
 <div class="ei"><div class="eh"><span class="er">Electrical Maintenance Engineer</span><span class="ed">Dec 2014 – Dec 2016</span></div><div class="eo">Mod Forge Pvt. Ltd. · ISO/TS 16949 · Chennai</div><div class="ex">O&M of 500 kVA transformer, 250 kVA DG, motors up to 400 kW under C-certificate supervision.</div></div>
 <h2>TECHNICAL SKILLS</h2>
 <div class="sc">
-  <div><div class="sg">Generative AI / LLMs</div><div class="sl">LLM Orchestration<br/>RAG · FAISS · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace</div></div>
+  <div><div class="sg">Generative AI / LLMs</div><div class="sl">LLM Orchestration<br/>RAG · FAISS · Qdrant · Vector DBs<br/>Prompt Engineering<br/>Agentic Workflows<br/>LangChain · HuggingFace<br/>Google ADK · Gemini 2.5</div></div>
   <div><div class="sg">ML / Deep Learning</div><div class="sl">PyTorch · TensorFlow<br/>scikit-learn · XGBoost<br/>CNN · LSTM · Transformers<br/>NLP · Embeddings<br/>Computer Vision · OpenCV</div></div>
-  <div><div class="sg">Cloud / DevOps / Data</div><div class="sl">AWS · Azure · Docker<br/>Git · GitHub Actions CI/CD<br/>Python · SQL · MongoDB<br/>Streamlit · Plotly<br/>Linux · Bash · R</div></div>
+  <div><div class="sg">Cloud / DevOps / Infra</div><div class="sl">AWS · Azure Container Apps<br/>Terraform · Docker · GHCR<br/>Git · GitHub Actions CI/CD<br/>Prometheus · Grafana · wandb<br/>Firebase · Supabase · Redis<br/>Groq · GPT-4o · Sarvam AI</div></div>
 </div>
 <h2>CERTIFICATIONS</h2>
 <div class="cl">
