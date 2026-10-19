@@ -36,7 +36,7 @@ permalink: /
    "https://orcid.org/0009-0006-9701-7942",
    "https://scholar.google.com/citations?user=93hagOEAAAAJ",
    "https://ieeexplore.ieee.org/document/11708384",
-   "https://youtube.com/@rajaganaaAI",
+   "https://youtube.com/@TheArtificialSI",
    "https://x.com/rajaganaa"
   ]
  }
@@ -281,7 +281,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
     <li><a href="#blog">blog</a></li>
     <li><a href="#resume">resume</a></li>
     <li><a href="#contact">contact</a></li>
-    <li><a href="https://youtube.com/@rajaganaaAI" target="_blank" rel="noopener" style="color:var(--green);">▶ youtube</a></li>
+    <li><a href="https://youtube.com/@TheArtificialSI" target="_blank" rel="noopener" style="color:var(--green);">▶ youtube</a></li>
     <li><a href="https://anbuclinic.me" target="_blank" rel="noopener" style="color:var(--green);font-weight:600;border:1px solid rgba(184,240,80,.4);padding:2px 8px;">🏥 live</a></li>
   </ul>
   <div class="nav-right">
@@ -312,15 +312,15 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
     <a class="badge badge-g" href="https://anbuclinic.me" target="_blank" rel="noopener" style="font-weight:700;font-size:11px;padding:.45rem 1.1rem;">🏥 anbuclinic.me · LIVE · PAID CLIENT</a>
     <a class="badge badge-b" href="https://ieeexplore.ieee.org/document/11708384" target="_blank" rel="noopener">📄 IEEE Xplore · Published</a>
     <span class="badge badge-g">⚡ Patent Filed · Apr 2026</span>
-    <span class="badge badge-g">🎓 M.Tech AI · 9.6 CGPA · May 2026</span>
+    <span class="badge badge-g">🎓 PG: M.Tech AI · Completed · 9.6 CGPA</span>
     <span class="badge badge-o">🏢 AI Vision · Founder · Freelance AI/ML</span>
     <span class="badge badge-o">🤗 3 Models Live · HuggingFace</span>
     <span class="badge badge-o">🤖 Multi-Agent Startup Build · Google ADK</span>
-    <span class="badge" style="border-color:rgba(255,80,80,.5);color:#ff8080;">▶ Conscious AI · YouTube</span>
+    <span class="badge" style="border-color:rgba(255,80,80,.5);color:#ff8080;">▶ Artificial SI · YouTube</span>
     <span class="badge" style="border-color:rgba(0,212,255,.5);color:#00d4ff;">🌐 Chromium Browser from Source</span>
     <span class="badge" style="border-color:rgba(166,206,57,.5);color:#a6ce39;">🆔 ORCID · 0009-0006-9701-7942</span>
     <span class="badge" style="border-color:rgba(66,133,244,.5);color:#4285f4;">📚 Google Scholar</span>
-    <span class="badge">🛡 Cyber Security · 4 Courses</span>
+    <span class="badge">🛡 Cyber Security · 4 Courses + 5 Labs</span>
     <span class="badge">LLMs · Agentic AI · RAG</span>
     <span class="badge">Computer Vision</span>
   </div>
@@ -339,7 +339,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
 
   <div class="hero-stats">
     <div class="stat"><div class="stat-num">9+</div><div class="stat-label">YRS ENGINEERING</div></div>
-    <div class="stat"><div class="stat-num">15</div><div class="stat-label">SYSTEMS BUILT</div></div>
+    <div class="stat"><div class="stat-num">16</div><div class="stat-label">SYSTEMS BUILT</div></div>
     <div class="stat"><div class="stat-num">24</div><div class="stat-label">CERTIFICATIONS</div></div>
     <div class="stat"><div class="stat-num">9.6</div><div class="stat-label">M.TECH CGPA</div></div>
   </div>
@@ -366,13 +366,13 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
         <div class="tl-item"><div class="tl-year">2014 – 2016</div><div class="tl-role">Electrical Maintenance Engineer</div><div class="tl-org">Mod Forge Pvt. Ltd. · ISO/TS 16949 Certified</div></div>
         <div class="tl-item"><div class="tl-year">2017 – 2023</div><div class="tl-role">Electrical Construction Site Engineer</div><div class="tl-org">SR Electrical Works · Chennai</div></div>
         <div class="tl-item"><div class="tl-year">Jul 2023</div><div class="tl-role">Deliberate pivot to Artificial Intelligence</div><div class="tl-org">After 9+ years of production engineering · GUVI / IIT-M Pravartak AI &amp; ML program</div></div>
-        <div class="tl-item"><div class="tl-year">2024 – May 2026</div><div class="tl-role">M.Tech Artificial Intelligence · 9.6 CGPA · <span style="color:var(--green);">Graduated ✓</span></div><div class="tl-org">SRM Institute of Science &amp; Technology</div></div>
+        <div class="tl-item"><div class="tl-year">2024 – May 2026</div><div class="tl-role">M.Tech Artificial Intelligence (PG) · 9.6 CGPA · <span style="color:var(--green);">Completed May 2026 ✓</span></div><div class="tl-org">SRM Institute of Science &amp; Technology</div></div>
         <div class="tl-item"><div class="tl-year">2024 – Present</div><div class="tl-role" style="color:var(--orange);">Founder &amp; Freelance AI/ML Engineer — AI Vision <span style="font-family:'DM Mono',monospace;font-size:10px;border:1px solid rgba(240,160,64,.5);padding:1px 7px;margin-left:6px;vertical-align:middle;">UDYAM-TN-02-0483528</span></div><div class="tl-org" style="color:var(--text-2);">End-to-end AI products for paying clients · Udyam MSME registered Jun 2026 · aivisionlabs.tech</div></div>
         <div class="tl-item"><div class="tl-year">Apr 2026</div><div class="tl-role">Indian Patent Filed · Antahkarana System</div><div class="tl-org">App No. 202641043947 · IEEE paper submitted</div></div>
         <div class="tl-item"><div class="tl-year">May 2026</div><div class="tl-role">ORCID Registered · Google Scholar Profile Live</div><div class="tl-org">ORCID 0009-0006-9701-7942</div></div>
         <div class="tl-item"><div class="tl-year">Jun 2026</div><div class="tl-role" style="color:var(--green);">Anbu Health AI — LIVE at anbuclinic.me</div><div class="tl-org">Groq LLaMA 3.3 70B · GPT-4o · Qdrant · Supabase · Sarvam Tamil TTS · Azure · Terraform · DPDP compliant</div></div>
         <div class="tl-item"><div class="tl-year">Jun 2026</div><div class="tl-role">Spec-driven multi-agent coding system — startup build</div><div class="tl-org">Google ADK · Gemini 2.5 Flash · 3-level agent hierarchy</div></div>
-        <div class="tl-item"><div class="tl-year">Sep 2026</div><div class="tl-role">Cyber Security specialization · 4 courses · 54.5 hrs</div><div class="tl-org">Udemy · Nathan House · security-aware AI design</div></div>
+        <div class="tl-item"><div class="tl-year">Sep 2026</div><div class="tl-role">Cyber Security specialization · 4 courses + 5 hands-on labs</div><div class="tl-org">Udemy · Nathan House (54.5 hrs) · DevSecOps, DFIR, SOC, web/API testing, AI/LLM security · github.com/rajaganaa/ai_cyber_security</div></div>
         <div class="tl-item"><div class="tl-year">Oct 2026</div><div class="tl-role" style="color:var(--blue);">IEEE Paper Published on IEEE Xplore</div><div class="tl-org">ICSTSDG 2026 · DOI 10.1109/ICSTSDG69220.2026.11708384</div></div>
         <div class="tl-item"><div class="tl-year">Oct 2026</div><div class="tl-role">Retro Pong — Android game published</div><div class="tl-org">Kotlin · Jetpack Compose · no permissions, no network, no data collected</div></div>
       </div>
@@ -394,8 +394,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
         <em>filed Indian patent</em> and a paper <em>published on IEEE Xplore</em> (ICSTSDG 2026),
         indexed on Google Scholar and linked to my ORCID.</p>
       <p>I'm also building a <strong>spec-driven multi-agent coding platform</strong> for a startup client
-        (Google ADK + Gemini 2.5 Flash), and in Sep–Oct 2026 I completed a four-course
-        <strong>Cyber Security</strong> specialization and shipped a native Android app in Kotlin.</p>
+        (Google ADK + Gemini 2.5 Flash), and in Sep–Oct 2026 I completed a four-course <strong>Cyber Security</strong> specialization, built a five-lab <strong>AI-augmented cyber-security portfolio</strong> on GitHub, and shipped a native Android game in Kotlin.</p>
       <p>What I bring that most candidates don't: 9 years of safety-critical engineering discipline,
         real freelance delivery, a live product, a patent and a published paper —
         all built alongside an M.Tech with a <strong>9.6 CGPA.</strong></p>
@@ -416,7 +415,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
         <p class="feat-desc">
           A cognitively-inspired, modular conditional reasoning framework for LLMs and VLMs.
           Instead of applying uniform compute to every query, it routes each one through five modules —
-          <b>manas</b> (question-type router), <b>chitta</b> (dense retrieval), <b>buddhi</b> (three-pass reasoning),
+          <b>manas</b> (six-way question-type router), <b>chitta</b> (dense retrieval with entity-overlap scoring), <b>buddhi</b> (three-pass reasoning; verification on ≈8% of samples, self-consistency on ≈12%),
           <b>ahamkara</b> (structured output) and <b>sakshi</b> (non-interfering logging monitor) —
           triggering verification and self-consistency only when needed.
         </p>
@@ -431,8 +430,8 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       </div>
       <div class="feat-right">
         <div class="ach-item"><div class="ach-icon">⚡</div><div><div class="ach-title">Indian Patent Filed · Apr 2026</div><div class="ach-body">App No. 202641043947 — under examination, Indian Patent Office</div></div></div>
-        <div class="ach-item"><div class="ach-icon">📄</div><div><div class="ach-title">Published on IEEE Xplore</div><div class="ach-body">ICSTSDG 2026, Chennai · DOI 10.1109/ICSTSDG69220.2026.11708384</div></div></div>
-        <div class="ach-item"><div class="ach-icon">📈</div><div><div class="ach-title">Measured Results</div><div class="ach-body">+59.61% TruthfulQA · +250.82% FEVER F1 over CoT · 26% fewer model calls than Self-Consistency · VQA hallucination 26.6% → 20.9%</div></div></div>
+        <div class="ach-item"><div class="ach-icon">📄</div><div><div class="ach-title">Published on IEEE Xplore</div><div class="ach-body">ICSTSDG 2026, Chennai (19–21 Aug) · added to IEEE Xplore 06 Oct 2026 · DOI 10.1109/ICSTSDG69220.2026.11708384</div></div></div>
+        <div class="ach-item"><div class="ach-icon">📈</div><div><div class="ach-title">Measured Results</div><div class="ach-body">+59.61% TruthfulQA · +250.82% FEVER F1 over CoT · 26% fewer model calls than Self-Consistency (2,219 vs 3,000) · VQA hallucination 26.6% → 20.9% at 79.1% EM</div></div></div>
         <div class="ach-item"><div class="ach-icon">📚</div><div><div class="ach-title">Google Scholar · ORCID</div><div class="ach-body">Paper indexed and linked to ORCID 0009-0006-9701-7942</div></div></div>
         <div class="feat-links">
           <a class="btn-feat-primary" href="https://ieeexplore.ieee.org/document/11708384" target="_blank" rel="noopener">📄 ieee paper →</a>
@@ -486,6 +485,15 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       <p class="proj-desc">Three-level agent hierarchy (Orchestrator → Feature Lead → Explorer / Coder / Tester / Reviewer specialists). A plain-English goal is decomposed into versioned markdown feature and task specs, executed with path-sandboxed file tools, and checkpointed to git after every task. Includes golden-task evaluation and LLM-as-Judge scoring. First output: a HIPAA-style healthcare QA system with JWT auth and audit logging.</p>
       <div class="proj-metric"><span>⚡ In production build for a real startup · client repo private</span></div>
     </div>
+
+    <!-- P.016 -->
+    <a class="proj-card reveal" href="https://github.com/rajaganaa/ai_cyber_security" target="_blank" rel="noopener">
+      <div class="proj-top"><span class="proj-num">P.016 · SEP 2026</span><span class="proj-arrow">↗</span></div>
+      <div class="proj-tags"><span class="proj-tag proj-tag-g">Cyber Security</span><span class="proj-tag">DevSecOps</span><span class="proj-tag">SOC · Wazuh</span><span class="proj-tag">DFIR</span><span class="proj-tag">AI/LLM Security</span></div>
+      <h3 class="proj-title">AI-Augmented Cyber-Security Portfolio — 5 Hands-On Labs</h3>
+      <p class="proj-desc">Five security-engineering labs: DevSecOps on Azure, a digital forensics &amp; incident response (DFIR) investigation, a mini SOC, a web/API penetration-testing assessment, and an AI/LLM security lab with a local Ollama model. Built to show practical blue-team and security-engineering skills.</p>
+      <div class="proj-metric"><span>⚡ Azure + Terraform · Docker Compose · GitHub Actions CI/CD · Wazuh SIEM/XDR · Ollama · MIT</span></div>
+    </a>
 
     <!-- P.002 -->
     <a class="proj-card reveal" href="https://github.com/rajaganaa/antahkarana-product" target="_blank" rel="noopener">
@@ -594,7 +602,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       <div class="proj-top"><span class="proj-num">P.015 · OCT 2026</span><span class="proj-arrow">↗</span></div>
       <div class="proj-tags"><span class="proj-tag proj-tag-g">Android</span><span class="proj-tag">Kotlin</span><span class="proj-tag">Jetpack Compose</span></div>
       <h3 class="proj-title">Retro Pong — Privacy-First Android Game</h3>
-      <p class="proj-desc">Atari-style Pong in 100% Kotlin and Jetpack Compose: three difficulty levels, an AI opponent, sound, saved best rally and win count, and English / Tamil / Hindi support. Requests no permissions, uses no network and collects no data.</p>
+      <p class="proj-desc">Atari-style Pong in Kotlin and Jetpack Compose: main menu, pause and game-over screens, three difficulty levels, an AI opponent with balance tuning, countdown timer, sound, retro app icon, and saved best rally and win count. English / Tamil / Hindi with per-app language support (Android 13+). Requests no permissions, uses no network and collects no data. Released as Retro Pong 1.0 with a GitHub Actions workflow.</p>
       <div class="proj-metric"><span>⚡ Kotlin · Compose · Gradle (KTS) · GitHub Actions</span></div>
     </a>
 
@@ -644,6 +652,9 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       <div class="skill-item"><span class="skill-name">Network Security</span><div class="skill-dots" data-l="3"></div></div>
       <div class="skill-item"><span class="skill-name">End Point Protection</span><div class="skill-dots" data-l="3"></div></div>
       <div class="skill-item"><span class="skill-name">Ethical Hacking Fundamentals</span><div class="skill-dots" data-l="3"></div></div>
+      <div class="skill-item"><span class="skill-name">SOC Monitoring · Wazuh SIEM/XDR</span><div class="skill-dots" data-l="3"></div></div>
+      <div class="skill-item"><span class="skill-name">DFIR · Web/API Pen-Testing</span><div class="skill-dots" data-l="3"></div></div>
+      <div class="skill-item"><span class="skill-name">DevSecOps · AI/LLM Security</span><div class="skill-dots" data-l="3"></div></div>
     </div>
     <div>
       <div class="skill-group-title">FULL-STACK · MOBILE</div>
@@ -687,16 +698,21 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       <div class="research-label">CONFERENCE PAPER · 2026 · PUBLISHED ON IEEE XPLORE</div>
       <h3 class="research-title">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs</h3>
       <div class="research-authors"><strong>M RajaGanapathy</strong>, H Karthikeyan</div>
-      <div class="research-venue">📍 2026 2nd International Conference on Smart Technologies for Sustainable Development Goals (ICSTSDG) · Chennai · 19–21 Aug 2026<br/>DOI 10.1109/ICSTSDG69220.2026.11708384</div>
+      <div class="research-venue">📍 Published in: 2026 2nd International Conference on Smart Technologies for Sustainable Development Goals (ICSTSDG) · Chennai, Tamil Nadu · 19–21 Aug 2026<br/>Added to IEEE Xplore: 06 Oct 2026 · Publisher: IEEE · DOI 10.1109/ICSTSDG69220.2026.11708384</div>
       <p class="research-abstract">
-        Monolithic prompting applies the same compute to every query. Antahkarana is a five-module architecture
-        that activates verification and consistency passes only by question type and output-quality heuristics.
-        Evaluated on five NLP benchmarks (Qwen2.5-7B-Instruct) and five VQA datasets (BLIP-2 Flan-T5-XL):
-        <strong>+59.61% accuracy on TruthfulQA</strong> vs direct prompting, <strong>+40.06% exact match on SVAMP</strong>,
-        <strong>+250.82% F1 over CoT on FEVER</strong>, and <strong>26% fewer model calls</strong> than uniform Self-Consistency.
-        VQA hallucination fell from 26.6% to 20.9%. On HotpotQA and MMLU it performs comparably to or below
-        Self-Consistency, an intentional precision–overcall trade-off.
+        Monolithic prompting spends the same compute on every query, whatever its difficulty or domain.
+        Antahkarana is a five-module architecture that activates verification and consistency passes only when question type
+        and output-quality heuristics call for them: <strong>Manas</strong>, a six-way question-type router mapping queries to task-specific
+        prompt templates; <strong>Chitta</strong>, in-context dense retrieval with entity-overlap scoring; <strong>Buddhi</strong>, a three-pass
+        reasoning engine where verification fires only for fact-checking tasks (≈8% of samples) and self-consistency only on low-quality
+        outputs (≈12%); <strong>Ahamkara</strong>, a structured output layer; and <strong>Sakshi</strong>, a non-interfering logging monitor.
+        Evaluated on five NLP benchmarks (Qwen2.5-7B-Instruct) and five VQA datasets (BLIP-2 Flan-T5-XL), it reaches
+        <strong>+59.61% accuracy on TruthfulQA</strong> over direct prompting, <strong>+40.06% exact match on SVAMP</strong> and
+        <strong>+250.82% F1 over CoT on FEVER</strong>, with <strong>26% fewer model calls</strong> than uniform Self-Consistency
+        (2,219 vs 3,000 on VQA). VQA hallucination falls from 26.6% to 20.9% at 79.1% exact match. On general reasoning
+        (HotpotQA, MMLU) it performs comparably to or below Self-Consistency — an intentional precision–overcall calibration.
       </p>
+      <div class="research-authors">SECTIONS: Introduction · Related Work · System Architecture · Experimental Setup · Results</div>
       <div class="research-links">
         <a class="research-link blue" href="https://ieeexplore.ieee.org/document/11708384" target="_blank" rel="noopener">📄 IEEE Xplore ↗</a>
         <a class="research-link" href="https://doi.org/10.1109/ICSTSDG69220.2026.11708384" target="_blank" rel="noopener">DOI ↗</a>
@@ -761,25 +777,24 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
 
 <!-- YOUTUBE -->
 <section id="youtube" style="background:var(--bg2);">
-  <div class="sec-label">07 · CONSCIOUS AI — YOUTUBE</div>
+  <div class="sec-label">07 · ARTIFICIAL SI — YOUTUBE</div>
   <div class="yt-grid reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
     <div>
-      <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.2em;color:#ff8080;margin-bottom:1rem;">▶ @rajaganaaAI</div>
-      <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,4vw,3.8rem);line-height:.95;color:var(--text);margin-bottom:1.25rem;font-weight:400;">Conscious AI</h2>
-      <p style="font-size:14px;font-weight:300;color:var(--text-2);line-height:1.9;margin-bottom:1.5rem;">A YouTube channel for understanding Artificial Intelligence — from fundamentals to Machine Learning, Deep Learning, NLP, Reinforcement Learning, LLMs, Computer Vision and Intelligent Agents.</p>
+      <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.2em;color:#ff8080;margin-bottom:1rem;">▶ @TheArtificialSI</div>
+      <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,4vw,3.8rem);line-height:.95;color:var(--text);margin-bottom:1.25rem;font-weight:400;">Artificial SI</h2>
+      <p style="font-size:14px;font-weight:300;color:var(--text-2);line-height:1.9;margin-bottom:1.5rem;">Artificial SI is a YouTube channel dedicated to understanding Artificial Intelligence — from fundamentals to Machine Learning, Deep Learning, NLP, Reinforcement Learning, LLMs, Computer Vision and Intelligent Agents.</p>
       <p style="font-size:14px;font-weight:300;color:var(--text-2);line-height:1.9;margin-bottom:2rem;">It explores AI not just as technology, but as a step toward <strong style="color:var(--text);font-weight:500;">human-like reasoning, cognition and consciousness</strong> — the same philosophy behind Antahkarana, taught publicly.</p>
-      <p style="font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.06em;color:#ff8080;font-style:italic;margin-bottom:2rem;">"Learn AI deeply. Think consciously."</p>
-      <a href="https://youtube.com/@rajaganaaAI" target="_blank" rel="noopener" style="font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.08em;padding:.8rem 1.75rem;background:#ff4040;color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;border:1px solid #ff4040;font-weight:500;">▶ Visit the Channel →</a>
+      <a href="https://youtube.com/@TheArtificialSI" target="_blank" rel="noopener" style="font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.08em;padding:.8rem 1.75rem;background:#ff4040;color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;border:1px solid #ff4040;font-weight:500;">▶ Visit the Channel →</a>
     </div>
     <div style="border:1px solid rgba(255,80,80,.15);background:var(--bg);padding:2.5rem;">
       <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.2em;color:#ff8080;margin-bottom:1.5rem;">WHAT YOU'LL FIND HERE</div>
       <div style="display:flex;flex-direction:column;gap:1px;background:rgba(255,80,80,.08);">
         <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid #ff8080;"><div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">AI Fundamentals to Advanced</div><div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">ML · DL · NLP · Computer Vision · RL</div></div>
         <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,.5);"><div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">LLMs & Intelligent Agents</div><div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">Agentic AI · RAG · Multi-Agent Systems</div></div>
-        <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,.5);"><div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">Tamil Language AI Content</div><div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">Making AI education accessible in Tamil Nadu</div></div>
+        <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,.5);"><div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">Tamil Language AI Content</div><div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">Day-by-day Tamil series — e.g. “What’s in the AI family? ML, DL, NLP, CV”</div></div>
         <div style="background:var(--bg);padding:1rem 1.25rem;border-left:2px solid rgba(255,128,128,.5);"><div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px;">Cognition & Consciousness in AI</div><div style="font-family:'DM Mono',monospace;font-size:11px;color:var(--text-3);">The philosophy behind Antahkarana — explained</div></div>
       </div>
-      <div style="margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);font-family:'DM Mono',monospace;font-size:10px;color:var(--text-3);display:flex;justify-content:space-between;"><span>youtube.com/@rajaganaaAI</span><span style="color:#ff8080;">▶ ACTIVE</span></div>
+      <div style="margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);font-family:'DM Mono',monospace;font-size:10px;color:var(--text-3);display:flex;justify-content:space-between;"><span>youtube.com/@TheArtificialSI</span><span style="color:#ff8080;">▶ ACTIVE</span></div>
     </div>
   </div>
 </section>
@@ -790,7 +805,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
   <div class="edge-grid">
     <div class="edge-card reveal"><div class="edge-label">NOT A STUDENT PROJECT — A PAID PRODUCT</div><h3 class="edge-heading">Live. Paid. <em>Running today.</em></h3><p class="edge-body">Anbu Health AI is live at <strong>anbuclinic.me</strong>, serving real patients in Ariyalur District, Tamil Nadu. It was built and invoiced under AI Vision (Udyam Reg: UDYAM-TN-02-0483528) for Anbu Clinic, with a monthly maintenance arrangement. You can verify it with a URL, not a claim.</p></div>
     <div class="edge-card reveal"><div class="edge-label">WHAT MOST CANDIDATES DON'T HAVE</div><h3 class="edge-heading">A patent, a paper <em>and</em> a product.</h3><p class="edge-body">An Indian patent filing (App. 202641043947), a paper published on IEEE Xplore with measured benchmark gains, a freelance AI practice, and a live product — alongside an M.Tech with a 9.6 CGPA, graduated May 2026.</p></div>
-    <div class="edge-card reveal"><div class="edge-label">THE ENGINEERING MINDSET</div><h3 class="edge-heading">9 yrs engineering. <em>Real AI delivery.</em></h3><p class="edge-body">Nine years maintaining 500 kVA transformers and 400 kW motors in live industrial plants, then building and shipping AI for paying clients — including a multi-agent coding platform for a startup. Security-aware by training: four Cyber Security courses, DPDP-compliant by design.</p></div>
+    <div class="edge-card reveal"><div class="edge-label">THE ENGINEERING MINDSET</div><h3 class="edge-heading">9 yrs engineering. <em>Real AI delivery.</em></h3><p class="edge-body">Nine years maintaining 500 kVA transformers and 400 kW motors in live industrial plants, then building and shipping AI for paying clients — including a multi-agent coding platform for a startup. Security-aware by training: four Cyber Security courses plus five hands-on labs (DevSecOps, DFIR, SOC, web/API testing, AI/LLM security), DPDP-compliant by design.</p></div>
   </div>
 </section>
 
@@ -824,7 +839,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       <a class="contact-link" href="https://huggingface.co/RajGana" target="_blank" rel="noopener" style="color:var(--orange);"><span>🤗 HuggingFace</span><span class="contact-link-val" style="color:var(--orange);">RajGana · 3 live models</span></a>
       <a class="contact-link" href="https://github.com/rajaganaa" target="_blank" rel="noopener"><span>⌥ GitHub</span><span class="contact-link-val">github.com/rajaganaa</span></a>
       <a class="contact-link" href="https://x.com/rajaganaa" target="_blank" rel="noopener"><span>𝕏 Twitter / X</span><span class="contact-link-val">@rajaganaa</span></a>
-      <a class="contact-link" href="https://youtube.com/@rajaganaaAI" target="_blank" rel="noopener" style="color:#ff8080;"><span>▶ YouTube</span><span class="contact-link-val" style="color:#ff6060;">@rajaganaaAI · Conscious AI</span></a>
+      <a class="contact-link" href="https://youtube.com/@TheArtificialSI" target="_blank" rel="noopener" style="color:#ff8080;"><span>▶ YouTube</span><span class="contact-link-val" style="color:#ff6060;">@TheArtificialSI · Artificial SI</span></a>
       <div class="contact-link"><span>📍 Location</span><span class="contact-link-val">Chennai · Open to Bangalore / Hyderabad</span></div>
     </div>
   </div>
@@ -890,7 +905,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       <div class="cv-ei">
         <div class="cv-eh"><span class="cv-er">Antahkarana: Cognitively-Inspired Adaptive Reasoning for LLMs and VLMs</span><span class="cv-ed">IEEE Xplore · 2026</span></div>
         <div class="cv-eo">ICSTSDG 2026, Chennai · M RajaGanapathy, H Karthikeyan · DOI 10.1109/ICSTSDG69220.2026.11708384</div>
-        <div class="cv-ex">Five-module adaptive reasoning architecture. +59.61% TruthfulQA, +40.06% SVAMP EM, +250.82% FEVER F1 over CoT, 26% fewer model calls than Self-Consistency; VQA hallucination 26.6% → 20.9%.</div>
+        <div class="cv-ex">Five-module adaptive reasoning architecture. +59.61% TruthfulQA, +40.06% SVAMP EM, +250.82% FEVER F1 over CoT, 26% fewer model calls than Self-Consistency (2,219 vs 3,000); VQA hallucination 26.6% → 20.9% at 79.1% EM. Added to IEEE Xplore 06 Oct 2026.</div>
       </div>
       <div class="cv-ei">
         <div class="cv-eh"><span class="cv-er">Indian Patent — Multi-Stage Adaptive Reasoning System</span><span class="cv-ed">Filed Apr 3, 2026</span></div>
@@ -898,7 +913,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
       </div>
 
       <div class="cv-h2">EDUCATION</div>
-      <div class="cv-ei"><div class="cv-eh"><span class="cv-er">M.Tech — Artificial Intelligence</span><span class="cv-ed">2024 – May 2026</span></div><div class="cv-eo">SRM Institute of Science &amp; Technology · CGPA 9.6 / 10 · Graduated</div></div>
+      <div class="cv-ei"><div class="cv-eh"><span class="cv-er">M.Tech — Artificial Intelligence (Postgraduate)</span><span class="cv-ed">2024 – May 2026</span></div><div class="cv-eo">SRM Institute of Science &amp; Technology · CGPA 9.6 / 10 · Completed May 2026</div></div>
       <div class="cv-ei"><div class="cv-eh"><span class="cv-er">IITM Pravartak Certified AI &amp; ML Program</span><span class="cv-ed">Nov 2023 – Nov 2024</span></div><div class="cv-eo">GUVI / IIT Madras Pravartak · NASSCOM · 7 mentor-signed capstone projects</div></div>
       <div class="cv-ei"><div class="cv-eh"><span class="cv-er">B.E — Electrical &amp; Electronics Engineering</span><span class="cv-ed">2013</span></div><div class="cv-eo">Thangavelu Engineering College · Chennai</div></div>
 
@@ -911,6 +926,7 @@ footer{padding:1.5rem;flex-direction:column;text-align:center}
         <div class="cv-pi"><div class="cv-pn">TinyLLaMA &amp; Mini-VLM from scratch</div><div class="cv-pt">PyTorch · LoRA · 2 public HuggingFace models</div></div>
         <div class="cv-pi"><div class="cv-pn">AgentNet · Smart Campus Security</div><div class="cv-pt">Multi-agent LLM-as-Judge · CLIP · BLIP · voice biometrics</div></div>
         <div class="cv-pi"><div class="cv-pn">Conscious AI Browser (Chromium)</div><div class="cv-pt">26,000 build steps · LLaMA 3.3 70B · Linux .deb</div></div>
+        <div class="cv-pi"><div class="cv-pn">AI-Augmented Cyber-Security Portfolio</div><div class="cv-pt">5 labs · DevSecOps · DFIR · SOC (Wazuh) · web/API testing · AI/LLM security</div></div>
         <div class="cv-pi"><div class="cv-pn">Retro Pong (Android)</div><div class="cv-pt">Kotlin · Jetpack Compose · privacy-first · EN/TA/HI</div></div>
       </div>
 
@@ -982,7 +998,7 @@ const tickerItems = [
   '📚 GOOGLE SCHOLAR INDEXED',
   '🤗 3 LIVE MODELS ON HUGGINGFACE',
   '🌐 CONSCIOUS AI BROWSER · CHROMIUM FROM SOURCE',
-  '🛡 4 CYBER SECURITY COURSES · 54.5 HRS',
+  '🛡 4 CYBER SECURITY COURSES + 5 HANDS-ON LABS',
   '📱 RETRO PONG · ANDROID · KOTLIN',
   '🏆 NPTEL TOP 5% · IoT · 50,282 CANDIDATES',
   '☁️ AWS SOLUTIONS ARCHITECT CERTIFIED',
